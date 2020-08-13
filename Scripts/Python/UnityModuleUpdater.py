@@ -2,7 +2,6 @@ import os
 import sys
 
 oProjName = sys.argv[1]
-oTagName = sys.argv[2]
 
 oSubmoduleInfos = [
 	{
@@ -59,7 +58,7 @@ oSubmoduleInfos = [
 		"Name" : ".UnityModule.Common.Utility",
 		"Path" : os.path.join(oProjName, "Packages")
 	},
-
+	
 	{
 		"Name" : ".UnityModule.Common.Externals",
 		"Path" : os.path.join(oProjName, "Packages")
@@ -113,6 +112,16 @@ oSubmoduleInfos = [
 	{
 		"Name" : ".UnityModule.Common.Importer",
 		"Path" : os.path.join(oProjName, "Packages")
+	},
+
+	{
+		"Name" : "PluginProjects",
+		"Path" : oProjName
+	},
+
+	{
+		"Name" : "UnityPackages",
+		"Path" : oProjName
 	}
 ]
 
@@ -123,7 +132,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	if os.path.exists(oPath):
 		os.chdir(oPath)
 
-		os.system(f"git tag -d {oTagName}; git push origin --delete {oTagName}")
-		os.system(f"git tag {oTagName}; git push origin --tags")
+		os.system("git fetch")
+		os.system("git pull")
 
 		os.chdir(oCurrentPath)
