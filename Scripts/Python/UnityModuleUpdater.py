@@ -133,6 +133,6 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.chdir(oPath)
 
 		os.system("git fetch")
-		os.system("git pull")
+		os.system("git pull -p")
 
 		os.chdir(oCurrentPath)

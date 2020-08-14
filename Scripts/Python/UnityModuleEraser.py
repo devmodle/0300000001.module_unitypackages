@@ -110,7 +110,12 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Importer",
+		"Name" : ".UnityModule.Common.Purchase",
+		"Path" : os.path.join(oProjName, "Packages")
+	},
+
+	{
+		"Name" : ".UnityModule.Common.LocalNoti",
 		"Path" : os.path.join(oProjName, "Packages")
 	},
 

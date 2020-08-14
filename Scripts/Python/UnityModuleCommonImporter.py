@@ -105,6 +105,12 @@ oSubmoduleInfos = [
 		"Name" : ".UnityModule.Common.Purchase",
 		"Path" : os.path.join(oProjName, "Packages"),
 		"URL" : "https://gitlab.com/9tapmodule.repository/unitymodule_common_purchase_client.git"
+	},
+
+	{
+		"Name" : ".UnityModule.Common.LocalNoti",
+		"Path" : os.path.join(oProjName, "Packages"),
+		"URL" : "https://gitlab.com/9tapmodule.repository/unitymodule_common_localnoti_client.git"
 	}
 ]
 
