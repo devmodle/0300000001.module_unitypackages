@@ -66,9 +66,9 @@ namespace Timers
             else
             {
 				if(m_TimerMode == TimerMode.NORMAL) {
-                	m_ElapsedTime += Mathf.Min(Time.deltaTime, (1.0f / Application.targetFrameRate) * 2.0f);
+                	m_ElapsedTime += Mathf.Clamp(Time.deltaTime, 0.0f, Mathf.Abs((1.0f / Application.targetFrameRate) * 2.0f));
 				} else {
-					m_ElapsedTime += Time.unscaledDeltaTime;
+					m_ElapsedTime += Mathf.Clamp(Time.unscaledDeltaTime, 0.0f, Mathf.Abs((1.0f / Application.targetFrameRate) * 2.0f));
 				}
 
                 m_CurrentCycleElapsedTime = m_ElapsedTime - m_CurrentLoopsCount * m_Interval;

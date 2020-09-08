@@ -1,6 +1,6 @@
 # Custom Android Plugin
 -keep class com.yasirkula.unity.** { *; }
--keep class dante.distribution.plugin.** { *; }
+-keep class dante.distribution.android.** { *; }
 
 # Iron Source SDK {
 -keepclassmembers class com.ironsource.sdk.controller.IronSourceWebView$JSInterface {
