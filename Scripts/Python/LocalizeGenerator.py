@@ -13,13 +13,23 @@ nLocalizeStartIndex = sys.argv[6]
 oWorkspace = load_workbook(oExcelFilepath, data_only = True)
 oLocalizeSheet = oWorkspace[oLocalizeSheetname]
 
+oCommonValueList = [
+	"ID", "Description"
+]
+
 # 헤더 정보 리스트를 설정한다 {
 oHeaderList = []
+oLanguageList = []
 
 for oCell in oLocalizeSheet[nHeaderNumber]:
 	# 값이 유효 할 경우
 	if oCell.value:
 		oHeaderList.append(oCell.value)
+
+		# 공용 값 일 경우
+		if not oCell.value in oCommonValueList:
+			oLanguageList.append(oCell.value)
+
 # 헤더 정보 리스트를 설정한다 }
 
 # 값 리스트를 설정한다 {
@@ -48,9 +58,7 @@ for i, oValueList in enumerate(oValueListContainer):
 	for j, oValue in enumerate(oValueList):
 		# 지역화 값이 아닐 경우
 		if j < int(nLocalizeStartIndex):
-			oCommonLocalizeInfo.append({
-				"Key": oHeaderList[j], "Value": oValue
-			})
+			oCommonLocalizeInfo.append(oValue)
 		else:
 			oKey = oHeaderList[j]
 
@@ -61,19 +69,17 @@ for i, oValueList in enumerate(oValueListContainer):
 			oLocalizeInfo = []
 
 			for k, oCommonValue in enumerate(oCommonLocalizeInfo):
-				oLocalizeInfo.append({
-					"Key": oCommonValue["Key"], "Value": oCommonValue["Value"]
-				})
+				oLocalizeInfo.append(oCommonValue)
 
-			# , 문자가 존재 할 경우
-			if "," in oValue:
-				oLocalizeInfo.append({
-					"Key": "String", "Value": "\"" + oValue + "\""
-				})
+			# 언어 헤더 일 경우
+			if i <= 0 and oValue in oLanguageList:
+				oLocalizeInfo.append("String")
 			else:
-				oLocalizeInfo.append({
-					"Key": "String", "Value": oValue
-				})
+				# , 문자가 존재 할 경우
+				if "," in oValue:
+					oLocalizeInfo.append("\"" + oValue + "\"")
+				else:
+					oLocalizeInfo.append(oValue)
 
 			oLocalizeInfoListContainer[oKey].append(oLocalizeInfo)
 
@@ -90,8 +96,8 @@ for oKey, oLocalizeInfoList in oLocalizeInfoListContainer.items():
 	oWStream = open(oFilepath, "w")
 
 	for i, oLocalizeInfo in enumerate(oLocalizeInfoList):
-		for j, oLocalizeValue in enumerate(oLocalizeInfo):
-			oWStream.write(str(oLocalizeValue["Value"]))
+		for j, oValue in enumerate(oLocalizeInfo):
+			oWStream.write(str(oValue))
 
 			if j < len(oLocalizeInfo) - 1:
 				oWStream.write(",")
