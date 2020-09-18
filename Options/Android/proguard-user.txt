@@ -18,6 +18,9 @@
 -keep class com.moat.** { public protected private *; }
 # Iron Source SDK }
 
+# AppLovin SDK
+-keep class com.applovin.** { *;}
+
 # Flurry SDK {
 -keep class com.flurry.** { *; }
 -keepattributes *Annotation*,EnclosingMethod,Signature
