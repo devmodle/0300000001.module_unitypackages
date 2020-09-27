@@ -3,132 +3,133 @@ import sys
 
 oProjName = sys.argv[1]
 oTagName = sys.argv[2]
+oReplaceTagName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
-		"Name" : ".UnityModule.Study",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Study",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Study.Define",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Study.Define",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Study.Utility",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Study.Utility",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Study.Importer",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Study.Importer",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Define",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Define",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Access",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Access",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Factory",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Factory",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Extension",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Extension",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Func",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Func",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Utility",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Utility",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Externals",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Externals",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Ads",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Ads",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Flurry",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Flurry",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Tenjin",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Tenjin",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Facebook",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Facebook",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Firebase",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Firebase",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.UnityService",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.UnityService",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Singular",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Singular",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.GameCenter",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.GameCenter",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Purchase",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Purchase",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.LocalNoti",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.LocalNoti",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name" : ".UnityModule.Common.Importer",
-		"Path" : os.path.join(oProjName, "Packages")
+		"Name": ".UnityModule.Common.Importer",
+		"Path": f"{oProjName}/Packages"
 	}
 ]
 
 for oSubmoduleInfo in oSubmoduleInfos:
-	oPath = os.path.join("..", "..", oSubmoduleInfo["Path"], oSubmoduleInfo["Name"])
+	oPath = f"../../{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
 	oCurrentPath = os.getcwd()
 
 	if os.path.exists(oPath):
 		os.chdir(oPath)
 
 		os.system(f"git tag -d {oTagName}; git push origin --delete {oTagName}")
-		os.system(f"git tag {oTagName}; git push origin --tags")
+		os.system(f"git tag {oReplaceTagName}; git push origin --tags")
 
 		os.chdir(oCurrentPath)

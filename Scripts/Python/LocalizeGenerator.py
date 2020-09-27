@@ -92,7 +92,7 @@ for oKey, oLocalizeInfoList in oLocalizeInfoListContainer.items():
 	if not os.path.isdir(oOutputPath):
 		os.makedirs(oOutputPath)
 
-	oFilepath = os.path.join(oOutputPath, oOutputFilename + "_" + oKey + ".csv")
+	oFilepath = f"{oOutputPath}/{oOutputFilename}_{oKey}.csv"
 	oWStream = open(oFilepath, "w")
 
 	for i, oLocalizeInfo in enumerate(oLocalizeInfoList):

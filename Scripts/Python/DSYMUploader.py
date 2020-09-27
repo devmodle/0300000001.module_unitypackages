@@ -4,7 +4,7 @@ import sys
 oProjName = sys.argv[1]
 oDSYMDirpath = sys.argv[2]
 
-oPlistFilepath = os.path.join("..", "..", oProjName, "Assets", "Firebase", "GoogleService-Info.plist")
-oDSYMUploaderPath = os.path.join("..", "..", oProjName, "Builds", "iOS", "Pods", "FirebaseCrashlytics", "upload-symbols")
+oPlistFilepath = f"../../{oProjName}/Assets/Firebase/GoogleService-Info.plist"
+oDSYMUploaderPath = f"../../{oProjName}/Builds/iOS/Pods/FirebaseCrashlytics/upload-symbols"
 
 os.system(f"{oDSYMUploaderPath} -gsp {oPlistFilepath} -p ios {oDSYMDirpath}")
