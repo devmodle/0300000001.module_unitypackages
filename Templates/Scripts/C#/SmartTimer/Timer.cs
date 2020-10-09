@@ -7,7 +7,7 @@ namespace Timers
 {
 	public enum TimerMode {
 		NONE = -1,
-		NORMAL,
+		NORM,
 		REALTIME,
 		MAX_VALUE
 	}
@@ -65,7 +65,7 @@ namespace Timers
             }
             else
             {
-				if(m_TimerMode == TimerMode.NORMAL) {
+				if(m_TimerMode == TimerMode.NORM) {
                 	m_ElapsedTime += Mathf.Clamp(Time.deltaTime, 0.0f, Mathf.Abs((1.0f / Application.targetFrameRate) * 2.0f));
 				} else {
 					m_ElapsedTime += Mathf.Clamp(Time.unscaledDeltaTime, 0.0f, Mathf.Abs((1.0f / Application.targetFrameRate) * 2.0f));
@@ -82,7 +82,7 @@ namespace Timers
             }
         }
 
-        public Timer(float Interval, uint LoopsCount, UnityAction UnityAction, TimerMode TimerMode = TimerMode.NORMAL)
+        public Timer(float Interval, uint LoopsCount, UnityAction UnityAction, TimerMode TimerMode = TimerMode.NORM)
         {
             if (m_Interval < 0)
                 m_Interval = 0;

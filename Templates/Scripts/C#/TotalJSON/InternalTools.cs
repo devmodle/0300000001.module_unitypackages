@@ -39,13 +39,11 @@ namespace Leguar.TotalJSON.Internal {
 
 		// TODO: This actually never returns null atm
 		internal static JValue serializeObject(object obj, SerializeSettings serializeSettings) {
-#if MSG_PACK_ENABLE
 			var oCallbackReceiver = obj as MessagePack.IMessagePackSerializationCallbackReceiver;
 
 			if(oCallbackReceiver != null) {
 				oCallbackReceiver.OnBeforeSerialize();
 			}
-#endif			// #if MSG_PACK_ENABLE
 
 			JValue singleValue=singleObjectAsJValue(obj);
 			if (singleValue!=null) {

@@ -1101,13 +1101,11 @@ namespace Leguar.TotalJSON {
 				throw (DeserializeException.forNoMatchingValue(type));
 			}
 
-#if MSG_PACK_ENABLE
 			var oCallbackReceiver = obj as MessagePack.IMessagePackSerializationCallbackReceiver;
 
 			if(oCallbackReceiver != null) {
 				oCallbackReceiver.OnAfterDeserialize();
 			}
-#endif			// #if MSG_PACK_ENABLE
 
 			return obj;
 
