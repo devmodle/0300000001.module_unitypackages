@@ -1,7 +1,8 @@
 import os
 import sys
 
-oProjName = sys.argv[1]
+oProjPath = sys.argv[1]
+oProjName = sys.argv[2]
 
 oSubmoduleInfos = [
 	{
@@ -142,7 +143,12 @@ def FindPath(a_oBasePath):
 
 for oSubmoduleInfo in oSubmoduleInfos:
 	oPath = FindPath(f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
-	oModulePath = FindPath(f".git/modules/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
+
+	# 프로젝트 루트가 유효 할 경우
+	if len(oProjRoot) >= 1:
+		oModulePath = FindPath(f".git/modules/{oProjPath}/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
+	else:
+		oModulePath = FindPath(f".git/modules/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
 
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):

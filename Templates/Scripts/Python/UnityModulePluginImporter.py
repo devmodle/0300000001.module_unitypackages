@@ -1,8 +1,9 @@
 import os
 import sys
 
-oProjName = sys.argv[1]
-oBranchName = sys.argv[2]
+oProjRoot = sys.argv[1]
+oProjName = sys.argv[2]
+oBranchName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
@@ -30,4 +31,9 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.system(f"git submodule add -f {oURL} {oFullpath}")
 
 	oSubmodulePath = f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
-	os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
+
+	# 프로젝트 루트가 유효 할 경우
+	if len(oProjRoot) >= 1:
+		os.system(f"git submodule set-branch --branch {oBranchName} {oProjRoot}/{oSubmodulePath}")
+	else:
+		os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
