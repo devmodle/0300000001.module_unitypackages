@@ -109,9 +109,9 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".UnityModule.Common.LocalNoti",
+		"Name": ".UnityModule.Common.Noti",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_common_localnoti_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_common_noti_client.git"
 	}
 ]
 

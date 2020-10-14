@@ -110,7 +110,7 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".UnityModule.Common.LocalNoti",
+		"Name": ".UnityModule.Common.Noti",
 		"Path": f"{oProjName}/Packages"
 	},
 
