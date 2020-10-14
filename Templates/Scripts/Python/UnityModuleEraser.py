@@ -1,7 +1,7 @@
 import os
 import sys
 
-oProjPath = sys.argv[1]
+oProjRoot = sys.argv[1]
 oProjName = sys.argv[2]
 
 oSubmoduleInfos = [
@@ -111,12 +111,12 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".UnityModule.Common.Purchase",
+		"Name": ".UnityModule.Common.Noti",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Noti",
+		"Name": ".UnityModule.Common.Importer",
 		"Path": f"{oProjName}/Packages"
 	},
 
