@@ -5,7 +5,6 @@ apply plugin: 'com.google.firebase.firebase-perf'
 
 dependencies {
     implementation project(':unityLibrary')
-	implementation 'com.google.firebase:firebase-perf:19.0.8'
     }
 
 android {
