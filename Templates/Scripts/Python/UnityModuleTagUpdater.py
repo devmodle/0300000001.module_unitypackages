@@ -119,6 +119,16 @@ oSubmoduleInfos = [
 	{
 		"Name": ".UnityModule.Common.Importer",
 		"Path": f"{oProjName}/Packages"
+	},
+
+	{
+		"Name": "PluginProjects",
+		"Path": oProjName
+	},
+
+	{
+		"Name": "UnityPackages",
+		"Path": oProjName
 	}
 ]
 
