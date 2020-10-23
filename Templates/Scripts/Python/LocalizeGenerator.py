@@ -3,14 +3,14 @@ import sys
 
 from openpyxl import load_workbook
 
-oExcelFilepath = sys.argv[1]
+oExcelPath = sys.argv[1]
 oOutputPath = sys.argv[2]
 oLocalizeSheetname = sys.argv[3]
 oOutputFilename = sys.argv[4]
 nHeaderNumber = sys.argv[5]
 nLocalizeStartIndex = sys.argv[6]
 
-oWorkspace = load_workbook(oExcelFilepath, data_only = True)
+oWorkspace = load_workbook(oExcelPath, data_only = True)
 oLocalizeSheet = oWorkspace[oLocalizeSheetname]
 
 oCommonValueList = [
