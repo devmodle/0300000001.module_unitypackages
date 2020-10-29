@@ -148,7 +148,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	if os.path.exists(oPath):
 		os.chdir(oPath)
 
-		os.system("git fetch")
+		os.system("git fetch; git fetch --tags --force")
 		os.system("git pull -p")
 
 		os.chdir(oCurPath)
