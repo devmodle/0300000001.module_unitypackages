@@ -7,7 +7,7 @@ oExcelPath = sys.argv[1]
 oOutputPath = sys.argv[2]
 oLocalizeSheetname = sys.argv[3]
 oOutputFilename = sys.argv[4]
-nHeaderNumber = sys.argv[5]
+nHeaderIndex = sys.argv[5]
 nLocalizeStartIndex = sys.argv[6]
 
 oWorkspace = load_workbook(oExcelPath, data_only = True)
@@ -21,7 +21,7 @@ oCommonValueList = [
 oHeaderList = []
 oLanguageList = []
 
-for oCell in oLocalizeSheet[nHeaderNumber]:
+for oCell in oLocalizeSheet[int(nHeaderIndex) + 1]:
 	# 값이 유효 할 경우
 	if oCell.value:
 		oHeaderList.append(oCell.value)
@@ -37,7 +37,7 @@ nIndex = 0
 oValueListContainer = []
 
 for oRow in oLocalizeSheet.rows:
-	if nIndex >= int(nHeaderNumber) - 1:
+	if nIndex >= int(nHeaderIndex):
 		oValuelList = []
 
 		for oCell in oRow:
