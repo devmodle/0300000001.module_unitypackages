@@ -85,9 +85,9 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".UnityModule.Common.UnityService",
+		"Name": ".UnityModule.Common.UnityServices",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_common_unityservice_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_common_unityservices_client.git"
 	},
 
 	{

@@ -92,7 +92,7 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".UnityModule.Common.UnityService",
+		"Name": ".UnityModule.Common.UnityServices",
 		"Path": f"{oProjName}/Packages"
 	},
 
