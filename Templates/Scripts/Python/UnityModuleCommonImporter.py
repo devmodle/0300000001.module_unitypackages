@@ -122,7 +122,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 
 	if not os.path.exists(oFullpath):
 		if not os.path.exists(oPath):
-			os.makedir(oPath)
+			os.makedirs(oPath)
 
 		os.system(f"git submodule add -f {oURL} {oFullpath}")
 
