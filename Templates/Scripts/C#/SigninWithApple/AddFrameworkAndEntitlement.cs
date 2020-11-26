@@ -6,7 +6,10 @@ using UnityEditor.Build;
 using UnityEditor.Build.Content;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
+
+#if UNITY_IOS
 using UnityEditor.iOS.Xcode;
+#endif			// #if UNITY_IOS
 
 public class PostProcessForSignInWithApple : IPostprocessBuildWithReport
 {
@@ -41,6 +44,7 @@ public class PostProcessForSignInWithApple : IPostprocessBuildWithReport
 
     void PostprocessFortvOSiOS(string path)
     {
+#if UNITY_IOS
         // Read in the Xcode project
         var projPath = PBXProject.GetPBXProjectPath(path);
         PBXProject proj = new PBXProject();
@@ -89,10 +93,12 @@ public class PostProcessForSignInWithApple : IPostprocessBuildWithReport
         
         capManager.AddSignInWithApple();
         capManager.WriteToFile();
+#endif			// #if UNITY_IOS
     }
     
     void PostprocessForMacOS(string path)
     {
+#if UNITY_IOS
         // Read in the Xcode project
         var projPath = Path.Combine(path, "project.pbxproj");
         PBXProject proj = new PBXProject();
@@ -136,6 +142,7 @@ public class PostProcessForSignInWithApple : IPostprocessBuildWithReport
         
         capManager.AddSignInWithApple();
         capManager.WriteToFile();
+#endif			// #if UNITY_IOS
     }
     
 }
