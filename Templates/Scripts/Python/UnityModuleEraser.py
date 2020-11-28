@@ -146,14 +146,16 @@ for oSubmoduleInfo in oSubmoduleInfos:
 
 	# 프로젝트 루트가 유효 할 경우
 	if len(oProjRoot) >= 1:
-		oModulePath = FindPath(f".git/modules/{oProjPath}/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
+		oModulePath = FindPath(f".git/modules/{oProjRoot}/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
 	else:
 		oModulePath = FindPath(f".git/modules/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
 
+	print(oModulePath)
+	
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
 		os.system(f"git submodule deinit -f {oPath}")
 		os.system(f"git rm -f {oPath}")
 
-		os.system(f"rm -rf {oPath}")
-		os.system(f"rm -rf {oModulePath}")
+	os.system(f"rm -rf {oPath}")
+	os.system(f"rm -rf {oModulePath}")
