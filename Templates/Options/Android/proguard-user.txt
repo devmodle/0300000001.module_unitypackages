@@ -2,6 +2,7 @@
 -keep class com.yasirkula.unity.** { *; }
 -keep class dante.distribution.android.** { *; }
 -keep class com.google.android.play.core.** { *; }
+-keep class com.android.billingclient.** {*; }
 
 # Iron Source SDK {
 -keepclassmembers class com.ironsource.sdk.controller.IronSourceWebView$JSInterface {
