@@ -83,13 +83,7 @@ oSubmoduleInfos = [
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_common_firebase_client.git"
 	},
-
-	{
-		"Name": ".UnityModule.Common.UnityServices",
-		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_common_unityservices_client.git"
-	},
-
+	
 	{
 		"Name": ".UnityModule.Common.Singular",
 		"Path": f"{oProjName}/Packages",

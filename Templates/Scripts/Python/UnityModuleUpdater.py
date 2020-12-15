@@ -88,12 +88,7 @@ oSubmoduleInfos = [
 		"Name": ".UnityModule.Common.Firebase",
 		"Path": f"{oProjName}/Packages"
 	},
-
-	{
-		"Name": ".UnityModule.Common.UnityServices",
-		"Path": f"{oProjName}/Packages"
-	},
-
+	
 	{
 		"Name": ".UnityModule.Common.Singular",
 		"Path": f"{oProjName}/Packages"
