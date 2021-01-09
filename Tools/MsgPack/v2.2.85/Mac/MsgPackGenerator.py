@@ -7,4 +7,4 @@ oProjPath = f"../../../../../../'{oProjName}'"
 oOutputPath = f"../../../../../../'{oProjName}'/Assets/01.UnityProject/Scripts/Runtime/00.AutoCreate/Global/Utility/External/MessagePack/CMsgPackResolver.cs"
 
 oConditionalSymbol = "MSG_PACK_ENABLE,USE_CUSTOM_PROJ_OPTS"
-os.system(f"./MsgPackCompiler -i '{oProjPath}' -o '{oOutputPath}' -c '{oConditionalSymbol}' -ms 'MSG_PACK_ENABLE'")
+os.system(f"dotnet mpc -i '{oProjPath}' -o '{oOutputPath}' -c '{oConditionalSymbol}' -ms 'MSG_PACK_ENABLE'")
