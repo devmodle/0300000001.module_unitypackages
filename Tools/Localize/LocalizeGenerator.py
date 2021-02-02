@@ -3,19 +3,22 @@ import sys
 
 from openpyxl import load_workbook
 
-oExcelPath = sys.argv[1]
-oOutputPath = sys.argv[2]
-oLocalizeSheetname = sys.argv[3]
-oOutputFilename = sys.argv[4]
-nHeaderIndex = sys.argv[5]
-nLocalizeStartIndex = sys.argv[6]
+oProjName = sys.argv[1]
+oExcelFileName = sys.argv[2]
+oOutputFileName = sys.argv[3]
 
-oWorkspace = load_workbook(oExcelPath, data_only = True)
-oLocalizeSheet = oWorkspace[oLocalizeSheetname]
+oExcelPath = f"../../../../Tables/{oExcelFileName}"
+oOutputPath = f"../../../../{oProjName}/Assets/01.UnityProject/Resources/Tables/Global/StringInfo"
 
 oCommonValueList = [
 	"ID", "Replace", "Description"
 ]
+
+oWorkspace = load_workbook(oExcelPath, data_only = True)
+oLocalizeSheet = oWorkspace["Common"]
+
+nHeaderIndex = 0
+nLocalizeStartIndex = 3
 
 # 헤더 정보를 설정한다 {
 oHeaderList = []
@@ -29,7 +32,6 @@ for oCell in oLocalizeSheet[int(nHeaderIndex) + 1]:
 		# 공용 값 일 경우
 		if not oCell.value in oCommonValueList:
 			oLanguageList.append(oCell.value)
-
 # 헤더 정보를 설정한다 }
 
 # 값을 설정한다 {
@@ -38,14 +40,16 @@ oValueListContainer = []
 
 for oRow in oLocalizeSheet.rows:
 	if nIndex >= int(nHeaderIndex):
-		oValuelList = []
+		oValueList = []
 
 		for oCell in oRow:
 			# 값이 유효 할 경우
 			if oCell.value:
-				oValuelList.append(oCell.value)
+				oValueList.append(oCell.value)
+			elif oCell.value == 0:
+				oValueList.append(0)
 		
-		oValueListContainer.append(oValuelList)
+		oValueListContainer.append(oValueList)
 
 	nIndex += 1
 # 값을 설정한다 }
@@ -92,8 +96,8 @@ for oKey, oLocalizeInfoList in oLocalizeInfoListContainer.items():
 	if not os.path.isdir(oOutputPath):
 		os.makedirs(oOutputPath)
 
-	oFilepath = f"{oOutputPath}/{oOutputFilename}_{oKey}.csv"
-	oWStream = open(oFilepath, "w")
+	oFilePath = f"{oOutputPath}/{oOutputFileName}_{oKey}.csv"
+	oWStream = open(oFilePath, "w")
 
 	for i, oLocalizeInfo in enumerate(oLocalizeInfoList):
 		for j, oValue in enumerate(oLocalizeInfo):
