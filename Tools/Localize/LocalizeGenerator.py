@@ -5,7 +5,6 @@ from openpyxl import load_workbook
 
 oProjName = sys.argv[1]
 oExcelFileName = sys.argv[2]
-oOutputFileName = sys.argv[3]
 
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
 oOutputPath = f"../../../../{oProjName}/Assets/01.UnityProject/Resources/Tables/Global/StringInfo"
@@ -19,6 +18,7 @@ oLocalizeSheet = oWorkspace["Common"]
 
 nHeaderIndex = 0
 nLocalizeStartIndex = 3
+oOutputFileName = "G_StringTable_Common"
 
 # 헤더 정보를 설정한다 {
 oHeaderList = []
