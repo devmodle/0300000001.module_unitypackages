@@ -9,6 +9,9 @@ oExcelFileName = sys.argv[2]
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
 oOutputPath = f"../../../../{oProjName}/Assets/01.UnityProject/Resources/Tables/Global/StringInfo"
 
+oStringTableSrcPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+StringTable.cs"
+oStringTableDestPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+AutoCreateStringTable.cs"
+
 oCommonValueList = [
 	"ID", "Replace", "Description"
 ]
@@ -16,15 +19,15 @@ oCommonValueList = [
 oWorkspace = load_workbook(oExcelPath, data_only = True)
 oLocalizeSheet = oWorkspace["Common"]
 
-nHeaderIndex = 0
-nLocalizeStartIndex = 3
+nHeaderIdx = 0
+nLocalizeStartIdx = 3
 oOutputFileName = "G_StringTable_Common"
 
 # 헤더 정보를 설정한다 {
 oHeaderList = []
 oLanguageList = []
 
-for oCell in oLocalizeSheet[int(nHeaderIndex) + 1]:
+for oCell in oLocalizeSheet[int(nHeaderIdx) + 1]:
 	# 값이 유효 할 경우
 	if oCell.value:
 		oHeaderList.append(oCell.value)
@@ -35,11 +38,11 @@ for oCell in oLocalizeSheet[int(nHeaderIndex) + 1]:
 # 헤더 정보를 설정한다 }
 
 # 값을 설정한다 {
-nIndex = 0
+nIdx = 0
 oValueListContainer = []
 
 for oRow in oLocalizeSheet.rows:
-	if nIndex >= int(nHeaderIndex):
+	if nIdx >= int(nHeaderIdx):
 		oValueList = []
 
 		for oCell in oRow:
@@ -51,17 +54,25 @@ for oRow in oLocalizeSheet.rows:
 		
 		oValueListContainer.append(oValueList)
 
-	nIndex += 1
+	nIdx += 1
 # 값을 설정한다 }
 
 # 지역화를 설정한다 {
 oCommonLocalizeInfo = []
 oLocalizeInfoListContainer = {}
 
+oRStream = open(oStringTableSrcPath, "r")
+oOutputString = oRStream.read()
+oReplaceString = ""
+
 for i, oValueList in enumerate(oValueListContainer):
 	for j, oValue in enumerate(oValueList):
+		# 식별자 일 경우
+		if j <= 0:
+			oReplaceString += f"public const string ST_KEY_{oValue} = \"{oValue}\";\n\t"
+
 		# 지역화 값이 아닐 경우
-		if j < int(nLocalizeStartIndex):
+		if j < int(nLocalizeStartIdx):
 			oCommonLocalizeInfo.append(oValue)
 		else:
 			oKey = oHeaderList[j]
@@ -88,6 +99,15 @@ for i, oValueList in enumerate(oValueListContainer):
 			oLocalizeInfoListContainer[oKey].append(oLocalizeInfo)
 
 	oCommonLocalizeInfo = []
+
+oReplaceString = oOutputString.replace("//*** Make KDefine+AutoCreateStringTable.cs By LocalizeGenerator ***//", oReplaceString)
+
+oWStream = open(oStringTableDestPath, "w")
+oWStream.write(oReplaceString)
+
+oRStream.close()
+oWStream.close()
+
 # 지역화를 설정한다 }
 
 # 지역화 파일을 생성한다 {
