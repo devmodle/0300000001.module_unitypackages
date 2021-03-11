@@ -2,8 +2,7 @@ import os
 import sys
 
 oProjName = sys.argv[1]
-oCommitMsg = sys.argv[2]
-oBranchName = sys.argv[3]
+oBranchName = sys.argv[2]
 
 oSubmoduleInfos = [
 	{
@@ -140,18 +139,12 @@ def FindPath(a_oBasePath):
 for oSubmoduleInfo in oSubmoduleInfos:
 	oPath = FindPath(f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
 	oCurPath = os.getcwd()
-	
+
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
 		os.chdir(oPath)
 
-		os.system(f"git add .")
-		os.system(f"git commit -m '{oCommitMsg}'")
-
-		# 브랜치 이름이 유효 할 경우
-		if len(oBranchName) >= 1:
-			os.system(f"git push origin -u {oBranchName}")
-		else:
-			os.system(f"git push")
+		os.system(f"git branch -D {oBranchName}")
+		os.system(f"git push origin --delete {oBranchName}")
 
 		os.chdir(oCurPath)

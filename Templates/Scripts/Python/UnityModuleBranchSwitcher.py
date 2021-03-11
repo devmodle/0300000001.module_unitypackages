@@ -145,6 +145,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	if os.path.exists(oPath):
 		os.chdir(oPath)
 
+		# 체크아웃 브랜치 이름이 유효 할 경우
 		if len(oCheckoutBranchName) >= 1:
 			os.system(f"git checkout -b {oCheckoutBranchName} {oBranchName}")
 		else:
