@@ -9,8 +9,8 @@ oExcelFileName = sys.argv[2]
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
 oOutputPath = f"../../../../{oProjName}/Assets/01.UnityProject/Resources/Tables/Global/StringInfo"
 
-oStringTableSrcPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+StringTable.cs"
-oStringTableDestPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+AutoCreateStringTable.cs"
+oStrTableSrcPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
+oStrTableDestPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+AutoCreateStrTable.cs"
 
 oCommonValueList = [
 	"ID", "Replace", "Description"
@@ -21,7 +21,7 @@ oLocalizeSheet = oWorkspace["Common"]
 
 nHeaderIdx = 0
 nLocalizeStartIdx = 3
-oOutputFileName = "G_StringTable_Common"
+oOutputFileName = "G_StrTable_Common"
 
 # 헤더 정보를 설정한다 {
 oHeaderList = []
@@ -61,7 +61,7 @@ for oRow in oLocalizeSheet.rows:
 oCommonLocalizeInfo = []
 oLocalizeInfoListContainer = {}
 
-oRStream = open(oStringTableSrcPath, "r")
+oRStream = open(oStrTableSrcPath, "r")
 oOutputString = oRStream.read()
 oReplaceString = ""
 
@@ -88,7 +88,7 @@ for i, oValueList in enumerate(oValueListContainer):
 
 			# 언어 헤더 일 경우
 			if i <= 0 and oValue in oLanguageList:
-				oLocalizeInfo.append("String")
+				oLocalizeInfo.append("Str")
 			else:
 				# , 문자가 존재 할 경우
 				if "," in oValue:
@@ -100,9 +100,9 @@ for i, oValueList in enumerate(oValueListContainer):
 
 	oCommonLocalizeInfo = []
 
-oReplaceString = oOutputString.replace("//*** Make KDefine+AutoCreateStringTable.cs By LocalizeGenerator ***//", oReplaceString)
+oReplaceString = oOutputString.replace("//*** Make KDefine+AutoCreateStrTable.cs By LocalizeGenerator ***//", oReplaceString)
 
-oWStream = open(oStringTableDestPath, "w")
+oWStream = open(oStrTableDestPath, "w")
 oWStream.write(oReplaceString)
 
 oRStream.close()
