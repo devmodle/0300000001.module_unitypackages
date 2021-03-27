@@ -62,14 +62,14 @@ oCommonLocalizeInfo = []
 oLocalizeInfoListContainer = {}
 
 oRStream = open(oStrTableSrcPath, "r")
-oOutputString = oRStream.read()
-oReplaceString = ""
+oOutputStr = oRStream.read()
+oReplaceStr = ""
 
 for i, oValueList in enumerate(oValueListContainer):
 	for j, oValue in enumerate(oValueList):
 		# 식별자 일 경우
 		if j <= 0:
-			oReplaceString += f"public const string ST_KEY_{oValue} = \"{oValue}\";\n\t"
+			oReplaceStr += f"public const string ST_KEY_{oValue} = \"{oValue}\";\n\t"
 
 		# 지역화 값이 아닐 경우
 		if j < int(nLocalizeStartIdx):
@@ -100,10 +100,10 @@ for i, oValueList in enumerate(oValueListContainer):
 
 	oCommonLocalizeInfo = []
 
-oReplaceString = oOutputString.replace("//*** Make KDefine+AutoCreateStrTable.cs By LocalizeGenerator ***//", oReplaceString)
+oReplaceStr = oOutputStr.replace("//*** Make KDefine+AutoCreateStrTable.cs By LocalizeGenerator ***//", oReplaceStr)
 
 oWStream = open(oStrTableDestPath, "w")
-oWStream.write(oReplaceString)
+oWStream.write(oReplaceStr)
 
 oRStream.close()
 oWStream.close()
