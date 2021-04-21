@@ -39,20 +39,20 @@ for oCell in oLocalizeSheet[int(nHeaderIdx) + 1]:
 
 # 값을 설정한다 {
 nIdx = 0
-oValueListContainer = []
+oValListContainer = []
 
 for oRow in oLocalizeSheet.rows:
 	if nIdx >= int(nHeaderIdx):
-		oValueList = []
+		oValList = []
 
 		for oCell in oRow:
 			# 값이 유효 할 경우
 			if oCell.value:
-				oValueList.append(oCell.value)
+				oValList.append(oCell.value)
 			elif oCell.value == 0:
-				oValueList.append(0)
+				oValList.append(0)
 		
-		oValueListContainer.append(oValueList)
+		oValListContainer.append(oValList)
 
 	nIdx += 1
 # 값을 설정한다 }
@@ -65,15 +65,15 @@ oRStream = open(oStrTableSrcPath, "r")
 oOutputStr = oRStream.read()
 oReplaceStr = ""
 
-for i, oValueList in enumerate(oValueListContainer):
-	for j, oValue in enumerate(oValueList):
+for i, oValList in enumerate(oValListContainer):
+	for j, oVal in enumerate(oValList):
 		# 식별자 일 경우
 		if j <= 0:
-			oReplaceStr += f"public const string ST_KEY_{oValue} = \"{oValue}\";\n\t"
+			oReplaceStr += f"public const string ST_KEY_{oVal} = \"{oVal}\";\n\t"
 
 		# 지역화 값이 아닐 경우
 		if j < int(nLocalizeStartIdx):
-			oCommonLocalizeInfo.append(oValue)
+			oCommonLocalizeInfo.append(oVal)
 		else:
 			oKey = oHeaderList[j]
 
@@ -87,14 +87,14 @@ for i, oValueList in enumerate(oValueListContainer):
 				oLocalizeInfo.append(oCommonValue)
 
 			# 언어 헤더 일 경우
-			if i <= 0 and oValue in oLanguageList:
+			if i <= 0 and oVal in oLanguageList:
 				oLocalizeInfo.append("Str")
 			else:
 				# , 문자가 존재 할 경우
-				if "," in oValue:
-					oLocalizeInfo.append("\"" + oValue + "\"")
+				if "," in oVal:
+					oLocalizeInfo.append("\"" + oVal + "\"")
 				else:
-					oLocalizeInfo.append(oValue)
+					oLocalizeInfo.append(oVal)
 
 			oLocalizeInfoListContainer[oKey].append(oLocalizeInfo)
 
@@ -120,8 +120,8 @@ for oKey, oLocalizeInfoList in oLocalizeInfoListContainer.items():
 	oWStream = open(oFilePath, "w")
 
 	for i, oLocalizeInfo in enumerate(oLocalizeInfoList):
-		for j, oValue in enumerate(oLocalizeInfo):
-			oWStream.write(str(oValue))
+		for j, oVal in enumerate(oLocalizeInfo):
+			oWStream.write(str(oVal))
 
 			if j < len(oLocalizeInfo) - 1:
 				oWStream.write(",")
