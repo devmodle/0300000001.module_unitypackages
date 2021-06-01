@@ -10,7 +10,7 @@ oExcelPath = f"../../../../Tables/{oExcelFileName}"
 oOutputPath = f"../../../../{oProjName}/Assets/01.UnityProject/Resources/Tables/Global/StringInfo"
 
 oStrTableSrcPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
-oStrTableDestPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+AutoCreateStrTable.cs"
+oStrTableDestPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTableAutoCreate.cs"
 
 oCommonValueList = [
 	"ID", "Replace", "Description"
@@ -100,7 +100,7 @@ for i, oValList in enumerate(oValListContainer):
 
 	oCommonLocalizeInfo = []
 
-oReplaceStr = oOutputStr.replace("//*** Make KDefine+AutoCreateStrTable.cs By LocalizeGenerator ***//", oReplaceStr)
+oReplaceStr = oOutputStr.replace("//*** Make KDefine+StrTableAutoCreate.cs By LocalizeGenerator ***//", oReplaceStr)
 
 oWStream = open(oStrTableDestPath, "w")
 oWStream.write(oReplaceStr)
