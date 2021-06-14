@@ -90,6 +90,11 @@ oSubmoduleInfos = [
 		"Name": ".UnityModule.Common.Firebase",
 		"Path": f"{oProjName}/Packages"
 	},
+
+	{
+		"Name": ".UnityModule.Common.GameAnalytics",
+		"Path": f"{oProjName}/Packages"
+	},
 	
 	{
 		"Name": ".UnityModule.Common.Singular",

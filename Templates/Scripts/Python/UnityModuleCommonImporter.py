@@ -83,6 +83,12 @@ oSubmoduleInfos = [
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.unitymodule_common_firebase_client.git"
 	},
+
+	{
+		"Name": ".UnityModule.Common.GameAnalytics",
+		"Path": f"{oProjName}/Packages",
+		"URL": "https://gitlab.com/9tapmodule.repository/000001.unitymodule_common_gameanalytics_client.git"
+	},
 	
 	{
 		"Name": ".UnityModule.Common.Singular",
