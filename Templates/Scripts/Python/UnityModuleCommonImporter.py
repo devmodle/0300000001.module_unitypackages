@@ -65,13 +65,7 @@ oSubmoduleInfos = [
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.unitymodule_common_flurry_client.git"
 	},
-
-	{
-		"Name": ".UnityModule.Common.Tenjin",
-		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/000001.unitymodule_common_tenjin_client.git"
-	},
-
+	
 	{
 		"Name": ".UnityModule.Common.Facebook",
 		"Path": f"{oProjName}/Packages",

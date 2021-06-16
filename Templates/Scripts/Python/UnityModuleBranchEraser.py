@@ -74,12 +74,7 @@ oSubmoduleInfos = [
 		"Name": ".UnityModule.Common.Flurry",
 		"Path": f"{oProjName}/Packages"
 	},
-
-	{
-		"Name": ".UnityModule.Common.Tenjin",
-		"Path": f"{oProjName}/Packages"
-	},
-
+	
 	{
 		"Name": ".UnityModule.Common.Facebook",
 		"Path": f"{oProjName}/Packages"
