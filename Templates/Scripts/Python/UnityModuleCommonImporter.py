@@ -127,3 +127,5 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.system(f"git submodule set-branch --branch {oBranchName} {oProjRoot}/{oSubmodulePath}")
 	else:
 		os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
+
+os.system(f"python3 UnityModuleRemoteURLUpdater.py {oProjName}")
