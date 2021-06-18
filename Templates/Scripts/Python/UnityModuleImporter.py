@@ -41,3 +41,4 @@ for oSubmoduleInfo in oSubmoduleInfos:
 os.system(f"python3 UnityModuleStudyImporter.py '{oProjRoot}' {oProjName} {oBranchName}")
 os.system(f"python3 UnityModuleCommonImporter.py '{oProjRoot}' {oProjName} {oBranchName}")
 os.system(f"python3 UnityModulePluginImporter.py '{oProjRoot}' {oProjName} {oBranchName}")
+os.system(f"python3 UnityModuleRemoteURLUpdater.py {oProjName}")

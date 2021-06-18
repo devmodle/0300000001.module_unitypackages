@@ -7,10 +7,10 @@ oProjName = sys.argv[1]
 oExcelFileName = sys.argv[2]
 
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
-oOutputPath = f"../../../../{oProjName}/Assets/01.UnityProject/Resources/Tables/Global/StringInfo"
+oOutputPath = f"../../../../{oProjName}/Assets/02.UnityProject/Resources/Tables/Global/StringInfo"
 
-oStrTableSrcPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
-oStrTableDestPath = f"../../../../{oProjName}/Assets/01.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTableAutoCreate.cs"
+oStrTableSrcPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
+oStrTableDestPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTableAutoCreate.cs"
 
 oCommonValueList = [
 	"ID", "Replace", "Description"

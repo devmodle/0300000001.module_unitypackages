@@ -13,13 +13,6 @@
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
         </activity>
-		<!-- TENJIN_ENABLE
-		<receiver android:name="com.tenjin.android.TenjinReferrerReceiver" android:exported="true">
-			<intent-filter>
-				<action android:name="com.android.vending.INSTALL_REFERRER"/>
-			</intent-filter>
-		</receiver>
-		TENJIN_ENABLE -->
 		<!-- SINGULAR_ENABLE
 		<receiver android:exported="true" android:name="com.singular.sdk.SingularInstallReceiver" android:permission="android.permission.INSTALL_PACKAGES">
 			<intent-filter>

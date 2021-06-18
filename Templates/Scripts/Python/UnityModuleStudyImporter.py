@@ -45,3 +45,4 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
 
 os.system(f"python3 UnityModuleCommonImporter.py '{oProjRoot}' {oProjName} {oBranchName}")
+os.system(f"python3 UnityModuleRemoteURLUpdater.py {oProjName}")
