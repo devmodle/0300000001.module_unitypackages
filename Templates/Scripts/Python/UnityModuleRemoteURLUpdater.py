@@ -5,25 +5,25 @@ oProjName = sys.argv[1]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".UnityModule.Study",
+		"Name": ".Module.UnityStudy",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/dante.distribution.individual/000001.module_unitystudy_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Define",
+		"Name": ".Module.UnityStudyDefine",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/dante.distribution.individual/000001.module_unitystudydefine_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Utility",
+		"Name": ".Module.UnityStudyUtility",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/dante.distribution.individual/000001.module_unitystudyutility_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Importer",
+		"Name": ".Module.UnityStudyImporter",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/dante.distribution.individual/000001.module_unitystudyimporter_client.git"
 	},

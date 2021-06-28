@@ -7,7 +7,7 @@ oBranchName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".UnityModule.Study.Importer",
+		"Name": ".Module.UnityStudyImporter",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/dante.distribution.individual/000001.module_unitystudyimporter_client.git"
 	},

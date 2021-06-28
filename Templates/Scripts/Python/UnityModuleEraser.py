@@ -6,22 +6,22 @@ oProjName = sys.argv[2]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".UnityModule.Study",
+		"Name": ".Module.UnityStudy",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Define",
+		"Name": ".Module.UnityStudyDefine",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Utility",
+		"Name": ".Module.UnityStudyUtility",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Importer",
+		"Name": ".Module.UnityStudyImporter",
 		"Path": f"{oProjName}/Packages"
 	},
 
