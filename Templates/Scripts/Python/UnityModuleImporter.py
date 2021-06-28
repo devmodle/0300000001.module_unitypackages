@@ -13,7 +13,7 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".UnityModule.Common.Importer",
+		"Name": ".Module.UnityCommonImporter",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonimporter_client.git"
 	}

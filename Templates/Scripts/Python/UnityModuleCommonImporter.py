@@ -7,103 +7,103 @@ oBranchName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".UnityModule.Common",
+		"Name": ".Module.UnityCommon",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommon_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Define",
+		"Name": ".Module.UnityCommonDefine",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommondefine_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Access",
+		"Name": ".Module.UnityCommonAccess",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonaccess_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Factory",
+		"Name": ".Module.UnityCommonFactory",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonfactory_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Extension",
+		"Name": ".Module.UnityCommonExtension",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonextension_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Func",
+		"Name": ".Module.UnityCommonFunc",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonfunc_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Utility",
+		"Name": ".Module.UnityCommonUtility",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonutility_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Externals",
+		"Name": ".Module.UnityCommonExternals",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonexternals_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Ads",
+		"Name": ".Module.UnityCommonAds",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonads_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Flurry",
+		"Name": ".Module.UnityCommonFlurry",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonflurry_client.git"
 	},
 	
 	{
-		"Name": ".UnityModule.Common.Facebook",
+		"Name": ".Module.UnityCommonFacebook",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonfacebook_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Firebase",
+		"Name": ".Module.UnityCommonFirebase",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonfirebase_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.GameAnalytics",
+		"Name": ".Module.UnityCommonGameAnalytics",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommongameanalytics_client.git"
 	},
 	
 	{
-		"Name": ".UnityModule.Common.Singular",
+		"Name": ".Module.UnityCommonSingular",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonsingular_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.GameCenter",
+		"Name": ".Module.UnityCommonGameCenter",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommongamecenter_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Purchase",
+		"Name": ".Module.UnityCommonPurchase",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonpurchase_client.git"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Noti",
+		"Name": ".Module.UnityCommonNoti",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitycommonnoti_client.git"
 	}
