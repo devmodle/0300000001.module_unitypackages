@@ -115,7 +115,7 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": "PluginProjects",
+		"Name": "NativePlugins",
 		"Path": oProjName
 	},
 
