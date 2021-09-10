@@ -13,13 +13,6 @@
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
         </activity>
-		<!-- TENJIN_ENABLE
-		<receiver android:name="com.tenjin.android.TenjinReferrerReceiver" android:exported="true">
-			<intent-filter>
-				<action android:name="com.android.vending.INSTALL_REFERRER"/>
-			</intent-filter>
-		</receiver>
-		TENJIN_ENABLE -->
 		<!-- SINGULAR_ENABLE
 		<receiver android:exported="true" android:name="com.singular.sdk.SingularInstallReceiver" android:permission="android.permission.INSTALL_PACKAGES">
 			<intent-filter>
@@ -30,7 +23,9 @@
     </application>
 	<uses-permission android:name="android.permission.VIBRATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:node="remove" />
-  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="remove" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="remove" />
 </manifest>

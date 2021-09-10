@@ -3,120 +3,126 @@ import sys
 
 oProjName = sys.argv[1]
 oCommitMsg = sys.argv[2]
+oBranchName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".UnityModule.Study",
+		"Name": ".Module.UnityStudy",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Define",
+		"Name": ".Module.UnityStudyDefine",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Utility",
+		"Name": ".Module.UnityStudyUtility",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Study.Importer",
+		"Name": ".Module.UnityStudyImporter",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common",
+		"Name": ".Module.UnityCommon",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Define",
+		"Name": ".Module.UnityCommonDefine",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Access",
+		"Name": ".Module.UnityCommonAccess",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Factory",
+		"Name": ".Module.UnityCommonFactory",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Extension",
+		"Name": ".Module.UnityCommonExtension",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Func",
+		"Name": ".Module.UnityCommonFunc",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Utility",
+		"Name": ".Module.UnityCommonUtility",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Externals",
+		"Name": ".Module.UnityCommonExternals",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Ads",
+		"Name": ".Module.UnityCommonAds",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Flurry",
-		"Path": f"{oProjName}/Packages"
-	},
-
-	{
-		"Name": ".UnityModule.Common.Tenjin",
-		"Path": f"{oProjName}/Packages"
-	},
-
-	{
-		"Name": ".UnityModule.Common.Facebook",
-		"Path": f"{oProjName}/Packages"
-	},
-
-	{
-		"Name": ".UnityModule.Common.Firebase",
+		"Name": ".Module.UnityCommonFlurry",
 		"Path": f"{oProjName}/Packages"
 	},
 	
 	{
-		"Name": ".UnityModule.Common.Singular",
+		"Name": ".Module.UnityCommonFacebook",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.GameCenter",
+		"Name": ".Module.UnityCommonFirebase",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Purchase",
+		"Name": ".Module.UnityCommonAppsFlyer",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Noti",
+		"Name": ".Module.UnityCommonGameAnalytics",
+		"Path": f"{oProjName}/Packages"
+	},
+	
+	{
+		"Name": ".Module.UnityCommonSingular",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".UnityModule.Common.Importer",
+		"Name": ".Module.UnityCommonGameCenter",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": "PluginProjects",
+		"Name": ".Module.UnityCommonPurchase",
+		"Path": f"{oProjName}/Packages"
+	},
+
+	{
+		"Name": ".Module.UnityCommonNoti",
+		"Path": f"{oProjName}/Packages"
+	},
+
+	{
+		"Name": ".Module.UnityCommonImporter",
+		"Path": f"{oProjName}/Packages"
+	},
+
+	{
+		"Name": "NativePlugins",
 		"Path": oProjName
 	},
 
@@ -145,6 +151,12 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.chdir(oPath)
 
 		os.system(f"git add .")
-		os.system(f"git commit -m '{oCommitMsg}'; git push")
+		os.system(f"git commit -m '{oCommitMsg}'")
+
+		# 브랜치 이름이 유효 할 경우
+		if len(oBranchName) >= 1:
+			os.system(f"git push origin -u {oBranchName}")
+		else:
+			os.system(f"git push")
 
 		os.chdir(oCurPath)

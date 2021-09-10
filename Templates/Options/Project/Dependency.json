@@ -1,4 +1,4 @@
 {
-	"unitymodule.common.importer": "https://9tap:NT9studio!@gitlab.com/9tapmodule.repository/unitymodule_common_importer_client.git#1.2.5",
-	"unitymodule.study.importer": "https://are2341:NSString132!@gitlab.com/dante.distribution.individual/unitymodule_study_importer_client.git#1.2.5"
+	"module.unitycommonimporter": "https://9tap:NT9studio!@gitlab.com/9tapmodule.repository/000001.module_unitycommonimporter_client.git#1.7.2",
+	"module.unitystudyimporter": "https://are2341:NSString132!@gitlab.com/dante.distribution.individual/000001.module_unitystudyimporter_client.git#1.7.2"
 }

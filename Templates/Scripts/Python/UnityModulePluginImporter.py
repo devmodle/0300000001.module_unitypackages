@@ -7,15 +7,15 @@ oBranchName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
-		"Name": "PluginProjects",
+		"Name": "NativePlugins",
 		"Path": oProjName,
-		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_plugin_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unityplugin_client.git"
 	},
 
 	{
 		"Name": "UnityPackages",
 		"Path": oProjName,
-		"URL": "https://gitlab.com/9tapmodule.repository/unitymodule_package_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitypackage_client.git"
 	}
 ]
 
@@ -37,3 +37,5 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.system(f"git submodule set-branch --branch {oBranchName} {oProjRoot}/{oSubmodulePath}")
 	else:
 		os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
+
+os.system(f"python3 UnityModuleRemoteURLUpdater.py {oProjName}")
