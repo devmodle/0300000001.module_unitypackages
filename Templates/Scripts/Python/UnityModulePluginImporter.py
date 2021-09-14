@@ -9,13 +9,13 @@ oSubmoduleInfos = [
 	{
 		"Name": "NativePlugins",
 		"Path": oProjName,
-		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unityplugin_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_nativeplugins_client.git"
 	},
 
 	{
 		"Name": "UnityPackages",
 		"Path": oProjName,
-		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitypackage_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/000001.module_unitypackages_client.git"
 	}
 ]
 
