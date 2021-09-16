@@ -85,6 +85,11 @@ oSubmoduleInfos = [
 	},
 
 	{
+		"Name": ".Module.UnityCommonAppsFlyer",
+		"Path": f"{oProjName}/Packages"
+	},
+
+	{
 		"Name": ".Module.UnityCommonGameAnalytics",
 		"Path": f"{oProjName}/Packages"
 	},
@@ -143,7 +148,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	if os.path.exists(oPath):
 		os.chdir(oPath)
 
-		os.system("git fetch; git fetch --tags --force")
+		os.system("git fetch --tags --force")
 		os.system("git pull -p")
 
 		os.chdir(oCurPath)
