@@ -165,7 +165,7 @@ namespace Coffee.GitDependencyResolver
             package.repository = m.Groups["repository"].Value;
             package.revision = m.Groups["revision"].Value;
             package.url = url;
-            package.hash = "";
+            package.hash = s_GitLock.dependencies.FirstOrDefault(x => x.IsValid(package)).hash ?? "";
 
             // Get version from revision/branch/tag
             package.SetVersion(package.revision);
