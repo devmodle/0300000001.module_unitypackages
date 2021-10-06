@@ -83,19 +83,7 @@ oSubmoduleInfos = [
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/00000001.module_unitycommonappsflyer_client.git"
 	},
-
-	{
-		"Name": ".Module.UnityCommonGameAnalytics",
-		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/00000001.module_unitycommongameanalytics_client.git"
-	},
-
-	{
-		"Name": ".Module.UnityCommonSingular",
-		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/00000001.module_unitycommonsingular_client.git"
-	},
-
+	
 	{
 		"Name": ".Module.UnityCommonGameCenter",
 		"Path": f"{oProjName}/Packages",
