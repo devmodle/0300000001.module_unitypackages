@@ -1,17 +1,21 @@
 {
-	"m_stiOSVer": {
+	"m_stiOSBuildVerInfo": {
 		"m_nNum": 1,
 		"m_oVer": "1.0.0"
 	},
-	"m_stGoogleVer": {
+	"m_stGoogleBuildVerInfo": {
 		"m_nNum": 1,
 		"m_oVer": "1.0.0"
 	},
-	"m_stOneStoreVer": {
+	"m_stAmazonBuildVerInfo": {
 		"m_nNum": 1,
 		"m_oVer": "1.0.0"
 	},
-	"m_stGalaxyStoreVer": {
+	"m_stOneStoreBuildVerInfo": {
+		"m_nNum": 1,
+		"m_oVer": "1.0.0"
+	},
+	"m_stGalaxyStoreBuildVerInfo": {
 		"m_nNum": 1,
 		"m_oVer": "1.0.0"
 	}
