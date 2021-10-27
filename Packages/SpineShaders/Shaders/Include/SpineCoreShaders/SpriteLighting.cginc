@@ -215,11 +215,11 @@ uniform float _EmissionPower;
 #define APPLY_EMISSION(diffuse, uv) diffuse += tex2D(_EmissionMap, uv).rgb * _EmissionColor.rgb * _EmissionPower;
 #define APPLY_EMISSION_SPECULAR(pixel, uv) pixel.rgb += (tex2D(_EmissionMap, uv).rgb * _EmissionColor.rgb * _EmissionPower) * pixel.a;
 
-#else /**_EMISSION
+#else //!_EMISSION
 
 #define APPLY_EMISSION(diffuse, uv)
 #define APPLY_EMISSION_SPECULAR(pixel, uv)
 
-#endif  /**_EMISSION
+#endif  //!_EMISSION
 
 #endif // SPRITE_LIGHTING_INCLUDED
