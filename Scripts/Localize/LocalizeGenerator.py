@@ -9,8 +9,8 @@ oExcelFileName = sys.argv[2]
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
 oOutputPath = f"../../../../{oProjName}/Assets/02.UnityProject/Resources/Tables/Global/StringInfo"
 
-oStrTableSrcPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
-oStrTableDestPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTableAutoCreate.cs"
+oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+StrTable.cs"
+oStrTableDestPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
 
 oCommonValueList = [
 	"ID", "Replace", "Description"
@@ -100,14 +100,13 @@ for i, oValList in enumerate(oValListContainer):
 
 	oCommonLocalizeInfo = []
 
-oReplaceStr = oOutputStr.replace("//*** Make KDefine+StrTableAutoCreate.cs By LocalizeGenerator ***//", oReplaceStr)
+oReplaceStr = oOutputStr.replace("//*** Setup KDefine+StrTable.cs By LocalizeGenerator ***//", oReplaceStr)
 
 oWStream = open(oStrTableDestPath, "w")
 oWStream.write(oReplaceStr)
 
 oRStream.close()
 oWStream.close()
-
 # 지역화를 설정한다 }
 
 # 지역화 파일을 생성한다 {
