@@ -1,5 +1,5 @@
 ID,Replace,Val,ValType,Description
-DELAY_ADS,0,60,1,광고 딜레이
+DELAY_ADS,0,60,1,광고 지연
 DELTA_T_ADS,0,10,1,광고 시간 간격
 QUALITY_LEVEL,0,6,0,퀄리티 레벨
 DEF_TARGET_FRAME_RATE,0,60,0,기본 타겟 프레임
