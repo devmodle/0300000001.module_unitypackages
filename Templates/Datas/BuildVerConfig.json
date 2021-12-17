@@ -1,14 +1,14 @@
 {
-	"m_stiOSBuildVerInfo": {
+	"m_stAppleBuildVerInfo": {
 		"m_nNum": 1,
-		"m_oVer": "1.0.0"
+		"m_oVer": "0.0.1"
 	},
 	"m_stGoogleBuildVerInfo": {
 		"m_nNum": 1,
-		"m_oVer": "1.0.0"
+		"m_oVer": "0.0.1"
 	},
 	"m_stAmazonBuildVerInfo": {
 		"m_nNum": 1,
-		"m_oVer": "1.0.0"
+		"m_oVer": "0.0.1"
 	}
 }
