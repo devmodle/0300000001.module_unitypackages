@@ -17,7 +17,7 @@ AGREE_P_SERVICES_BTN_TEXT,0,약관 동의 팝업 서비스 버튼 텍스트,Term
 AGREE_P_DESC_TEXT_01,0,약관 동의 팝업 설명 텍스트 1,Tap OK to accept our
 AGREE_P_DESC_TEXT_02,0,약관 동의 팝업 설명 텍스트 2,and
 TRACKING_DP_TITLE,0,추적 설명 팝업 제목,알림
-TRACKING_DP_MSG,0,추적 설명 팝업 메세지,앱 추적을 승인해\n주세요
+TRACKING_DP_MSG,0,추적 설명 팝업 메세지,앱 추적 승인
 TRACKING_DP_DESC_MSG_01,0,추적 설명 팝업 설명 메세지 1,특별한 프로모션을 제공해\n드립니다
 TRACKING_DP_DESC_MSG_02,0,추적 설명 팝업 설명 메세지 2,관심사에 맞는 광고를 보여\n드립니다
 TRACKING_DP_DESC_MSG_03,0,추적 설명 팝업 설명 메세지 3,개인화 된 경험을 향상 시켜\n드립니다
