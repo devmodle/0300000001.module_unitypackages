@@ -1,14 +1,30 @@
 {
-	"m_stAppleBuildVerInfo": {
-		"m_nNum": 1,
-		"m_oVer": "0.0.1"
-	},
-	"m_stGoogleBuildVerInfo": {
-		"m_nNum": 1,
-		"m_oVer": "0.0.1"
-	},
-	"m_stAmazonBuildVerInfo": {
-		"m_nNum": 1,
-		"m_oVer": "0.0.1"
-	}
+    "m_stiOSAppleBuildVerInfo": {
+        "m_nNum": 1,
+        "m_oVer": "0.0.1"
+    },
+    "m_stAndroidGoogleBuildVerInfo": {
+        "m_nNum": 1,
+        "m_oVer": "0.0.1"
+    },
+    "m_stAndroidAmazonBuildVerInfo": {
+        "m_nNum": 1,
+        "m_oVer": "0.0.1"
+    },
+    "m_stAndroidOneStoreBuildVerInfo": {
+        "m_nNum": 1,
+        "m_oVer": "0.0.1"
+    },
+    "m_stMacAppleBuildVerInfo": {
+        "m_nNum": 1,
+        "m_oVer": "0.0.1"
+    },
+    "m_stMacSteamBuildVerInfo": {
+        "m_nNum": 1,
+        "m_oVer": "0.0.1"
+    },
+    "m_stWndsSteamBuildVerInfo": {
+        "m_nNum": 1,
+        "m_oVer": "0.0.1"
+    }
 }
