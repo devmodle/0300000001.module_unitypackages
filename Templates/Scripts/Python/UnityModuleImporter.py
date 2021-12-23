@@ -9,13 +9,13 @@ oSubmoduleInfos = [
 	{
 		"Name": ".Module.UnityStudyImporter",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/dante.distribution.individual/00000001.module_unitystudyimporter_client.git"
+		"URL": "https://gitlab.com/dante.distribution.individual/02000001.module_unitystudyimporter_client.git"
 	},
 
 	{
 		"Name": ".Module.UnityCommonImporter",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/00000001.module_unitycommonimporter_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/02000001.module_unitycommonimporter_client.git"
 	}
 ]
 

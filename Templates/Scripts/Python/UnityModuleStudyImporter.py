@@ -9,19 +9,19 @@ oSubmoduleInfos = [
 	{
 		"Name": ".Module.UnityStudy",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/dante.distribution.individual/00000001.module_unitystudy_client.git"
+		"URL": "https://gitlab.com/dante.distribution.individual/02000001.module_unitystudy_client.git"
 	},
 
 	{
 		"Name": ".Module.UnityStudyDefine",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/dante.distribution.individual/00000001.module_unitystudydefine_client.git"
+		"URL": "https://gitlab.com/dante.distribution.individual/02000001.module_unitystudydefine_client.git"
 	},
 
 	{
 		"Name": ".Module.UnityStudyUtility",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/dante.distribution.individual/00000001.module_unitystudyutility_client.git"
+		"URL": "https://gitlab.com/dante.distribution.individual/02000001.module_unitystudyutility_client.git"
 	}
 ]
 
