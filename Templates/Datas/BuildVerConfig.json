@@ -15,15 +15,15 @@
         "m_nNum": 1,
         "m_oVer": "0.0.1"
     },
-    "m_stMacAppleBuildVerInfo": {
+    "m_stStandaloneMacAppleBuildVerInfo": {
         "m_nNum": 1,
         "m_oVer": "0.0.1"
     },
-    "m_stMacSteamBuildVerInfo": {
+    "m_stStandaloneMacSteamBuildVerInfo": {
         "m_nNum": 1,
         "m_oVer": "0.0.1"
     },
-    "m_stWndsSteamBuildVerInfo": {
+    "m_stStandaloneWndsSteamBuildVerInfo": {
         "m_nNum": 1,
         "m_oVer": "0.0.1"
     }
