@@ -1,6 +1,9 @@
 ID,Replace,Description,Str
 EDITOR_QUIT_P_MSG,0,에디터 종료 팝업 메세지,Do you want to quit the editor?
 EDITOR_RESET_P_MSG,0,에디터 리셋 팝업 메세지,Do you want to reset the editor?
+EDITOR_A_SET_P_MSG,0,에디터 세트 A 팝업 메세지,Do you want to set up the A set?
+EDITOR_B_SET_P_MSG,0,에디터 세트 B 팝업 메세지,Do you want to set up the B set?
+EDITOR_TABLE_RL_MSG,0,에디터 테이블 다시 로드 메세지,Do you want to reload the table?
 EDITOR_REMOVE_LP_MSG,0,에디터 레벨 제거 팝업 메세지,Do you want to remove the level?
 EDITOR_REMOVE_SP_MSG,0,에디터 스테이지 제거 팝업 메세지,Do you want to remove the stage?
 EDITOR_REMOVE_CP_MSG,0,에디터 챕터 제거 팝업 메세지,Do you want to remove the chapter?
