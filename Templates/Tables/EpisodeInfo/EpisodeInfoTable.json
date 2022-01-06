@@ -13,7 +13,7 @@
             "TutorialKinds": "-1",
             "NumTargets_01": "0",
             "TargetKinds_01": "-1",
-            "UnlockNumTargets_01": "0",
+            "NumUnlockTargets_01": "0",
             "UnlockTargetKinds_01": "-1",
             "Description": "샘플 레벨 정보"
         }
@@ -30,7 +30,7 @@
             "TutorialKinds": "-1",
             "NumTargets_01": "0",
             "TargetKinds_01": "-1",
-            "UnlockNumTargets_01": "0",
+            "NumUnlockTargets_01": "0",
             "UnlockTargetKinds_01": "-1",
             "Description": "샘플 스테이지 정보"
         }
@@ -46,7 +46,7 @@
             "TutorialKinds": "-1",
             "NumTargets_01": "0",
             "TargetKinds_01": "-1",
-            "UnlockNumTargets_01": "0",
+            "NumUnlockTargets_01": "0",
             "UnlockTargetKinds_01": "-1",
             "Description": "샘플 챕터 정보"
         }
