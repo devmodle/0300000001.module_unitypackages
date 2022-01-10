@@ -138,15 +138,16 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
-		os.chdir(oPath)
+		try:
+			os.chdir(oPath)
 
-		os.system(f"git add .")
-		os.system(f"git commit -m '{oCommitMsg}'")
+			os.system(f"git add .")
+			os.system(f"git commit -m \"{oCommitMsg}\"")
 
-		# 브랜치 이름이 유효 할 경우
-		if len(oBranchName) >= 1:
-			os.system(f"git push origin -u {oBranchName}")
-		else:
-			os.system(f"git push")
-
-		os.chdir(oCurPath)
+			# 브랜치 이름이 유효 할 경우
+			if len(oBranchName) >= 1:
+				os.system(f"git push origin -u {oBranchName}")
+			else:
+				os.system(f"git push")
+		finally:
+			os.chdir(oCurPath)

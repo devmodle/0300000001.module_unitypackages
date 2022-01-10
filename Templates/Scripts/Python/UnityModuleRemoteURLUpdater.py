@@ -159,7 +159,8 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
-		os.chdir(oPath)
-
-		os.system(f"git remote set-url origin {oSubmoduleInfo['URL']}")
-		os.chdir(oCurPath)
+		try:
+			os.chdir(oPath)
+			os.system(f"git remote set-url origin {oSubmoduleInfo['URL']}")
+		finally:
+			os.chdir(oCurPath)

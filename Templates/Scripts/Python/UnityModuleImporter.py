@@ -1,9 +1,8 @@
 import os
 import sys
 
-oProjRoot = sys.argv[1]
-oProjName = sys.argv[2]
-oBranchName = sys.argv[3]
+oProjName = sys.argv[1]
+oBranchName = sys.argv[2]
 
 oSubmoduleInfos = [
 	{
@@ -22,23 +21,20 @@ oSubmoduleInfos = [
 for oSubmoduleInfo in oSubmoduleInfos:
 	oURL = oSubmoduleInfo["URL"]
 	oPath = f"../../{oSubmoduleInfo['Path']}"
-	oFullpath = f"../../{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
+	oFullPath = f"../../{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
 
-	if not os.path.exists(oFullpath):
+	# 서브 모듈이 없을 경우
+	if not os.path.exists(oFullPath):
+		# 디렉토리가 없을 경우
 		if not os.path.exists(oPath):
 			os.makedirs(oPath)
 
-		os.system(f"git submodule add -f {oURL} {oFullpath}")
+		os.system(f"git submodule add -f {oURL} {oFullPath}")
 
 	oSubmodulePath = f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
+	os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
 
-	# 프로젝트 루트가 유효 할 경우
-	if len(oProjRoot) >= 1:
-		os.system(f"git submodule set-branch --branch {oBranchName} {oProjRoot}/{oSubmodulePath}")
-	else:
-		os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
-
-os.system(f"python3 UnityModuleStudyImporter.py '{oProjRoot}' {oProjName} {oBranchName}")
-os.system(f"python3 UnityModuleCommonImporter.py '{oProjRoot}' {oProjName} {oBranchName}")
-os.system(f"python3 UnityModulePluginImporter.py '{oProjRoot}' {oProjName} {oBranchName}")
+os.system(f"python3 UnityModuleStudyImporter.py {oProjName} {oBranchName}")
+os.system(f"python3 UnityModuleCommonImporter.py {oProjName} {oBranchName}")
+os.system(f"python3 UnityModulePluginImporter.py {oProjName} {oBranchName}")
 os.system(f"python3 UnityModuleRemoteURLUpdater.py {oProjName}")

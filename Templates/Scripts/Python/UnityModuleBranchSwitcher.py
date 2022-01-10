@@ -138,12 +138,13 @@ for oSubmoduleInfo in oSubmoduleInfos:
 
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
-		os.chdir(oPath)
+		try:
+			os.chdir(oPath)
 
-		# 체크아웃 브랜치 이름이 유효 할 경우
-		if len(oCheckoutBranchName) >= 1:
-			os.system(f"git checkout -b {oCheckoutBranchName} {oBranchName}")
-		else:
-			os.system(f"git checkout {oBranchName}")
-
-		os.chdir(oCurPath)
+			# 체크아웃 브랜치 이름이 유효 할 경우
+			if len(oCheckoutBranchName) >= 1:
+				os.system(f"git checkout -b {oCheckoutBranchName} {oBranchName}")
+			else:
+				os.system(f"git checkout {oBranchName}")
+		finally:
+			os.chdir(oCurPath)
