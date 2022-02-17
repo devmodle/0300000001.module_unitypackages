@@ -3,7 +3,7 @@ import sys
 
 oProjName = sys.argv[1]
 oBranchName = sys.argv[2]
-oCheckoutBranchName = sys.argv[3]
+oOriginBranchName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
@@ -141,9 +141,9 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		try:
 			os.chdir(oPath)
 
-			# 체크아웃 브랜치 이름이 유효 할 경우
-			if len(oCheckoutBranchName) >= 1:
-				os.system(f"git checkout -b {oCheckoutBranchName} {oBranchName}")
+			# 원본 브랜치 이름이 유효 할 경우
+			if len(oOriginBranchName) >= 1:
+				os.system(f"git checkout -b {oBranchName} {oOriginBranchName}")
 			else:
 				os.system(f"git checkout {oBranchName}")
 		finally:
