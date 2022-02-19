@@ -140,6 +140,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		try:
 			os.chdir(oPath)
 
+			os.system(f"git fetch --tags --force")
 			os.system(f"git merge {oBranchName}")
 			os.system(f"git push")
 		finally:
