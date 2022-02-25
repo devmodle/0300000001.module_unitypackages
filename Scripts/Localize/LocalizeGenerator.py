@@ -9,19 +9,19 @@ oExcelFileName = sys.argv[2]
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
 oOutputPath = f"../../../../{oProjName}/Assets/02.UnityProject/Resources/Tables/Global/StringInfo"
 
-oStrTableSrcPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
-oStrTableDestPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTableAutoCreate.cs"
-
-oCommonValueList = [
-	"ID", "Replace", "Description"
-]
-
-oWorkspace = load_workbook(oExcelPath, data_only = True)
-oLocalizeSheet = oWorkspace["Common"]
+oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+StrTable.cs"
+oStrTableDestPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
 
 nHeaderIdx = 0
 nLocalizeStartIdx = 3
 oOutputFileName = "G_StrTable_Common"
+
+oWorkspace = load_workbook(oExcelPath, data_only = True)
+oLocalizeSheet = oWorkspace["Common"]
+
+oCommonValueList = [
+	"ID", "Replace", "Description"
+]
 
 # 헤더 정보를 설정한다 {
 oHeaderList = []
@@ -100,14 +100,11 @@ for i, oValList in enumerate(oValListContainer):
 
 	oCommonLocalizeInfo = []
 
-oReplaceStr = oOutputStr.replace("//*** Make KDefine+StrTableAutoCreate.cs By LocalizeGenerator ***//", oReplaceStr)
-
 oWStream = open(oStrTableDestPath, "w")
-oWStream.write(oReplaceStr)
+oWStream.write(oOutputStr.replace("//*** Setup KDefine+StrTable.cs By LocalizeGenerator ***//", oReplaceStr))
 
 oRStream.close()
 oWStream.close()
-
 # 지역화를 설정한다 }
 
 # 지역화 파일을 생성한다 {
@@ -116,8 +113,7 @@ for oKey, oLocalizeInfoList in oLocalizeInfoListContainer.items():
 	if not os.path.isdir(oOutputPath):
 		os.makedirs(oOutputPath)
 
-	oFilePath = f"{oOutputPath}/{oOutputFileName}_{oKey}.csv"
-	oWStream = open(oFilePath, "w")
+	oWStream = open(f"{oOutputPath}/{oOutputFileName}_{oKey}.csv", "w")
 
 	for i, oLocalizeInfo in enumerate(oLocalizeInfoList):
 		for j, oVal in enumerate(oLocalizeInfo):

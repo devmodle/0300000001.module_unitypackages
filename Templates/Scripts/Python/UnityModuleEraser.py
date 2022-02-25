@@ -1,8 +1,7 @@
 import os
 import sys
 
-oProjRoot = sys.argv[1]
-oProjName = sys.argv[2]
+oProjName = sys.argv[1]
 
 oSubmoduleInfos = [
 	{
@@ -89,17 +88,7 @@ oSubmoduleInfos = [
 		"Name": ".Module.UnityCommonAppsFlyer",
 		"Path": f"{oProjName}/Packages"
 	},
-
-	{
-		"Name": ".Module.UnityCommonGameAnalytics",
-		"Path": f"{oProjName}/Packages"
-	},
 	
-	{
-		"Name": ".Module.UnityCommonSingular",
-		"Path": f"{oProjName}/Packages"
-	},
-
 	{
 		"Name": ".Module.UnityCommonGameCenter",
 		"Path": f"{oProjName}/Packages"
@@ -143,14 +132,7 @@ def FindPath(a_oBasePath):
 
 for oSubmoduleInfo in oSubmoduleInfos:
 	oPath = FindPath(f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
-
-	# 프로젝트 루트가 유효 할 경우
-	if len(oProjRoot) >= 1:
-		oModulePath = FindPath(f".git/modules/{oProjRoot}/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
-	else:
-		oModulePath = FindPath(f".git/modules/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
-
-	print(oModulePath)
+	oModulePath = FindPath(f".git/modules/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
 	
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):

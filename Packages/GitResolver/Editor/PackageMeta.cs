@@ -166,12 +166,12 @@ namespace Coffee.GitDependencyResolver
             package.revision = m.Groups["revision"].Value;
             package.url = url;
 
-			// 2021.09.24 sd.lee (해시 값 설정 로직 수정) {
+			// FIXME: dante (해시 값 설정 로직 수정) {
 			package.hash = s_GitLock.dependencies.FirstOrDefault(x => false).hash ?? "";
 
 			// 기존 로직
             // package.hash = s_GitLock.dependencies.FirstOrDefault(x => x.IsValid(package)).hash ?? "";
-			// 2021.09.24 sd.lee (해시 값 설정 로직 수정) }
+			// FIXME: dante (해시 값 설정 로직 수정) }
 
             // Get version from revision/branch/tag
             package.SetVersion(package.revision);

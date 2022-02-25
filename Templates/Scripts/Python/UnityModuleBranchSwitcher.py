@@ -3,7 +3,7 @@ import sys
 
 oProjName = sys.argv[1]
 oBranchName = sys.argv[2]
-oCheckoutBranchName = sys.argv[3]
+oOriginBranchName = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
@@ -90,17 +90,7 @@ oSubmoduleInfos = [
 		"Name": ".Module.UnityCommonAppsFlyer",
 		"Path": f"{oProjName}/Packages"
 	},
-
-	{
-		"Name": ".Module.UnityCommonGameAnalytics",
-		"Path": f"{oProjName}/Packages"
-	},
 	
-	{
-		"Name": ".Module.UnityCommonSingular",
-		"Path": f"{oProjName}/Packages"
-	},
-
 	{
 		"Name": ".Module.UnityCommonGameCenter",
 		"Path": f"{oProjName}/Packages"
@@ -148,12 +138,13 @@ for oSubmoduleInfo in oSubmoduleInfos:
 
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
-		os.chdir(oPath)
+		try:
+			os.chdir(oPath)
 
-		# 체크아웃 브랜치 이름이 유효 할 경우
-		if len(oCheckoutBranchName) >= 1:
-			os.system(f"git checkout -b {oCheckoutBranchName} {oBranchName}")
-		else:
-			os.system(f"git checkout {oBranchName}")
-
-		os.chdir(oCurPath)
+			# 원본 브랜치 이름이 유효 할 경우
+			if len(oOriginBranchName) >= 1:
+				os.system(f"git checkout -b {oBranchName} {oOriginBranchName}")
+			else:
+				os.system(f"git checkout {oBranchName}")
+		finally:
+			os.chdir(oCurPath)

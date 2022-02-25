@@ -89,17 +89,7 @@ oSubmoduleInfos = [
 		"Name": ".Module.UnityCommonAppsFlyer",
 		"Path": f"{oProjName}/Packages"
 	},
-
-	{
-		"Name": ".Module.UnityCommonGameAnalytics",
-		"Path": f"{oProjName}/Packages"
-	},
 	
-	{
-		"Name": ".Module.UnityCommonSingular",
-		"Path": f"{oProjName}/Packages"
-	},
-
 	{
 		"Name": ".Module.UnityCommonGameCenter",
 		"Path": f"{oProjName}/Packages"
@@ -147,9 +137,10 @@ for oSubmoduleInfo in oSubmoduleInfos:
 
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
-		os.chdir(oPath)
+		try:
+			os.chdir(oPath)
 
-		os.system(f"git branch -D {oBranchName}")
-		os.system(f"git push origin --delete {oBranchName}")
-
-		os.chdir(oCurPath)
+			os.system(f"git branch -D {oBranchName}")
+			os.system(f"git push origin --delete {oBranchName}")
+		finally:
+			os.chdir(oCurPath)
