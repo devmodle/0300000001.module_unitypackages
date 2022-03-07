@@ -6,4 +6,4 @@ oOutputPath = f"../../../../../\"{sys.argv[1]}\"/Assets/01.SubAutoCreate/Scripts
 oConditionalSymbols = f"MSG_PACK_ENABLE,NEWTON_SOFT_JSON_MODULE_ENABLE,{sys.argv[2]}"
 
 os.system(f"/usr/local/share/dotnet/x64/dotnet tool restore")
-os.system(f"/usr/local/share/dotnet/x64/dotnet mpc -i \"{oProjPath}\" -o \"{oOutputPath}\" -c \"{oConditionalSymbols}\" -ms \"MSG_PACK_ENABLE\"")
+os.system(f"/usr/local/share/dotnet/x64/dotnet mpc -i \"{oProjPath}\" -o \"{oOutputPath}\" -c \"{oConditionalSymbols}\" -ms \"MSG_PACK_ENABLE&&NEWTON_SOFT_JSON_MODULE_ENABLE\"")
