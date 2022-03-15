@@ -1,3 +1,3 @@
-# 03000001.module_unitypackages_client
+# 0300000001.Module_UnityPackages_Client
 
-Module - UnityPackage 클라이언트 프로젝트
+Module - UnityPackages 클라이언트 프로젝트
