@@ -12,6 +12,7 @@ oOutputPath = f"../../../../{oProjName}/Assets/02.UnityProject/Resources/Tables/
 oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+StrTable.cs"
 oStrTableDestPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
 
+nIDIdx = 2
 nHeaderIdx = 0
 nLocalizeStartIdx = 3
 oOutputFileName = "G_StrTable_Common"
@@ -68,7 +69,7 @@ oReplaceStr = ""
 for i, oValList in enumerate(oValListContainer):
 	for j, oVal in enumerate(oValList):
 		# 식별자 일 경우
-		if j <= 0:
+		if j == nIDIdx:
 			oReplaceStr += f"public const string ST_KEY_{oVal} = \"{oVal}\";\n\t"
 
 		# 지역화 값이 아닐 경우
