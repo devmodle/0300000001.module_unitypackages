@@ -1,14 +1,15 @@
 {
     "Common": [
         {
+            "Description": "샘플 블럭 정보",
+            "Replace": "0",
             "Name": "Sample",
             "Desc": "Sample",
             "BlockKinds": "0",
             "NextBlockKinds": "-1",
             "SizeX": "0",
             "SizeY": "0",
-            "SizeZ": "0",
-            "Description": "샘플 블럭 정보"
+            "SizeZ": "0"
         }
     ]
 }

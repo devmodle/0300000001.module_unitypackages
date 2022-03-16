@@ -20,7 +20,7 @@ oWorkspace = load_workbook(oExcelPath, data_only = True)
 oLocalizeSheet = oWorkspace["Common"]
 
 oCommonValueList = [
-	"ID", "Replace", "Description"
+	"Description", "Replace", "ID"
 ]
 
 # 헤더 정보를 설정한다 {
