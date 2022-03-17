@@ -2,6 +2,7 @@ import os
 import sys
 
 oProjName = sys.argv[1]
+oExecuteCmd = sys.argv[2]
 
 oSubmoduleInfos = [
 	{
@@ -138,6 +139,6 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	if os.path.exists(oPath):
 		try:
 			os.chdir(oPath)
-			os.system("git gc")
+			os.system(oExecuteCmd)
 		finally:
 			os.chdir(oCurPath)
