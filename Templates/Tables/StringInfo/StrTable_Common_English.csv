@@ -3,7 +3,7 @@ Description,Replace,ID,Str
 에디터 리셋 팝업 메세지,0,EDITOR_RESET_P_MSG,Do you want to reset the editor?
 에디터 세트 A 팝업 메세지,0,EDITOR_A_SET_P_MSG,Do you want to set up the A set?
 에디터 세트 B 팝업 메세지,0,EDITOR_B_SET_P_MSG,Do you want to set up the B set?
-에디터 테이블 다시 로드 메세지,0,EDITOR_TABLE_RL_MSG,Do you want to reload the table?
+에디터 테이블 로드 메세지,0,EDITOR_TABLE_LP_MSG,Do you want to load the table?
 에디터 레벨 제거 팝업 메세지,0,EDITOR_REMOVE_LP_MSG,Do you want to remove the level?
 에디터 스테이지 제거 팝업 메세지,0,EDITOR_REMOVE_SP_MSG,Do you want to remove the stage?
 에디터 챕터 제거 팝업 메세지,0,EDITOR_REMOVE_CP_MSG,Do you want to remove the chapter?
