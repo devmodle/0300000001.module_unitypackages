@@ -3,7 +3,7 @@ Description,Replace,ID,Str
 에디터 리셋 팝업 메세지,0,EDITOR_RESET_P_MSG,에디터를 리셋하시겠습니까?
 에디터 세트 A 팝업 메세지,0,EDITOR_A_SET_P_MSG,A 세트 를 설정하시겠습니까?
 에디터 세트 B 팝업 메세지,0,EDITOR_B_SET_P_MSG,B 세트 를 설정하시겠습니까?
-에디터 테이블 다시 로드 메세지,0,EDITOR_TABLE_RL_MSG,테이블을 다시 로드하시겠습니까?
+에디터 테이블 로드 메세지,0,EDITOR_TABLE_LP_MSG,테이블을 로드하시겠습니까?
 에디터 레벨 제거 팝업 메세지,0,EDITOR_REMOVE_LP_MSG,레벨을 제거하시겠습니까?
 에디터 스테이지 제거 팝업 메세지,0,EDITOR_REMOVE_SP_MSG,스테이지를 제거하시겠습니까?
 에디터 챕터 제거 팝업 메세지,0,EDITOR_REMOVE_CP_MSG,챕터를 제거하시겠습니까?
