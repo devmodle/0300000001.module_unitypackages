@@ -66,12 +66,14 @@ Description,Replace,ID,Str
 공용 레벨 페이지 텍스트 형식,0,COMMON_LEVEL_PAGE_TEXT_FMT,Level {0}/{1}
 공용 스테이지 페이지 텍스트 형식,0,COMMON_STAGE_PAGE_TEXT_FMT,Stage {0}/{1}
 공용 챕터 페이지 텍스트 형식,0,COMMON_CHAPTER_PAGE_TEXT_FMT,Chapter {0}/{1}
-상점 팝업 타이틀,0,STORE_P_TITLE,Store
-설정 팝업 타이틀,0,SETTINGS_P_TITLE,Settings
-동기화 팝업 타이틀,0,SYNC_P_TITLE,Sync
-일일 미션 팝업 타이틀,0,DAILY_MP_TITLE,Daily Mission
-무료 보상 팝업 타이틀,0,FREE_RP_TITLE,Free Reward
-일일 보상 팝업 타이틀,0,DAILY_RP_TITLE,Daily Reward
-판매 코인 팝업 타이틀,0,SALE_CP_TITLE,Sale Coins
-이어하기 팝업 타이틀,0,CONTINUE_P_TITLE,Continue
+상점 팝업 제목,0,STORE_P_TITLE,Store
+설정 팝업 제목,0,SETTINGS_P_TITLE,Settings
+동기화 팝업 제목,0,SYNC_P_TITLE,Sync
+일일 미션 팝업 제목,0,DAILY_MP_TITLE,Daily Mission
+무료 보상 팝업 제목,0,FREE_RP_TITLE,Free Reward
+일일 보상 팝업 제목,0,DAILY_RP_TITLE,Daily Reward
+판매 코인 팝업 제목,0,SALE_CP_TITLE,Sale Coins
+이어하기 팝업 제목,0,CONTINUE_P_TITLE,Continue
 결과 팝업 제목,0,RESULT_P_TITLE,Result
+재개 팝업 제목,0,RESUME_P_TITLE,Resume
+정지 팝업 제목,0,PAUSE_P_TITLE,Pause
