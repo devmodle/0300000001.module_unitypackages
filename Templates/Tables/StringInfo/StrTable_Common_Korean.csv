@@ -60,6 +60,9 @@ Description,Replace,ID,Str
 공용 레벨 텍스트,0,COMMON_LEVEL_TEXT,레벨
 공용 스테이지 텍스트,0,COMMON_STAGE_TEXT,스테이지
 공용 챕터 텍스트,0,COMMON_CHAPTER_TEXT,챕터
+공용 초보자 패키지 텍스트,0,COMMON_BEGINNER_PKGS_TEXT,초보자 패키지
+공용 전문가 패키지 텍스트,0,COMMON_EXPERT_PKGS_TEXT,전문가 패키지
+공용 프로 패키지 텍스트,0,COMMON_PRO_PKGS_TEXT,프로 패키지
 공용 레벨 번호 텍스트 형식,0,COMMON_LEVEL_NUM_TEXT_FMT,레벨 {0}
 공용 스테이지 번호 텍스트 형식,0,COMMON_STAGE_NUM_TEXT_FMT,스테이지 {0}
 공용 챕터 번호 텍스트 형식,0,COMMON_CHAPTER_NUM_TEXT_FMT,챕터 {0}
@@ -72,7 +75,7 @@ Description,Replace,ID,Str
 일일 미션 팝업 제목,0,DAILY_MP_TITLE,일일 미션
 무료 보상 팝업 제목,0,FREE_RP_TITLE,무료 보상
 일일 보상 팝업 제목,0,DAILY_RP_TITLE,일일 보상
-판매 코인 팝업 제목,0,SALE_CP_TITLE,판매 코인
+판매 코인 팝업 제목,0,SALE_CP_TITLE,코인 상자
 이어하기 팝업 제목,0,CONTINUE_P_TITLE,이어하기
 결과 팝업 제목,0,RESULT_P_TITLE,결과
 재개 팝업 제목,0,RESUME_P_TITLE,다시하기
