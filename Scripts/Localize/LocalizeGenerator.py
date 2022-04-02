@@ -7,10 +7,10 @@ oProjName = sys.argv[1]
 oExcelFileName = sys.argv[2]
 
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
-oOutputPath = f"../../../../{oProjName}/Assets/02.UnityProject/Resources/Tables/Global/StringInfo"
+oOutputPath = f"../../../../{oProjName}/Assets/03.SubUnityProject/Resources/Tables/Global/StringInfo"
 
 oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+StrTable.cs"
-oStrTableDestPath = f"../../../../{oProjName}/Assets/02.UnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
+oStrTableDestPath = f"../../../../{oProjName}/Assets/03.SubUnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
 
 nIDIdx = 2
 nHeaderIdx = 0
