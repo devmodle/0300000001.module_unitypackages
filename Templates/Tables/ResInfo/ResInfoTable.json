@@ -1,0 +1,12 @@
+{
+    "Common": [
+        {
+            "Description": "샘플 리소스 정보",
+            "Replace": "0",
+            "Name": "Sample",
+            "Desc": "Sample",
+            "ID": "0",
+            "ResPath": "Sample"
+        }
+    ]
+}
