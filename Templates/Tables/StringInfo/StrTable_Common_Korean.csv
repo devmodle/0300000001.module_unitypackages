@@ -7,6 +7,7 @@ Description,Replace,ID,Str
 에디터 레벨 제거 팝업 메세지,0,EDITOR_REMOVE_LP_MSG,레벨을 제거하시겠습니까?
 에디터 스테이지 제거 팝업 메세지,0,EDITOR_REMOVE_SP_MSG,스테이지를 제거하시겠습니까?
 에디터 챕터 제거 팝업 메세지,0,EDITOR_REMOVE_CP_MSG,챕터를 제거하시겠습니까?
+에디터 구글 시트 로드 팝업 메세지,0,EDITOR_GOOGLE_SLP_MSG,구글 시트 로드에 실패했습니다
 종료 팝업 메세지,0,QUIT_P_MSG,게임을 종료하시겠습니까?
 그만두기 팝업 메세지,0,LEAVE_P_MSG,게임을 그만두시겠습니까?
 업데이트 팝업 메세지,0,UPDATE_P_MSG,새로운 버전이 출시되었습니다.\n업데이트 하시겠습니까?
