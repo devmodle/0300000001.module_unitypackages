@@ -14,10 +14,10 @@ Description,Replace,ID,Str
 로드 팝업 메세지,0,LOAD_P_MSG,진행 상황을 로드하시겠습니까?\n<color=#ff0000ff><size=24>(로드 시 현재 진행 상황은 복구 할 수 없습니다)</size></color>
 저장 팝업 메세지,0,SAVE_P_MSG,진행 상황을 저장하시겠습니까?\n<color=#ff0000ff><size=24>(저장 시 이전 진행 상황은 복구 할 수 없습니다)</size></color>
 추적 설명 팝업 제목,0,TRACKING_DP_TITLE,알림
-추적 설명 팝업 메세지,0,TRACKING_DP_MSG,앱 추적 승인
-추적 설명 팝업 설명 메세지 1,0,TRACKING_DP_DESC_MSG_01,특별한 프로모션을 제공해\n드립니다
-추적 설명 팝업 설명 메세지 2,0,TRACKING_DP_DESC_MSG_02,관심사에 맞는 광고를 보여\n드립니다
-추적 설명 팝업 설명 메세지 3,0,TRACKING_DP_DESC_MSG_03,개인화 된 경험을 향상 시켜\n드립니다
+추적 설명 팝업 메세지,0,TRACKING_DP_MSG,다음 화면에서\n추적 허용
+추적 설명 팝업 설명 메세지 1,0,TRACKING_DP_DESC_MSG_01,- 특별한 프로모션을 제공해\n드립니다
+추적 설명 팝업 설명 메세지 2,0,TRACKING_DP_DESC_MSG_02,- 관심사에 맞는 광고를 보여\n드립니다
+추적 설명 팝업 설명 메세지 3,0,TRACKING_DP_DESC_MSG_03,- 개인화 된 경험을 향상 시켜\n드립니다
 공용 로그인 성공 메세지,0,COMMON_LOGIN_SUCCESS_MSG,로그인했습니다
 공용 로그인 실패 메세지,0,COMMON_LOGIN_FAIL_MSG,로그인에 실패했습니다
 공용 로그아웃 성공 메세지,0,COMMON_LOGOUT_SUCCESS_MSG,로그아웃했습니다

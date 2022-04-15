@@ -15,9 +15,9 @@ Description,Replace,ID,Str
 저장 팝업 메세지,0,SAVE_P_MSG,"Do you want to save progress?\n<color=#ff0000ff><size=24>(When saving, previous progress cannot be recovered)</size></color>"
 추적 설명 팝업 제목,0,TRACKING_DP_TITLE,Notice
 추적 설명 팝업 메세지,0,TRACKING_DP_MSG,Allow tracking on the\nnext screen for
-추적 설명 팝업 설명 메세지 1,0,TRACKING_DP_DESC_MSG_01,Special offers and promotions\njust for you
-추적 설명 팝업 설명 메세지 2,0,TRACKING_DP_DESC_MSG_02,Advertisements that match\nyour interests
-추적 설명 팝업 설명 메세지 3,0,TRACKING_DP_DESC_MSG_03,An improved personalized\nexperience over time
+추적 설명 팝업 설명 메세지 1,0,TRACKING_DP_DESC_MSG_01,- Special offers and promotions\njust for you
+추적 설명 팝업 설명 메세지 2,0,TRACKING_DP_DESC_MSG_02,- Advertisements that match\nyour interests
+추적 설명 팝업 설명 메세지 3,0,TRACKING_DP_DESC_MSG_03,- An improved personalized\nexperience over time
 공용 로그인 성공 메세지,0,COMMON_LOGIN_SUCCESS_MSG,You have successfully login
 공용 로그인 실패 메세지,0,COMMON_LOGIN_FAIL_MSG,You have failed to login
 공용 로그아웃 성공 메세지,0,COMMON_LOGOUT_SUCCESS_MSG,You have successfully logout
