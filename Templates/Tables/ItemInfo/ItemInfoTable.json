@@ -1,0 +1,53 @@
+{
+	"Goods": [
+	  {
+		"Description": "코인",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SaleItemKinds": "0",
+		"Price": "0",
+		"PriceKinds": "-1"
+	  }
+	],
+	"Consumable": [
+	  {
+		"Description": "부스터 아이템 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SaleItemKinds": "10000000",
+		"Price": "0",
+		"PriceKinds": "-1"
+	  },
+	  {
+		"Description": "힌트",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SaleItemKinds": "10010000",
+		"Price": "0",
+		"PriceKinds": "-1"
+	  },
+	  {
+		"Description": "이어하기",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SaleItemKinds": "10010100",
+		"Price": "0",
+		"PriceKinds": "-1"
+	  }
+	],
+	"NonConsumable": [
+	  {
+		"Description": "광고 제거",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SaleItemKinds": "20000000",
+		"Price": "0",
+		"PriceKinds": "-1"
+	  }
+	]
+  }
