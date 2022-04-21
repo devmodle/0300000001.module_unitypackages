@@ -1,0 +1,13 @@
+{
+	"Common": [
+	  {
+		"Description": "스킬 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillKinds": "0",
+		"PrevSkillKinds": "-1",
+		"NextSkillKinds": "-1"
+	  }
+	]
+  }
