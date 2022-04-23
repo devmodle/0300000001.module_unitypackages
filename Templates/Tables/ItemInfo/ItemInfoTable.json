@@ -5,38 +5,29 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ItemSaleKinds": "0",
-		"Price": "0",
-		"PriceKinds": "-1"
+		"ItemKinds": "0",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1"
 	  }
 	],
 	"Consumable": [
-	  {
-		"Description": "부스터 아이템 샘플",
-		"Replace": "0",
-		"Name": null,
-		"Desc": null,
-		"ItemSaleKinds": "10000000",
-		"Price": "0",
-		"PriceKinds": "-1"
-	  },
 	  {
 		"Description": "힌트",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ItemSaleKinds": "10010000",
-		"Price": "0",
-		"PriceKinds": "-1"
+		"ItemKinds": "10010000",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1"
 	  },
 	  {
 		"Description": "이어하기",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ItemSaleKinds": "10010100",
-		"Price": "0",
-		"PriceKinds": "-1"
+		"ItemKinds": "10010100",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1"
 	  }
 	],
 	"NonConsumable": [
@@ -45,9 +36,9 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ItemSaleKinds": "20000000",
-		"Price": "0",
-		"PriceKinds": "-1"
+		"ItemKinds": "20000000",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1"
 	  }
 	]
   }
