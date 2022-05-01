@@ -22,4 +22,4 @@ oParams = {
 oSrcPath = f"{oParams['ProjPath']}/{oParams['BuildOutputPath']}"
 oDestPath = f"{oParams['Platform']}BuildOutput.{oParams['BuildFileExtension']}"
 
-os.system(f"cp \"{oSrcPath}\" \"{oDestPath}\""
+os.system(f"cp \"{oSrcPath}\" \"{oDestPath}\"")

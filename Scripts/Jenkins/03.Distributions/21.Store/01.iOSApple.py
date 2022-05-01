@@ -22,5 +22,5 @@ oParams = {
 oSrcPath = f"{oParams['ProjPath']}/{oParams['BuildOutputPath']}"
 oDestPath = f"{oParams['Platform']}BuildOutput.{oParams['BuildFileExtension']}"
 
-os.system(f"cp \"{oSrcPath}\" \"{oDestPath}\""
-os.system(f"xcrun altool --upload-app -f \"{}\" -t \"iOS\" -u \"are2341@nate.com\" -p \"ixed-hszb-kzem-zgpw\" --verbose".format(oDestPath))
+os.system(f"cp \"{oSrcPath}\" \"{oDestPath}\"")
+os.system(f"xcrun altool --upload-app -f \"{oDestPath}\" -t \"iOS\" -u \"are2341@nate.com\" -p \"ixed-hszb-kzem-zgpw\" --verbose")
