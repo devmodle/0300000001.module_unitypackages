@@ -18,3 +18,7 @@ oParams = {
 	"Branch": sys.argv[14]
 }
 
+oSrcPath = f"{oParams["ProjPath"]}/{oParams["BuildOutputPath"]}"
+oDestPath = f"{oParams["Platform"]}BuildOutput.{oParams["BuildFileExtension"]}"
+
+os.system(f"cp \"{oSrcPath}\" \"{oDestPath}\""
