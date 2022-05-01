@@ -2,15 +2,20 @@ import os
 import sys
 
 oParams = {
-	"ProjPath": sys.argv[1],
-	"Platform": sys.argv[2],
-	"ProjPlatform": sys.argv[3],
-	"BuildMode": sys.argv[4],
-	"BuildFunc": sys.argv[5],
-	"BuildFileExtension": sys.argv[6],
-	"BundleID": sys.argv[7],
-	"ProfileID": sys.argv[8],
-	"IPAExportMethod": sys.argv[9]
+	"ProjName": sys.argv[1],
+	"ProjPath": sys.argv[2],
+	"BuildOutputPath": sys.argv[3],
+	"Platform": sys.argv[4],
+	"ProjPlatform": sys.argv[5],
+	"BuildVer": sys.argv[6],
+	"BuildFunc": sys.argv[7],
+	"PipelineName": sys.argv[8],
+	"BuildFileExtension": sys.argv[9],
+	"BundleID": sys.argv[10],
+	"ProfileID": sys.argv[11],
+	"IPAExportMethod": sys.argv[12],
+	"BuildNumber": sys.argv[13],
+	"Branch": sys.argv[14]
 }
 
 oBuildOutputDirPath = f"{oParams["ProjPath"]}/{os.path.dirname(oParams["BuildOutputPath"])}"

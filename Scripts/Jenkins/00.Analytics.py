@@ -18,7 +18,7 @@ oParams = {
 	"Branch": sys.argv[14]
 }
 
-oSrcPath = f"{oParams["ProjPath"]}/{os.path.dirname(oParams["BuildOutputPath"])}"
-oDestPath = f"{oParams["ProjPath"]}/{oParams["BuildOutputPath"]}"
+oSrcPath = "Doxygen"
+oDestPath = f"{oParams["ProjName"]}_{oParams["Platform"]}_v{oParams["BuildVer"]}.zip"
 
-os.system(f"ditto -ck --rsrc --sequesterRsrc \"{oSrcPath}\" \"{oDestPath}\"")
+os.system(f"ditto -ck --rsrc --sequesterRsrc \"{oSrcPath}\" \"{oDestPath}\""
