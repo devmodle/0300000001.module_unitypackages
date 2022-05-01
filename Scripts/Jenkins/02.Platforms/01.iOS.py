@@ -15,7 +15,8 @@ oParams = {
 	"ProfileID": sys.argv[11],
 	"IPAExportMethod": sys.argv[12],
 	"BuildNumber": sys.argv[13],
-	"Branch": sys.argv[14]
+	"BuildMode": sys.argv[14],
+	"Branch": sys.argv[15]
 }
 
 oBuildOutputDirPath = f"{oParams['ProjPath']}/{os.path.dirname(oParams['BuildOutputPath'])}"
