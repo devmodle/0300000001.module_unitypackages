@@ -18,15 +18,15 @@ oParams = {
 	"Branch": sys.argv[14]
 }
 
-oBuildOutputDirPath = f"{oParams["ProjPath"]}/{os.path.dirname(oParams["BuildOutputPath"])}"
+oBuildOutputDirPath = f"{oParams['ProjPath']}/{os.path.dirname(oParams['BuildOutputPath'])}"
 
 for oPath, oDirNames, oFileNames in os.walk(oBuildOutputDirPath):
 	for i, oFileName in enumerate(oFileNames):
 		oSrcPath = f"{oPath}/{oFileName}"
-		oDestPath = f"{oPath}/{oParams["Platform"]}BuildOutput.{oParams["BuildFileExtension"]}"
+		oDestPath = f"{oPath}/{oParams['Platform']}BuildOutput.{oParams['BuildFileExtension']}"
 
 		# 빌드 결과가 존재 할 경우
-		if os.path.exists(oSrcPath) and oSrcPath.lower().endswith(f".{oParams["BuildFileExtension"]}"):
+		if os.path.exists(oSrcPath) and oSrcPath.lower().endswith(f".{oParams['BuildFileExtension']}"):
 			# 이전 빌드 결과가 존재 할 경우
 			if os.path.exists(oDestPath):
 				os.system(f"rm -rf \"{oDestPath}\"")

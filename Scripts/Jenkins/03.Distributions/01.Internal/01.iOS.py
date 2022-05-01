@@ -18,10 +18,10 @@ oParams = {
 	"Branch": sys.argv[14]
 }
 
-oSrcPath = f"{oParams["ProjPath"]}/{oParams["BuildOutputPath"]}"
-oDestPath = f"{oParams["ProjName"]}/{oParams["PipelineName"]}/{oParams["Branch"]}/{oParams["Platform"]}/{oParams["ProjName"]}_{oParams["Platform"]}_{oParams["BuildMode"]}_v{oParams["BuildVer"]}_{oParams["BuildNumber"]}.{oParams["BuildFileExtension"]}"
+oSrcPath = f"{oParams['ProjPath']}/{oParams['BuildOutputPath']}"
+oDestPath = f"{oParams['ProjName']}/{oParams['PipelineName']}/{oParams['Branch']}/{oParams['Platform']}/{oParams['ProjName']}_{oParams['Platform']}_{oParams['BuildMode']}_v{oParams['BuildVer']}_{oParams['BuildNumber']}.{oParams['BuildFileExtension']}"
 
-oDirPath = f"{oParams["ProjName"]}/{oParams["PipelineName"]}/{oParams["Branch"]}/{oParams["Platform"]}"
+oDirPath = f"{oParams['ProjName']}/{oParams['PipelineName']}/{oParams['Branch']}/{oParams['Platform']}"
 
 # 디렉토리가 없을 경우
 if not os.path.exists(oDirPath):

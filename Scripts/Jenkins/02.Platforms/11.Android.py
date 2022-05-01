@@ -18,12 +18,12 @@ oParams = {
 	"Branch": sys.argv[14]
 }
 
-oBuildOutputDirPath = f"{oParams["ProjPath"]}/{os.path.dirname(oParams["BuildOutputPath"])}"
+oBuildOutputDirPath = f"{oParams['ProjPath']}/{os.path.dirname(oParams['BuildOutputPath'])}"
 
 for oPath, oDirNames, oFileNames in os.walk(oBuildOutputDirPath):
 	for i, oFileName in enumerate(oFileNames):
 		oSrcPath = f"{oPath}/{oFileName}"
-		oDestPath = f"{oPath}/{oParams["Platform"]}BuildOutputSymbols.zip"
+		oDestPath = f"{oPath}/{oParams['Platform']}BuildOutputSymbols.zip"
 
 		# 심볼 결과가 존재 할 경우
 		if os.path.exists(oSrcPath) and oSrcPath.lower().endswith(".zip"):

@@ -19,6 +19,6 @@ oParams = {
 }
 
 oSrcPath = "Doxygen"
-oDestPath = f"{oParams["ProjName"]}_{oParams["Platform"]}_v{oParams["BuildVer"]}.zip"
+oDestPath = f"{oParams['ProjName']}_{oParams['Platform']}_v{oParams['BuildVer']}.zip"
 
 os.system(f"ditto -ck --rsrc --sequesterRsrc \"{oSrcPath}\" \"{oDestPath}\""

@@ -18,13 +18,13 @@ oParams = {
 	"Branch": sys.argv[14]
 }
 
-oBuildSrcPath = f"{oParams["ProjPath"]}/{oParams["BuildOutputPath"]}")
-oBuildDestPath = f"{oParams["ProjName"]}/{oParams["PipelineName"]}/{oParams["Branch"]}/{oParams["Platform"]}/{oParams["ProjName"]}_{oParams["Platform"]}_{oParams["BuildMode"]}_v{oParams["BuildVer"]}_{oParams["BuildNumber"]}.{oParams["BuildFileExtension"]}"
+oBuildSrcPath = f"{oParams['ProjPath']}/{oParams['BuildOutputPath']}")
+oBuildDestPath = f"{oParams['ProjName']}/{oParams['PipelineName']}/{oParams['Branch']}/{oParams['Platform']}/{oParams['ProjName']}_{oParams['Platform']}_{oParams['BuildMode']}_v{oParams['BuildVer']}_{oParams['BuildNumber']}.{oParams['BuildFileExtension']}"
 
-oSymbolsSrcPath = f"{oParams["ProjPath"]}/{os.path.dirname(oBuildOutputPath)}/{oParams["Platform"]}BuildOutputSymbols.zip"
-oSymbolsDestPath = f"{oParams["ProjName"]}/{oParams["PipelineName"]}/{oParams["Branch"]}/{oParams["Platform"]}/{oParams["ProjName"]}_{oParams["Platform"]}_{oParams["BuildMode"]}_v{oParams["BuildVer"]}_Symbols_{oParams["BuildNumber"]}.zip"
+oSymbolsSrcPath = f"{oParams['ProjPath']}/{os.path.dirname(oBuildOutputPath)}/{oParams['Platform']}BuildOutputSymbols.zip"
+oSymbolsDestPath = f"{oParams['ProjName']}/{oParams['PipelineName']}/{oParams['Branch']}/{oParams['Platform']}/{oParams['ProjName']}_{oParams['Platform']}_{oParams['BuildMode']}_v{oParams['BuildVer']}_Symbols_{oParams['BuildNumber']}.zip"
 
-oDirPath = f"{oParams["ProjName"]}/{oParams["PipelineName"]}/{oParams["Branch"]}/{oParams["Platform"]}"
+oDirPath = f"{oParams['ProjName']}/{oParams['PipelineName']}/{oParams['Branch']}/{oParams['Platform']}"
 
 # 디렉토리가 없을 경우
 if not os.path.exists(oDirPath):

@@ -18,7 +18,7 @@ oParams = {
 	"Branch": sys.argv[14]
 }
 
-oSrcPath = f"{oParams["ProjPath"]}/{os.path.dirname(oParams["BuildOutputPath"])}"
-oDestPath = f"{oParams["ProjPath"]}/{oParams["BuildOutputPath"]}"
+oSrcPath = f"{oParams['ProjPath']}/{os.path.dirname(oParams['BuildOutputPath'])}"
+oDestPath = f"{oParams['ProjPath']}/{oParams['BuildOutputPath']}"
 
 os.system(f"ditto -ck --rsrc --sequesterRsrc \"{oSrcPath}\" \"{oDestPath}\"")
