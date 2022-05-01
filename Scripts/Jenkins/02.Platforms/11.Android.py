@@ -1,17 +1,19 @@
 import os
 import sys
 
-oProjPath = sys.argv[1]
-oPlatform = sys.argv[2]
-oBuildOutputPath = sys.argv[3]
-oBuildFileExtension = sys.argv[4]
+oParams = {
+	"ProjPath": sys.argv[1],
+	"Platform": sys.argv[2],
+	"ProjPlatform": sys.argv[3],
+	"BuildFunc": sys.argv[4]
+}
 
-oBuildOutputDirPath = f"{oProjPath}/{os.path.dirname(oBuildOutputPath)}"
+oBuildOutputDirPath = f"{oParams["ProjPath"]}/{os.path.dirname(oParams["BuildOutputPath"])}"
 
 for oPath, oDirNames, oFileNames in os.walk(oBuildOutputDirPath):
 	for i, oFileName in enumerate(oFileNames):
 		oSrcPath = f"{oPath}/{oFileName}"
-		oDestPath = f"{oPath}/{oPlatform}BuildOutputSymbols.zip"
+		oDestPath = f"{oPath}/{oParams["Platform"]}BuildOutputSymbols.zip"
 
 		# 심볼 결과가 존재 할 경우
 		if os.path.exists(oSrcPath) and oSrcPath.lower().endswith(".zip"):
