@@ -19,7 +19,7 @@ oParams = {
 	"Branch": sys.argv[15]
 }
 
-oBuildSrcPath = f"{oParams['ProjPath']}/{oParams['BuildOutputPath']}")
+oBuildSrcPath = f"{oParams['ProjPath']}/{oParams['BuildOutputPath']}"
 oBuildDestPath = f"{oParams['ProjName']}/{oParams['PipelineName']}/{oParams['Branch']}/{oParams['Platform']}/{oParams['ProjName']}_{oParams['Platform']}_{oParams['BuildMode']}_v{oParams['BuildVer']}_{oParams['BuildNumber']}.{oParams['BuildFileExtension']}"
 
 oSymbolsSrcPath = f"{oParams['ProjPath']}/{os.path.dirname(oBuildOutputPath)}/{oParams['Platform']}BuildOutputSymbols.zip"
