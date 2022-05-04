@@ -32,4 +32,4 @@ for oPath, oDirNames, oFileNames in os.walk(oBuildOutputDirPath):
 			if os.path.exists(oDestPath):
 				os.system(f"rm -rf \"{oDestPath}\"")
 
-		os.system(f"mv \"{oSrcPath}\" \"{oDestPath}\"")
+			os.system(f"mv \"{oSrcPath}\" \"{oDestPath}\"")
