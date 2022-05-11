@@ -106,6 +106,11 @@ oSubmoduleInfos = [
 	},
 
 	{
+		"Name": ".Module.UnityCommonBackend",
+		"Path": f"{oProjName}/Packages",
+	},
+
+	{
 		"Name": ".Module.UnityCommonImporter",
 		"Path": f"{oProjName}/Packages"
 	},

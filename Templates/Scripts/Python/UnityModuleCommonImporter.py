@@ -99,6 +99,12 @@ oSubmoduleInfos = [
 		"Name": ".Module.UnityCommonNoti",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonnoti_client.git"
+	},
+
+	{
+		"Name": ".Module.UnityCommonBackend",
+		"Path": f"{oProjName}/Packages",
+		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonbackend_client.git"
 	}
 ]
 
