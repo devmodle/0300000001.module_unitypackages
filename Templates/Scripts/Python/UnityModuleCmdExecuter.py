@@ -106,7 +106,7 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".Module.UnityCommonBackend",
+		"Name": ".Module.UnityCommonPlayfab",
 		"Path": f"{oProjName}/Packages",
 	},
 

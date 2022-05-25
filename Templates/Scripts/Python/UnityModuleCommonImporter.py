@@ -102,9 +102,9 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".Module.UnityCommonBackend",
+		"Name": ".Module.UnityCommonPlayfab",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonbackend_client.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonplayfab_client.git"
 	}
 ]
 
