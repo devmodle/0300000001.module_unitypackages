@@ -1,7 +1,19 @@
 {
-	"Common": [
+	"Active": [
 	  {
-		"Description": "스킬 샘플",
+		"Description": "액티브 스킬 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillKinds": "0",
+		"PrevSkillKinds": "-1",
+		"NextSkillKinds": "-1",
+		"FXKinds_01": "-1"
+	  }
+	],
+	"Passive": [
+	  {
+		"Description": "액티브 스킬 샘플",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,

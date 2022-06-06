@@ -1,0 +1,35 @@
+{
+	"Stat": [
+	  {
+		"Description": "스탯 어빌리티 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"AbilityKinds": "0",
+		"PrevAbilityKinds": "-1",
+		"NextAbilityKinds": "-1"
+	  }
+	],
+	"Buff": [
+	  {
+		"Description": "버프 어빌리티 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"AbilityKinds": "0",
+		"PrevAbilityKinds": "-1",
+		"NextAbilityKinds": "-1"
+	  }
+	],
+	"Debuff": [
+	  {
+		"Description": "디버프 어빌리티 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"AbilityKinds": "0",
+		"PrevAbilityKinds": "-1",
+		"NextAbilityKinds": "-1"
+	  }
+	]
+  }
