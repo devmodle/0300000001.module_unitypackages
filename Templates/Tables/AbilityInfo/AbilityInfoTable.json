@@ -7,7 +7,9 @@
 		"Desc": null,
 		"AbilityKinds": "0",
 		"PrevAbilityKinds": "-1",
-		"NextAbilityKinds": "-1"
+		"NextAbilityKinds": "-1",
+		"ExtraAbilityKinds_01": "-1",
+		"Val": "0"
 	  }
 	],
 	"Buff": [
@@ -16,9 +18,11 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"AbilityKinds": "0",
+		"AbilityKinds": "10000000",
 		"PrevAbilityKinds": "-1",
-		"NextAbilityKinds": "-1"
+		"NextAbilityKinds": "-1",
+		"ExtraAbilityKinds_01": "-1",
+		"Val": "0"
 	  }
 	],
 	"Debuff": [
@@ -27,9 +31,24 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"AbilityKinds": "0",
+		"AbilityKinds": "20000000",
 		"PrevAbilityKinds": "-1",
-		"NextAbilityKinds": "-1"
+		"NextAbilityKinds": "-1",
+		"ExtraAbilityKinds_01": "-1",
+		"Val": "0"
+	  }
+	],
+	"Upgrade": [
+	  {
+		"Description": "업그레이드 어빌리티 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"AbilityKinds": "30000000",
+		"PrevAbilityKinds": "-1",
+		"NextAbilityKinds": "-1",
+		"ExtraAbilityKinds_01": "-1",
+		"Val": "0"
 	  }
 	]
   }

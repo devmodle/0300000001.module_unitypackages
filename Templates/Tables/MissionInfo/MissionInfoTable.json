@@ -8,7 +8,8 @@
 		"MissionKinds": "0",
 		"PrevMissionKinds": "-1",
 		"NextMissionKinds": "-1",
-		"RewardKinds": "-1"
+		"RewardKinds": "-1",
+		"Repeat": "0"
 	  }
 	],
 	"Daily": [
@@ -20,7 +21,8 @@
 		"MissionKinds": "10000000",
 		"PrevMissionKinds": "-1",
 		"NextMissionKinds": "-1",
-		"RewardKinds": "-1"
+		"RewardKinds": "-1",
+		"Repeat": "0"
 	  }
 	],
 	"Event": [
@@ -32,7 +34,8 @@
 		"MissionKinds": "20000000",
 		"PrevMissionKinds": "-1",
 		"NextMissionKinds": "-1",
-		"RewardKinds": "-1"
+		"RewardKinds": "-1",
+		"Repeat": "0"
 	  }
 	]
   }

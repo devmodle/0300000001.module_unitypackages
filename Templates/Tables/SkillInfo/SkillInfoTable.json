@@ -8,7 +8,12 @@
 		"SkillKinds": "0",
 		"PrevSkillKinds": "-1",
 		"NextSkillKinds": "-1",
-		"FXKinds_01": "-1"
+		"FXKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0",
+		"Delay": "0",
+		"DeltaTime": "0",
+		"Duration": "0"
 	  }
 	],
 	"Passive": [
@@ -20,7 +25,12 @@
 		"SkillKinds": "0",
 		"PrevSkillKinds": "-1",
 		"NextSkillKinds": "-1",
-		"FXKinds_01": "-1"
+		"FXKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0",
+		"Delay": "0",
+		"DeltaTime": "0",
+		"Duration": "0"
 	  }
 	]
   }

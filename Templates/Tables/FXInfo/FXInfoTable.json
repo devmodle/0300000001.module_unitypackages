@@ -1,8 +1,36 @@
 {
-	"Common": [
+	"Hit": [
 	  {
-		"Description": "효과 샘플",
+		"Description": "타격 효과 샘플",
 		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"FXKinds": "0",
+		"PrevFXKinds": "-1",
+		"NextFXKinds": "-1",
+		"FXResKinds": "-1",
+		"Delay": "0"
+	  }
+	],
+	"Buff": [
+	  {
+		"Description": "버프 효과 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"FXKinds": "0",
+		"PrevFXKinds": "-1",
+		"NextFXKinds": "-1",
+		"FXResKinds": "-1",
+		"Delay": "0"
+	  }
+	],
+	"Debuff": [
+	  {
+		"Description": "디버프 효과 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
 		"FXKinds": "0",
 		"PrevFXKinds": "-1",
 		"NextFXKinds": "-1",

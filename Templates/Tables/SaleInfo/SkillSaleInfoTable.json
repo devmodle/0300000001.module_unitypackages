@@ -1,0 +1,26 @@
+{
+	"Active": [
+	  {
+		"Description": "액티브 스킬 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillSaleKinds": "0",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"SkillKinds_01": "-1"
+	  }
+	],
+	"Passive": [
+	  {
+		"Description": "패시브 스킬 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillSaleKinds": "0",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"SkillKinds_01": "-1"
+	  }
+	]
+  }

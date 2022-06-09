@@ -3,6 +3,8 @@
 	  {
 		"Description": "플레이 튜토리얼 샘플",
 		"Replace": "0",
+		"Name": null,
+		"Desc": null,
 		"TutorialKinds": "0",
 		"PrevTutorialKinds": "-1",
 		"NextTutorialKinds": "-1",
@@ -14,6 +16,8 @@
 	  {
 		"Description": "도움말 튜토리얼 샘플",
 		"Replace": "0",
+		"Name": null,
+		"Desc": null,
 		"TutorialKinds": "10000000",
 		"PrevTutorialKinds": "-1",
 		"NextTutorialKinds": "-1",

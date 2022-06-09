@@ -48,5 +48,44 @@
 		"NumItems_01": "0",
 		"ItemKinds_01": "-1"
 	  }
+	],
+	"Weapon": [
+	  {
+		"Description": "무기 아이템 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemSaleKinds": "30000000",
+		"Price": "0",
+		"PriceKinds": "-1",
+		"NumItems_01": "0",
+		"ItemKinds_01": "-1"
+	  }
+	],
+	"Armor": [
+	  {
+		"Description": "방어구 아이템 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemSaleKinds": "40000000",
+		"Price": "0",
+		"PriceKinds": "-1",
+		"NumItems_01": "0",
+		"ItemKinds_01": "-1"
+	  }
+	],
+	"Accessory": [
+	  {
+		"Description": "악세서리 아이템 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemSaleKinds": "50000000",
+		"Price": "0",
+		"PriceKinds": "-1",
+		"NumItems_01": "0",
+		"ItemKinds_01": "-1"
+	  }
 	]
   }

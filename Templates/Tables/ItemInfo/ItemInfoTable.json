@@ -7,7 +7,10 @@
 		"Desc": null,
 		"ItemKinds": "0",
 		"PrevItemKinds": "-1",
-		"NextItemKinds": "-1"
+		"NextItemKinds": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0"
 	  }
 	],
 	"Consumable": [
@@ -18,7 +21,10 @@
 		"Desc": null,
 		"ItemKinds": "10010000",
 		"PrevItemKinds": "-1",
-		"NextItemKinds": "-1"
+		"NextItemKinds": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0"
 	  },
 	  {
 		"Description": "이어하기",
@@ -27,7 +33,10 @@
 		"Desc": null,
 		"ItemKinds": "10010100",
 		"PrevItemKinds": "-1",
-		"NextItemKinds": "-1"
+		"NextItemKinds": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0"
 	  }
 	],
 	"NonConsumable": [
@@ -38,7 +47,52 @@
 		"Desc": null,
 		"ItemKinds": "20000000",
 		"PrevItemKinds": "-1",
-		"NextItemKinds": "-1"
+		"NextItemKinds": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0"
+	  }
+	],
+	"Weapon": [
+	  {
+		"Description": "무기 아이템 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "30000000",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0"
+	  }
+	],
+	"Armor": [
+	  {
+		"Description": "방어구 아이템 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "40000000",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0"
+	  }
+	],
+	"Accessory": [
+	  {
+		"Description": "악세서리 아이템 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "50000000",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "0"
 	  }
 	]
   }

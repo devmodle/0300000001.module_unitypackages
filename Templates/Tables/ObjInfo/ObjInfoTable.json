@@ -10,8 +10,7 @@
 		"NextObjKinds": "-1",
 		"ObjResKinds": "-1",
 		"SizeX": "1",
-		"SizeY": "1",
-		"SizeZ": "1"
+		"SizeY": "1"
 	  }
 	],
 	"Norm": [
@@ -25,8 +24,7 @@
 		"NextObjKinds": "-1",
 		"ObjResKinds": "-1",
 		"SizeX": "1",
-		"SizeY": "1",
-		"SizeZ": "1"
+		"SizeY": "1"
 	  }
 	],
 	"Overlay": [
@@ -40,8 +38,35 @@
 		"NextObjKinds": "-1",
 		"ObjResKinds": "-1",
 		"SizeX": "1",
-		"SizeY": "1",
-		"SizeZ": "1"
+		"SizeY": "1"
+	  }
+	],
+	"Playable": [
+	  {
+		"Description": "플레이 가능 객체 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjKinds": "30000000",
+		"PrevObjKinds": "-1",
+		"NextObjKinds": "-1",
+		"ObjResKinds": "-1",
+		"SizeX": "1",
+		"SizeY": "1"
+	  }
+	],
+	"NonPlayable": [
+	  {
+		"Description": "플레이 불가능 객체 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjKinds": "40000000",
+		"PrevObjKinds": "-1",
+		"NextObjKinds": "-1",
+		"ObjResKinds": "-1",
+		"SizeX": "1",
+		"SizeY": "1"
 	  }
 	]
   }
