@@ -7,8 +7,8 @@
 		"Desc": null,
 		"RewardKinds": "0",
 		"RewardQuality": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Daily": [
@@ -19,8 +19,8 @@
 		"Desc": null,
 		"RewardKinds": "10000000",
 		"RewardQuality": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Event": [
@@ -31,8 +31,8 @@
 		"Desc": null,
 		"RewardKinds": "20000000",
 		"RewardQuality": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Clear": [
@@ -43,8 +43,8 @@
 		"Desc": null,
 		"RewardKinds": "30000000",
 		"RewardQuality": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Mission": [
@@ -55,8 +55,8 @@
 		"Desc": null,
 		"RewardKinds": "40000000",
 		"RewardQuality": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Tutorial": [
@@ -67,8 +67,8 @@
 		"Desc": null,
 		"RewardKinds": "50000000",
 		"RewardQuality": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	]
   }

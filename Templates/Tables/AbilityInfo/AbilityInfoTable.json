@@ -9,7 +9,8 @@
 		"PrevAbilityKinds": "-1",
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
-		"Val": "0"
+		"Val": "0",
+		"ExtraVal": "0"
 	  }
 	],
 	"Buff": [
@@ -22,7 +23,8 @@
 		"PrevAbilityKinds": "-1",
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
-		"Val": "0"
+		"Val": "0",
+		"ExtraVal": "0"
 	  }
 	],
 	"Debuff": [
@@ -35,7 +37,8 @@
 		"PrevAbilityKinds": "-1",
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
-		"Val": "0"
+		"Val": "0",
+		"ExtraVal": "0"
 	  }
 	],
 	"Upgrade": [
@@ -48,7 +51,8 @@
 		"PrevAbilityKinds": "-1",
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
-		"Val": "0"
+		"Val": "0",
+		"ExtraVal": "0"
 	  }
 	]
   }

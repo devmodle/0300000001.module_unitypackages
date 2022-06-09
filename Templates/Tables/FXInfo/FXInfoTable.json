@@ -8,8 +8,10 @@
 		"FXKinds": "0",
 		"PrevFXKinds": "-1",
 		"NextFXKinds": "-1",
-		"FXResKinds": "-1",
-		"Delay": "0"
+		"ResKinds_01": "-1",
+		"Delay": "0",
+		"DeltaTime": "0",
+		"Duration": "0"
 	  }
 	],
 	"Buff": [
@@ -18,11 +20,13 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"FXKinds": "0",
+		"FXKinds": "10000000",
 		"PrevFXKinds": "-1",
 		"NextFXKinds": "-1",
-		"FXResKinds": "-1",
-		"Delay": "0"
+		"ResKinds_01": "-1",
+		"Delay": "0",
+		"DeltaTime": "0",
+		"Duration": "0"
 	  }
 	],
 	"Debuff": [
@@ -31,11 +35,13 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"FXKinds": "0",
+		"FXKinds": "20000000",
 		"PrevFXKinds": "-1",
 		"NextFXKinds": "-1",
-		"FXResKinds": "-1",
-		"Delay": "0"
+		"ResKinds_01": "-1",
+		"Delay": "0",
+		"DeltaTime": "0",
+		"Duration": "0"
 	  }
 	]
   }

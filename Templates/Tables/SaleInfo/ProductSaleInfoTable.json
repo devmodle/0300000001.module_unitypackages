@@ -7,10 +7,10 @@
 		"Desc": null,
 		"ID": "0",
 		"ProductSaleKinds": "0",
-		"Price": "0",
-		"PriceKinds": "20000000",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "20000000",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  },
 	  {
 		"Description": "숙련자 패키지",
@@ -19,10 +19,10 @@
 		"Desc": null,
 		"ID": "1",
 		"ProductSaleKinds": "100",
-		"Price": "0",
-		"PriceKinds": "20000000",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "20000000",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  },
 	  {
 		"Description": "전문가 패키지",
@@ -31,10 +31,10 @@
 		"Desc": null,
 		"ID": "2",
 		"ProductSaleKinds": "200",
-		"Price": "0",
-		"PriceKinds": "20000000",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "20000000",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Single": [
@@ -45,10 +45,10 @@
 		"Desc": null,
 		"ID": "3",
 		"ProductSaleKinds": "10000000",
-		"Price": "0",
-		"PriceKinds": "20000000",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "20000000",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  },
 	  {
 		"Description": "광고 제거",
@@ -57,10 +57,10 @@
 		"Desc": null,
 		"ID": "4",
 		"ProductSaleKinds": "10010000",
-		"Price": "0",
-		"PriceKinds": "20000000",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "20000000",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	]
   }

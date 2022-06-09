@@ -6,10 +6,10 @@
 		"Name": null,
 		"Desc": null,
 		"ItemSaleKinds": "0",
-		"Price": "0",
-		"PriceKinds": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Consumable": [
@@ -19,10 +19,10 @@
 		"Name": null,
 		"Desc": null,
 		"ItemSaleKinds": "10010000",
-		"Price": "0",
-		"PriceKinds": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  },
 	  {
 		"Description": "이어하기",
@@ -30,10 +30,10 @@
 		"Name": null,
 		"Desc": null,
 		"ItemSaleKinds": "10010100",
-		"Price": "0",
-		"PriceKinds": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"NonConsumable": [
@@ -43,10 +43,10 @@
 		"Name": null,
 		"Desc": null,
 		"ItemSaleKinds": "20000000",
-		"Price": "0",
-		"PriceKinds": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Weapon": [
@@ -56,10 +56,10 @@
 		"Name": null,
 		"Desc": null,
 		"ItemSaleKinds": "30000000",
-		"Price": "0",
-		"PriceKinds": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Armor": [
@@ -69,10 +69,10 @@
 		"Name": null,
 		"Desc": null,
 		"ItemSaleKinds": "40000000",
-		"Price": "0",
-		"PriceKinds": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	],
 	"Accessory": [
@@ -82,10 +82,10 @@
 		"Name": null,
 		"Desc": null,
 		"ItemSaleKinds": "50000000",
-		"Price": "0",
-		"PriceKinds": "-1",
-		"NumItems_01": "0",
-		"ItemKinds_01": "-1"
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ItemKinds_01": "-1",
+		"NumItems_01": "0"
 	  }
 	]
   }

@@ -17,7 +17,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"SkillSaleKinds": "0",
+		"SkillSaleKinds": "10000000",
 		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"SkillKinds_01": "-1"

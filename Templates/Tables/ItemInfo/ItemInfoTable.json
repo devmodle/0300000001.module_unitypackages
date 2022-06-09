@@ -10,7 +10,7 @@
 		"NextItemKinds": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AbilityLV_01": "1"
 	  }
 	],
 	"Consumable": [
@@ -24,7 +24,7 @@
 		"NextItemKinds": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AbilityLV_01": "1"
 	  },
 	  {
 		"Description": "이어하기",
@@ -36,7 +36,7 @@
 		"NextItemKinds": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AbilityLV_01": "1"
 	  }
 	],
 	"NonConsumable": [
@@ -50,7 +50,7 @@
 		"NextItemKinds": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AbilityLV_01": "1"
 	  }
 	],
 	"Weapon": [
@@ -64,7 +64,7 @@
 		"NextItemKinds": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AbilityLV_01": "1"
 	  }
 	],
 	"Armor": [
@@ -78,7 +78,7 @@
 		"NextItemKinds": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AbilityLV_01": "1"
 	  }
 	],
 	"Accessory": [
@@ -92,7 +92,7 @@
 		"NextItemKinds": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AbilityLV_01": "1"
 	  }
 	]
   }

@@ -1,0 +1,62 @@
+{
+	"BG": [
+	  {
+		"Description": "배경 객체 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjSaleKinds": "0",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ObjKinds_01": "-1"
+	  }
+	],
+	"Norm": [
+	  {
+		"Description": "일반 객체 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjSaleKinds": "10000000",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ObjKinds_01": "-1"
+	  }
+	],
+	"Overlay": [
+	  {
+		"Description": "중첩 객체 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjSaleKinds": "20000000",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ObjKinds_01": "-1"
+	  }
+	],
+	"Playable": [
+	  {
+		"Description": "플레이 가능 객체 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjSaleKinds": "30000000",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ObjKinds_01": "-1"
+	  }
+	],
+	"NonPlayable": [
+	  {
+		"Description": "플레이 불가능 객체 판매 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjSaleKinds": "40000000",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ObjKinds_01": "-1"
+	  }
+	]
+  }
