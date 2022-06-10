@@ -8,6 +8,7 @@
 		"ItemKinds": "0",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
 		"AbilityLV_01": "1"
@@ -22,6 +23,7 @@
 		"ItemKinds": "10010000",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
 		"AbilityLV_01": "1"
@@ -34,6 +36,7 @@
 		"ItemKinds": "10010100",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
 		"AbilityLV_01": "1"
@@ -48,6 +51,7 @@
 		"ItemKinds": "20000000",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
 		"AbilityLV_01": "1"
@@ -62,6 +66,7 @@
 		"ItemKinds": "30000000",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
 		"AbilityLV_01": "1"
@@ -76,6 +81,7 @@
 		"ItemKinds": "40000000",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
 		"AbilityLV_01": "1"
@@ -90,6 +96,22 @@
 		"ItemKinds": "50000000",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
+		"SkillKinds_01": "-1",
+		"AbilityKinds_01": "-1",
+		"AbilityLV_01": "1"
+	  }
+	],
+	"Attachments": [
+	  {
+		"Description": "장식 아이템 샘플",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "60000000",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "-1",
+		"AttachmentsItemKinds_01": "-1",
 		"SkillKinds_01": "-1",
 		"AbilityKinds_01": "-1",
 		"AbilityLV_01": "1"
