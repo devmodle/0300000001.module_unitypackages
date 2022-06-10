@@ -7,7 +7,7 @@
 		"Desc": null,
 		"ID": "0",
 		"ProductSaleKinds": "0",
-		"PriceKinds_01": "20000000",
+		"PriceKinds_01": "200000000",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -19,7 +19,7 @@
 		"Desc": null,
 		"ID": "1",
 		"ProductSaleKinds": "100",
-		"PriceKinds_01": "20000000",
+		"PriceKinds_01": "200000000",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -31,7 +31,7 @@
 		"Desc": null,
 		"ID": "2",
 		"ProductSaleKinds": "200",
-		"PriceKinds_01": "20000000",
+		"PriceKinds_01": "200000000",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -44,8 +44,8 @@
 		"Name": "C_COINS_BOX_TEXT",
 		"Desc": null,
 		"ID": "3",
-		"ProductSaleKinds": "10000000",
-		"PriceKinds_01": "20000000",
+		"ProductSaleKinds": "100000000",
+		"PriceKinds_01": "200000000",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -56,8 +56,8 @@
 		"Name": "C_REMOVE_ADS_TEXT",
 		"Desc": null,
 		"ID": "4",
-		"ProductSaleKinds": "10010000",
-		"PriceKinds_01": "20000000",
+		"ProductSaleKinds": "100100000",
+		"PriceKinds_01": "200000000",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"

@@ -22,7 +22,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"SkillKinds": "10000000",
+		"SkillKinds": "100000000",
 		"PrevSkillKinds": "-1",
 		"NextSkillKinds": "-1",
 		"FXKinds_01": "-1",

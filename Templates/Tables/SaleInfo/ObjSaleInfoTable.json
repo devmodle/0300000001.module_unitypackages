@@ -17,7 +17,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjSaleKinds": "10000000",
+		"ObjSaleKinds": "100000000",
 		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
@@ -29,7 +29,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjSaleKinds": "20000000",
+		"ObjSaleKinds": "200000000",
 		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
@@ -41,7 +41,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjSaleKinds": "30000000",
+		"ObjSaleKinds": "300000000",
 		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
@@ -53,7 +53,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjSaleKinds": "40000000",
+		"ObjSaleKinds": "400000000",
 		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"

@@ -17,7 +17,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"RewardKinds": "10000000",
+		"RewardKinds": "100000000",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -29,7 +29,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"RewardKinds": "20000000",
+		"RewardKinds": "200000000",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -41,7 +41,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"RewardKinds": "30000000",
+		"RewardKinds": "300000000",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -53,7 +53,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"RewardKinds": "40000000",
+		"RewardKinds": "400000000",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -65,7 +65,7 @@
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
-		"RewardKinds": "50000000",
+		"RewardKinds": "500000000",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"

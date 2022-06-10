@@ -24,28 +24,28 @@
 	  {
 		"Description": "터치 시작 효과음",
 		"Replace": "0",
-		"ResKinds": "10000",
+		"ResKinds": "100000",
 		"Rate": "1",
 		"ResPath": "Sounds/Global/G_SFX_TouchBegin"
 	  },
 	  {
 		"Description": "터치 종료 효과음",
 		"Replace": "0",
-		"ResKinds": "10100",
+		"ResKinds": "100100",
 		"Rate": "1",
 		"ResPath": "Sounds/Global/G_SFX_TouchEnd"
 	  },
 	  {
 		"Description": "팝업 출력 효과음",
 		"Replace": "0",
-		"ResKinds": "20000",
+		"ResKinds": "200000",
 		"Rate": "1",
 		"ResPath": "Sounds/Global/G_SFX_PopupShow"
 	  },
 	  {
 		"Description": "팝업 닫힘 효과음",
 		"Replace": "0",
-		"ResKinds": "20100",
+		"ResKinds": "200100",
 		"Rate": "1",
 		"ResPath": "Sounds/Global/G_SFX_PopupClose"
 	  }
@@ -54,14 +54,14 @@
 	  {
 		"Description": "한국어",
 		"Replace": "0",
-		"ResKinds": "10000000",
+		"ResKinds": "100000000",
 		"Rate": "0",
 		"ResPath": "Fonts/Global/G_KoreanFont"
 	  },
 	  {
 		"Description": "영어",
 		"Replace": "0",
-		"ResKinds": "10010000",
+		"ResKinds": "100100000",
 		"Rate": "0",
 		"ResPath": "Fonts/Global/G_EnglishFont"
 	  }
@@ -70,28 +70,28 @@
 	  {
 		"Description": "기본 스프라이트",
 		"Replace": "0",
-		"ResKinds": "20000000",
+		"ResKinds": "200000000",
 		"Rate": "0",
 		"ResPath": null
 	  },
 	  {
 		"Description": "흰색",
 		"Replace": "0",
-		"ResKinds": "20000001",
+		"ResKinds": "200000001",
 		"Rate": "1",
 		"ResPath": "U_SA_01_White"
 	  },
 	  {
 		"Description": "스플래시",
 		"Replace": "0",
-		"ResKinds": "20000002",
+		"ResKinds": "200000002",
 		"Rate": "1",
 		"ResPath": "U_SA_01_Splash"
 	  },
 	  {
 		"Description": "인디케이터",
 		"Replace": "0",
-		"ResKinds": "20000003",
+		"ResKinds": "200000003",
 		"Rate": "1",
 		"ResPath": "U_SA_01_Indicator"
 	  }
@@ -100,28 +100,28 @@
 	  {
 		"Description": "기본 텍스처",
 		"Replace": "0",
-		"ResKinds": "30000000",
+		"ResKinds": "300000000",
 		"Rate": "0",
 		"ResPath": null
 	  },
 	  {
 		"Description": "흰색",
 		"Replace": "0",
-		"ResKinds": "30000001",
+		"ResKinds": "300000001",
 		"Rate": "1",
 		"ResPath": "Images/U_SpriteAtlas_01/U_SA_01_White"
 	  },
 	  {
 		"Description": "스플래시",
 		"Replace": "0",
-		"ResKinds": "30000002",
+		"ResKinds": "300000002",
 		"Rate": "1",
 		"ResPath": "Images/U_SpriteAtlas_01/U_SA_01_Splash"
 	  },
 	  {
 		"Description": "인디케이터",
 		"Replace": "0",
-		"ResKinds": "30000003",
+		"ResKinds": "300000003",
 		"Rate": "1",
 		"ResPath": "Images/U_SpriteAtlas_01/U_SA_01_Indicator"
 	  }
