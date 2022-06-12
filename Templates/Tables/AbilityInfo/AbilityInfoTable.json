@@ -10,7 +10,8 @@
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
 		"Val": "0",
-		"ExtraVal": "0"
+		"ExtraVal": "0",
+		"ValType": "0"
 	  }
 	],
 	"Buff": [
@@ -24,7 +25,8 @@
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
 		"Val": "0",
-		"ExtraVal": "0"
+		"ExtraVal": "0",
+		"ValType": "0"
 	  }
 	],
 	"Debuff": [
@@ -38,7 +40,8 @@
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
 		"Val": "0",
-		"ExtraVal": "0"
+		"ExtraVal": "0",
+		"ValType": "0"
 	  }
 	],
 	"Upgrade": [
@@ -52,7 +55,8 @@
 		"NextAbilityKinds": "-1",
 		"ExtraAbilityKinds_01": "-1",
 		"Val": "0",
-		"ExtraVal": "0"
+		"ExtraVal": "0",
+		"ValType": "0"
 	  }
 	]
   }
