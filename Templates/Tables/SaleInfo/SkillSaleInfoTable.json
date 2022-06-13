@@ -2,10 +2,17 @@
 	"Active": [
 	  {
 		"Description": "액티브 스킬 판매 샘플",
+		"Type": "0",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"SkillSaleKinds": "0",
+		"PrevSkillSaleKinds": "-1",
+		"NextSkillSaleKinds": "1",
 		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"SkillKinds_01": "-1"
@@ -14,10 +21,17 @@
 	"Passive": [
 	  {
 		"Description": "패시브 스킬 판매 샘플",
+		"Type": "1",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"SkillSaleKinds": "100000000",
+		"PrevSkillSaleKinds": "99999999",
+		"NextSkillSaleKinds": "100000001",
 		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"SkillKinds_01": "-1"

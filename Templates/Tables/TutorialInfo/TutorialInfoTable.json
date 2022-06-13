@@ -2,26 +2,36 @@
 	"Play": [
 	  {
 		"Description": "플레이 튜토리얼 샘플",
+		"Type": "0",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"TutorialKinds": "0",
 		"PrevTutorialKinds": "-1",
-		"NextTutorialKinds": "-1",
-		"RewardKinds": "-1",
+		"NextTutorialKinds": "1",
+		"RewardKinds_01": "-1",
 		"Str_01": null
 	  }
 	],
 	"Help": [
 	  {
 		"Description": "도움말 튜토리얼 샘플",
+		"Type": "1",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"TutorialKinds": "100000000",
-		"PrevTutorialKinds": "-1",
-		"NextTutorialKinds": "-1",
-		"RewardKinds": "-1",
+		"PrevTutorialKinds": "99999999",
+		"NextTutorialKinds": "100000001",
+		"RewardKinds_01": "-1",
 		"Str_01": null
 	  }
 	]

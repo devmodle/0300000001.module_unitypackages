@@ -2,10 +2,17 @@
 	"Free": [
 	  {
 		"Description": "자유 보상 샘플",
+		"Type": "0",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"RewardKinds": "0",
+		"PrevRewardKinds": "-1",
+		"NextRewardKinds": "1",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -14,10 +21,17 @@
 	"Daily": [
 	  {
 		"Description": "일일 보상 샘플",
+		"Type": "1",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"RewardKinds": "100000000",
+		"PrevRewardKinds": "99999999",
+		"NextRewardKinds": "100000001",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -26,10 +40,17 @@
 	"Event": [
 	  {
 		"Description": "이벤트 보상 샘플",
+		"Type": "2",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"RewardKinds": "200000000",
+		"PrevRewardKinds": "199999999",
+		"NextRewardKinds": "200000001",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -38,10 +59,17 @@
 	"Clear": [
 	  {
 		"Description": "클리어 보상 샘플",
+		"Type": "3",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"RewardKinds": "300000000",
+		"PrevRewardKinds": "299999999",
+		"NextRewardKinds": "300000001",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -50,10 +78,17 @@
 	"Mission": [
 	  {
 		"Description": "미션 보상 샘플",
+		"Type": "4",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"RewardKinds": "400000000",
+		"PrevRewardKinds": "399999999",
+		"NextRewardKinds": "400000001",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -62,10 +97,17 @@
 	"Tutorial": [
 	  {
 		"Description": "튜토리얼 보상 샘플",
+		"Type": "5",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
 		"Replace": "0",
 		"Name": null,
 		"Desc": null,
 		"RewardKinds": "500000000",
+		"PrevRewardKinds": "499999999",
+		"NextRewardKinds": "500000001",
 		"RewardQuality": "-1",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
