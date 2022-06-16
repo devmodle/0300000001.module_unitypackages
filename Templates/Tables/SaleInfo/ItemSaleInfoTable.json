@@ -13,7 +13,8 @@
 		"ItemSaleKinds": "0",
 		"PrevItemSaleKinds": "-1",
 		"NextItemSaleKinds": "1",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "-1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -33,7 +34,8 @@
 		"ItemSaleKinds": "100000000",
 		"PrevItemSaleKinds": "99999999",
 		"NextItemSaleKinds": "100000001",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "2",
+		"Kinds_01": "0",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -51,7 +53,8 @@
 		"ItemSaleKinds": "100100100",
 		"PrevItemSaleKinds": "100100099",
 		"NextItemSaleKinds": "100100101",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "2",
+		"Kinds_01": "0",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -71,7 +74,8 @@
 		"ItemSaleKinds": "200000000",
 		"PrevItemSaleKinds": "199999999",
 		"NextItemSaleKinds": "200000001",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "-1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -91,7 +95,8 @@
 		"ItemSaleKinds": "300000000",
 		"PrevItemSaleKinds": "299999999",
 		"NextItemSaleKinds": "300000001",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "-1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -111,7 +116,8 @@
 		"ItemSaleKinds": "400000000",
 		"PrevItemSaleKinds": "399999999",
 		"NextItemSaleKinds": "400000001",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "-1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -131,7 +137,8 @@
 		"ItemSaleKinds": "500000000",
 		"PrevItemSaleKinds": "499999999",
 		"NextItemSaleKinds": "500000001",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "-1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -151,7 +158,8 @@
 		"ItemSaleKinds": "600000000",
 		"PrevItemSaleKinds": "599999999",
 		"NextItemSaleKinds": "600000001",
-		"PriceKinds_01": "-1",
+		"PriceType_01": "-1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"

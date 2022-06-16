@@ -14,7 +14,8 @@
 		"ProductSaleKinds": "0",
 		"PrevProductSaleKinds": "-1",
 		"NextProductSaleKinds": "1",
-		"PriceKinds_01": "200000000",
+		"PriceType_01": "1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -33,7 +34,8 @@
 		"ProductSaleKinds": "100",
 		"PrevProductSaleKinds": "99",
 		"NextProductSaleKinds": "101",
-		"PriceKinds_01": "200000000",
+		"PriceType_01": "1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -52,7 +54,8 @@
 		"ProductSaleKinds": "200",
 		"PrevProductSaleKinds": "199",
 		"NextProductSaleKinds": "201",
-		"PriceKinds_01": "200000000",
+		"PriceType_01": "1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -73,7 +76,8 @@
 		"ProductSaleKinds": "100000000",
 		"PrevProductSaleKinds": "99999999",
 		"NextProductSaleKinds": "100000001",
-		"PriceKinds_01": "200000000",
+		"PriceType_01": "1",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
@@ -92,7 +96,8 @@
 		"ProductSaleKinds": "100100000",
 		"PrevProductSaleKinds": "100099999",
 		"NextProductSaleKinds": "100100001",
-		"PriceKinds_01": "200000000",
+		"PriceType_01": "0",
+		"Kinds_01": "-1",
 		"Price_01": "0",
 		"ItemKinds_01": "-1",
 		"NumItems_01": "0"
