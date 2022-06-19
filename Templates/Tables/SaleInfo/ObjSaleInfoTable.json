@@ -14,7 +14,7 @@
 		"PrevObjSaleKinds": "-1",
 		"NextObjSaleKinds": "1",
 		"PriceType_01": "-1",
-		"Kinds_01": "-1",
+		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
 	  }
@@ -34,7 +34,7 @@
 		"PrevObjSaleKinds": "99999999",
 		"NextObjSaleKinds": "100000001",
 		"PriceType_01": "-1",
-		"Kinds_01": "-1",
+		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
 	  }
@@ -54,7 +54,7 @@
 		"PrevObjSaleKinds": "199999999",
 		"NextObjSaleKinds": "200000001",
 		"PriceType_01": "-1",
-		"Kinds_01": "-1",
+		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
 	  }
@@ -74,7 +74,7 @@
 		"PrevObjSaleKinds": "299999999",
 		"NextObjSaleKinds": "300000001",
 		"PriceType_01": "-1",
-		"Kinds_01": "-1",
+		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
 	  }
@@ -94,7 +94,7 @@
 		"PrevObjSaleKinds": "399999999",
 		"NextObjSaleKinds": "400000001",
 		"PriceType_01": "-1",
-		"Kinds_01": "-1",
+		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
 	  }

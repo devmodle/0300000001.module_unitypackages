@@ -14,7 +14,7 @@
 		"PrevSkillSaleKinds": "-1",
 		"NextSkillSaleKinds": "1",
 		"PriceType_01": "-1",
-		"Kinds_01": "-1",
+		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"SkillKinds_01": "-1"
 	  }
@@ -34,7 +34,7 @@
 		"PrevSkillSaleKinds": "99999999",
 		"NextSkillSaleKinds": "100000001",
 		"PriceType_01": "-1",
-		"Kinds_01": "-1",
+		"PriceKinds_01": "-1",
 		"Price_01": "0",
 		"SkillKinds_01": "-1"
 	  }
