@@ -98,5 +98,25 @@
 		"Price_01": "0",
 		"ObjKinds_01": "-1"
 	  }
+	],
+	"Enemy": [
+	  {
+		"Description": "적 객체 판매 샘플",
+		"Type": "5",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjSaleKinds": "500000000",
+		"PrevObjSaleKinds": "499999999",
+		"NextObjSaleKinds": "500000001",
+		"PriceType_01": "-1",
+		"PriceKinds_01": "-1",
+		"Price_01": "0",
+		"ObjKinds_01": "-1"
+	  }
 	]
   }

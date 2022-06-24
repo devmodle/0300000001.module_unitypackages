@@ -108,5 +108,27 @@
 		"SizeX": "1",
 		"SizeY": "1"
 	  }
+	],
+	"Enemy": [
+	  {
+		"Description": "적 객체 샘플",
+		"Type": "5",
+		"SubType": "0",
+		"KindsType": "0",
+		"SubKindsType": "0",
+		"DetailSubKindsType": "0",
+		"Replace": "0",
+		"Name": null,
+		"Desc": null,
+		"ObjKinds": "500000000",
+		"PrevObjKinds": "499999999",
+		"NextObjKinds": "500000001",
+		"ResKinds_01": "-1",
+		"EquipmentsItemKinds_01": "-1",
+		"AbilityKinds_01": "1",
+		"AbilityLV_01": "1",
+		"SizeX": "1",
+		"SizeY": "1"
+	  }
 	]
   }
