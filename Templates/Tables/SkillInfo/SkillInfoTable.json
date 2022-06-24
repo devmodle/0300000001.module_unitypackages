@@ -15,7 +15,7 @@
 		"NextSkillKinds": "1",
 		"FXKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0",
+		"AbilityLV_01": "1",
 		"Delay": "0",
 		"DeltaTime": "0",
 		"Duration": "0"
@@ -23,7 +23,7 @@
 	],
 	"Passive": [
 	  {
-		"Description": "액티브 스킬 샘플",
+		"Description": "패시브 스킬 샘플",
 		"Type": "1",
 		"SubType": "0",
 		"KindsType": "0",
@@ -37,7 +37,7 @@
 		"NextSkillKinds": "100000001",
 		"FXKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0",
+		"AbilityLV_01": "1",
 		"Delay": "0",
 		"DeltaTime": "0",
 		"Duration": "0"
