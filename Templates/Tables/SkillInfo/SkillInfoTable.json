@@ -15,7 +15,7 @@
 		"NextSkillKinds": "1",
 		"FXKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"Delay": "0",
 		"DeltaTime": "0",
 		"Duration": "0"
@@ -37,7 +37,7 @@
 		"NextSkillKinds": "100000001",
 		"FXKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"Delay": "0",
 		"DeltaTime": "0",
 		"Duration": "0"

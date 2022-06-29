@@ -16,7 +16,7 @@
 		"ResKinds_01": "-1",
 		"EquipmentsItemKinds_01": "-1",
 		"AbilityKinds_01": "1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"SizeX": "1",
 		"SizeY": "1"
 	  }
@@ -38,7 +38,7 @@
 		"ResKinds_01": "-1",
 		"EquipmentsItemKinds_01": "-1",
 		"AbilityKinds_01": "1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"SizeX": "1",
 		"SizeY": "1"
 	  }
@@ -60,7 +60,7 @@
 		"ResKinds_01": "-1",
 		"EquipmentsItemKinds_01": "-1",
 		"AbilityKinds_01": "1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"SizeX": "1",
 		"SizeY": "1"
 	  }
@@ -82,7 +82,7 @@
 		"ResKinds_01": "-1",
 		"EquipmentsItemKinds_01": "-1",
 		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"SizeX": "1",
 		"SizeY": "1"
 	  }
@@ -104,7 +104,7 @@
 		"ResKinds_01": "-1",
 		"EquipmentsItemKinds_01": "-1",
 		"AbilityKinds_01": "1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"SizeX": "1",
 		"SizeY": "1"
 	  }
@@ -126,7 +126,7 @@
 		"ResKinds_01": "-1",
 		"EquipmentsItemKinds_01": "-1",
 		"AbilityKinds_01": "1",
-		"AbilityLV_01": "1",
+		"AbilityLV_01": "0",
 		"SizeX": "1",
 		"SizeY": "1"
 	  }
