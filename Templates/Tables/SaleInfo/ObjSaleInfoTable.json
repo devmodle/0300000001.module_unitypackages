@@ -8,15 +8,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjKinds": "0",
-		"PrevObjKinds": "-1",
-		"NextObjKinds": "1",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"ObjKinds_01": "-1"
+		"ObjSaleKinds": "0",
+		"PrevObjSaleKinds": "-1",
+		"NextObjSaleKinds": "1",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	],
 	"Norm": [
@@ -28,15 +31,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjKinds": "100000000",
-		"PrevObjKinds": "99999999",
-		"NextObjKinds": "100000001",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"ObjKinds_01": "-1"
+		"ObjSaleKinds": "100000000",
+		"PrevObjSaleKinds": "99999999",
+		"NextObjSaleKinds": "100000001",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	],
 	"Overlay": [
@@ -48,15 +54,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjKinds": "200000000",
-		"PrevObjKinds": "199999999",
-		"NextObjKinds": "200000001",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"ObjKinds_01": "-1"
+		"ObjSaleKinds": "200000000",
+		"PrevObjSaleKinds": "199999999",
+		"NextObjSaleKinds": "200000001",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	],
 	"Playable": [
@@ -68,15 +77,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjKinds": "300000000",
-		"PrevObjKinds": "299999999",
-		"NextObjKinds": "300000001",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"ObjKinds_01": "-1"
+		"ObjSaleKinds": "300000000",
+		"PrevObjSaleKinds": "299999999",
+		"NextObjSaleKinds": "300000001",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	],
 	"NonPlayable": [
@@ -88,15 +100,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjKinds": "400000000",
-		"PrevObjKinds": "399999999",
-		"NextObjKinds": "400000001",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"ObjKinds_01": "-1"
+		"ObjSaleKinds": "400000000",
+		"PrevObjSaleKinds": "399999999",
+		"NextObjSaleKinds": "400000001",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	],
 	"Enemy": [
@@ -108,15 +123,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"ObjKinds": "500000000",
-		"PrevObjKinds": "499999999",
-		"NextObjKinds": "500000001",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"ObjKinds_01": "-1"
+		"ObjSaleKinds": "500000000",
+		"PrevObjSaleKinds": "499999999",
+		"NextObjSaleKinds": "500000001",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	]
   }

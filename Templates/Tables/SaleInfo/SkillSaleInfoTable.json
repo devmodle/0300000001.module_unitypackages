@@ -8,15 +8,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"SkillKinds": "0",
-		"PrevSkillKinds": "-1",
-		"NextSkillKinds": "1",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"SkillKinds_01": "-1"
+		"SkillSaleKinds": "0",
+		"PrevSkillSaleKinds": "-1",
+		"NextSkillSaleKinds": "1",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	],
 	"Passive": [
@@ -28,15 +31,18 @@
 		"SubKindsType": "0",
 		"DetailSubKindsType": "0",
 		"Replace": "0",
+		"Repeat": "0",
 		"Name": null,
 		"Desc": null,
-		"SkillKinds": "100000000",
-		"PrevSkillKinds": "99999999",
-		"NextSkillKinds": "100000001",
-		"PriceType_01": "-1",
-		"PriceKinds_01": "-1",
-		"Price_01": "0",
-		"SkillKinds_01": "-1"
+		"SkillSaleKinds": "100000000",
+		"PrevSkillSaleKinds": "99999999",
+		"NextSkillSaleKinds": "100000001",
+		"PayTargetKinds_01": "-1",
+		"PayKinds_01": "-1",
+		"PayTarget_01": "0",
+		"AcquireTargetKinds_01": "-1",
+		"AcquireKinds_01": "-1",
+		"AcquireTarget_01": "0"
 	  }
 	]
   }
