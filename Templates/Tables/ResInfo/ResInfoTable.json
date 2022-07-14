@@ -15,7 +15,7 @@
 		"PrevResKinds": "-1",
 		"NextResKinds": "1",
 		"Rate": "1",
-		"ResPath": "Sounds/Global/G_BGM_TitleScene"
+		"ResPath": "Sounds\\Global\\G_BGM_TitleScene"
 	  },
 	  {
 		"Description": "메인 씬 배경음",
@@ -32,7 +32,7 @@
 		"PrevResKinds": "99",
 		"NextResKinds": "101",
 		"Rate": "1",
-		"ResPath": "Sounds/Global/G_BGM_MainScene"
+		"ResPath": "Sounds\\Global\\G_BGM_MainScene"
 	  },
 	  {
 		"Description": "게임 씬 배경음",
@@ -49,7 +49,7 @@
 		"PrevResKinds": "199",
 		"NextResKinds": "201",
 		"Rate": "1",
-		"ResPath": "Sounds/Global/G_BGM_GameScene"
+		"ResPath": "Sounds\\Global\\G_BGM_GameScene"
 	  },
 	  {
 		"Description": "터치 시작 효과음",
@@ -66,7 +66,7 @@
 		"PrevResKinds": "99999",
 		"NextResKinds": "100001",
 		"Rate": "1",
-		"ResPath": "Sounds/Global/G_SFX_TouchBegin"
+		"ResPath": "Sounds\\Global\\G_SFX_TouchBegin"
 	  },
 	  {
 		"Description": "터치 종료 효과음",
@@ -83,7 +83,7 @@
 		"PrevResKinds": "100099",
 		"NextResKinds": "100101",
 		"Rate": "1",
-		"ResPath": "Sounds/Global/G_SFX_TouchEnd"
+		"ResPath": "Sounds\\Global\\G_SFX_TouchEnd"
 	  },
 	  {
 		"Description": "팝업 출력 효과음",
@@ -100,7 +100,7 @@
 		"PrevResKinds": "199999",
 		"NextResKinds": "200001",
 		"Rate": "1",
-		"ResPath": "Sounds/Global/G_SFX_PopupShow"
+		"ResPath": "Sounds\\Global\\G_SFX_PopupShow"
 	  },
 	  {
 		"Description": "팝업 닫힘 효과음",
@@ -117,7 +117,7 @@
 		"PrevResKinds": "200099",
 		"NextResKinds": "200101",
 		"Rate": "1",
-		"ResPath": "Sounds/Global/G_SFX_PopupClose"
+		"ResPath": "Sounds\\Global\\G_SFX_PopupClose"
 	  }
 	],
 	"Font": [
@@ -136,7 +136,7 @@
 		"PrevResKinds": "99999999",
 		"NextResKinds": "100000001",
 		"Rate": "0",
-		"ResPath": "Fonts/Global/G_KoreanFont"
+		"ResPath": "Fonts\\Global\\G_KoreanFont"
 	  },
 	  {
 		"Description": "영어",
@@ -153,7 +153,7 @@
 		"PrevResKinds": "100099999",
 		"NextResKinds": "100100001",
 		"Rate": "0",
-		"ResPath": "Fonts/Global/G_EnglishFont"
+		"ResPath": "Fonts\\Global\\G_EnglishFont"
 	  }
 	],
 	"Sprite": [
@@ -259,7 +259,7 @@
 		"PrevResKinds": "300000000",
 		"NextResKinds": "300000002",
 		"Rate": "1",
-		"ResPath": "Images/U_SpriteAtlas_01/U_SA_01_White"
+		"ResPath": "Images\\U_SpriteAtlas_01\\U_SA_01_White"
 	  },
 	  {
 		"Description": "스플래시",
@@ -276,7 +276,7 @@
 		"PrevResKinds": "300000001",
 		"NextResKinds": "300000003",
 		"Rate": "1",
-		"ResPath": "Images/U_SpriteAtlas_01/U_SA_01_Splash"
+		"ResPath": "Images\\U_SpriteAtlas_01\\U_SA_01_Splash"
 	  },
 	  {
 		"Description": "인디케이터",
@@ -293,7 +293,7 @@
 		"PrevResKinds": "300000002",
 		"NextResKinds": "300000004",
 		"Rate": "1",
-		"ResPath": "Images/U_SpriteAtlas_01/U_SA_01_Indicator"
+		"ResPath": "Images\\U_SpriteAtlas_01\\U_SA_01_Indicator"
 	  }
 	]
   }
