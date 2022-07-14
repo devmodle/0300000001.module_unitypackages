@@ -3,10 +3,10 @@
 	  {
 		"Description": "액티브 스킬 판매 샘플",
 		"Type": "0",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": null,
@@ -14,22 +14,30 @@
 		"SkillSaleKinds": "0",
 		"PrevSkillSaleKinds": "-1",
 		"NextSkillSaleKinds": "1",
-		"PayTargetKinds_01": "-1",
-		"PayKinds_01": "-1",
-		"PayTarget_01": "0",
-		"AcquireTargetKinds_01": "-1",
-		"AcquireKinds_01": "-1",
-		"AcquireTarget_01": "0"
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  }
 	],
 	"Passive": [
 	  {
 		"Description": "패시브 스킬 판매 샘플",
 		"Type": "1",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": null,
@@ -37,12 +45,20 @@
 		"SkillSaleKinds": "100000000",
 		"PrevSkillSaleKinds": "99999999",
 		"NextSkillSaleKinds": "100000001",
-		"PayTargetKinds_01": "-1",
-		"PayKinds_01": "-1",
-		"PayTarget_01": "0",
-		"AcquireTargetKinds_01": "-1",
-		"AcquireKinds_01": "-1",
-		"AcquireTarget_01": "0"
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  }
 	]
   }

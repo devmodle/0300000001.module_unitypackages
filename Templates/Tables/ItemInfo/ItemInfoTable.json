@@ -3,10 +3,10 @@
 	  {
 		"Description": "코인",
 		"Type": "0",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -15,24 +15,34 @@
 		"ItemKinds": "0",
 		"PrevItemKinds": "-1",
 		"NextItemKinds": "1",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  }
 	],
 	"Consumable": [
 	  {
 		"Description": "힌트",
 		"Type": "1",
-		"SubType": "0",
-		"KindsType": "1",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "1",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -41,22 +51,32 @@
 		"ItemKinds": "100100000",
 		"PrevItemKinds": "100099999",
 		"NextItemKinds": "100100001",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  },
 	  {
 		"Description": "이어하기",
 		"Type": "1",
-		"SubType": "0",
-		"KindsType": "1",
-		"SubKindsType": "1",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "1",
+		"SKType": "1",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -65,22 +85,32 @@
 		"ItemKinds": "100100100",
 		"PrevItemKinds": "100100099",
 		"NextItemKinds": "100100101",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  },
 	  {
 		"Description": "재배치",
 		"Type": "1",
-		"SubType": "0",
-		"KindsType": "1",
-		"SubKindsType": "2",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "1",
+		"SKType": "2",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -89,24 +119,34 @@
 		"ItemKinds": "100100200",
 		"PrevItemKinds": "100100199",
 		"NextItemKinds": "100100201",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  }
 	],
 	"NonConsumable": [
 	  {
 		"Description": "광고 제거",
 		"Type": "2",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -115,24 +155,34 @@
 		"ItemKinds": "200000000",
 		"PrevItemKinds": "199999999",
 		"NextItemKinds": "200000001",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  }
 	],
 	"Weapon": [
 	  {
 		"Description": "무기 아이템 샘플",
 		"Type": "3",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -141,24 +191,34 @@
 		"ItemKinds": "300000000",
 		"PrevItemKinds": "299999999",
 		"NextItemKinds": "300000001",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  }
 	],
 	"Armor": [
 	  {
 		"Description": "방어구 아이템 샘플",
 		"Type": "4",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -167,24 +227,34 @@
 		"ItemKinds": "400000000",
 		"PrevItemKinds": "399999999",
 		"NextItemKinds": "400000001",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  }
 	],
 	"Accessory": [
 	  {
 		"Description": "악세서리 아이템 샘플",
 		"Type": "5",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -193,24 +263,34 @@
 		"ItemKinds": "500000000",
 		"PrevItemKinds": "499999999",
 		"NextItemKinds": "500000001",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  }
 	],
 	"Attachments": [
 	  {
 		"Description": "장식 아이템 샘플",
 		"Type": "6",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Duplicate": "0",
@@ -219,14 +299,24 @@
 		"ItemKinds": "600000000",
 		"PrevItemKinds": "599999999",
 		"NextItemKinds": "600000001",
-		"AttachableItemTargetKinds_01": "-1",
-		"AttachableItemKinds_01": "-1",
-		"AttachableItemTarget_01": "0",
-		"SkillTargetKinds_01": "-1",
-		"SkillKinds_01": "-1",
-		"SkillTarget_01": "0",
-		"AbilityKinds_01": "-1",
-		"AbilityLV_01": "0"
+		"AttachItemTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"SkillTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AbilityValInfo_01": [
+		  "-1",
+		  "0"
+		]
 	  }
 	]
   }

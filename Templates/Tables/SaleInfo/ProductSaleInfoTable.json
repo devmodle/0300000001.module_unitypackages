@@ -3,10 +3,10 @@
 	  {
 		"Description": "초보자 패키지",
 		"Type": "0",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": "C_BEGINNER_PKGS_TEXT",
@@ -15,20 +15,28 @@
 		"ProductSaleKinds": "0",
 		"PrevProductSaleKinds": "-1",
 		"NextProductSaleKinds": "1",
-		"PayTargetKinds_01": "-1",
-		"PayKinds_01": "-1",
-		"PayTarget_01": "0",
-		"AcquireTargetKinds_01": "-1",
-		"AcquireKinds_01": "-1",
-		"AcquireTarget_01": "0"
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
 		"Description": "숙련자 패키지",
 		"Type": "0",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "1",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "1",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": "C_EXPERT_PKGS_TEXT",
@@ -37,20 +45,28 @@
 		"ProductSaleKinds": "100",
 		"PrevProductSaleKinds": "99",
 		"NextProductSaleKinds": "101",
-		"PayTargetKinds_01": "-1",
-		"PayKinds_01": "-1",
-		"PayTarget_01": "0",
-		"AcquireTargetKinds_01": "-1",
-		"AcquireKinds_01": "-1",
-		"AcquireTarget_01": "0"
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
 		"Description": "전문가 패키지",
 		"Type": "0",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "2",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "2",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": "C_PRO_PKGS_TEXT",
@@ -59,22 +75,30 @@
 		"ProductSaleKinds": "200",
 		"PrevProductSaleKinds": "199",
 		"NextProductSaleKinds": "201",
-		"PayTargetKinds_01": "-1",
-		"PayKinds_01": "-1",
-		"PayTarget_01": "0",
-		"AcquireTargetKinds_01": "-1",
-		"AcquireKinds_01": "-1",
-		"AcquireTarget_01": "0"
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  }
 	],
 	"Single": [
 	  {
 		"Description": "코인 상자",
 		"Type": "1",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": "C_COINS_BOX_TEXT",
@@ -83,20 +107,28 @@
 		"ProductSaleKinds": "100000000",
 		"PrevProductSaleKinds": "99999999",
 		"NextProductSaleKinds": "100000001",
-		"PayTargetKinds_01": "-1",
-		"PayKinds_01": "-1",
-		"PayTarget_01": "0",
-		"AcquireTargetKinds_01": "-1",
-		"AcquireKinds_01": "-1",
-		"AcquireTarget_01": "0"
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
 		"Description": "광고 제거",
 		"Type": "1",
-		"SubType": "0",
-		"KindsType": "1",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "1",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": "C_REMOVE_ADS_TEXT",
@@ -105,12 +137,20 @@
 		"ProductSaleKinds": "100100000",
 		"PrevProductSaleKinds": "100099999",
 		"NextProductSaleKinds": "100100001",
-		"PayTargetKinds_01": "-1",
-		"PayKinds_01": "-1",
-		"PayTarget_01": "0",
-		"AcquireTargetKinds_01": "-1",
-		"AcquireKinds_01": "-1",
-		"AcquireTarget_01": "0"
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  }
 	]
   }

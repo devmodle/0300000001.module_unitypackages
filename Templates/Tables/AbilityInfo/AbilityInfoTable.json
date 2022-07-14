@@ -3,10 +3,10 @@
 	  {
 		"Description": "스탯 어빌리티 샘플",
 		"Type": "0",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": null,
@@ -14,20 +14,22 @@
 		"AbilityKinds": "0",
 		"PrevAbilityKinds": "-1",
 		"NextAbilityKinds": "1",
-		"ExtraAbilityKinds_01": "-1",
-		"Val": "0",
-		"ExtraVal": "0",
-		"ValType": "0"
+		"ValInfo": [
+		  "0",
+		  "0",
+		  "0"
+		],
+		"ExtraAbilityKinds_01": "-1"
 	  }
 	],
 	"Buff": [
 	  {
 		"Description": "버프 어빌리티 샘플",
 		"Type": "1",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": null,
@@ -35,20 +37,22 @@
 		"AbilityKinds": "100000000",
 		"PrevAbilityKinds": "99999999",
 		"NextAbilityKinds": "100000001",
-		"ExtraAbilityKinds_01": "-1",
-		"Val": "0",
-		"ExtraVal": "0",
-		"ValType": "0"
+		"ValInfo": [
+		  "0",
+		  "0",
+		  "0"
+		],
+		"ExtraAbilityKinds_01": "-1"
 	  }
 	],
 	"Debuff": [
 	  {
 		"Description": "디버프 어빌리티 샘플",
 		"Type": "2",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": null,
@@ -56,20 +60,22 @@
 		"AbilityKinds": "200000000",
 		"PrevAbilityKinds": "199999999",
 		"NextAbilityKinds": "200000001",
-		"ExtraAbilityKinds_01": "-1",
-		"Val": "0",
-		"ExtraVal": "0",
-		"ValType": "0"
+		"ValInfo": [
+		  "0",
+		  "0",
+		  "0"
+		],
+		"ExtraAbilityKinds_01": "-1"
 	  }
 	],
 	"Upgrade": [
 	  {
 		"Description": "업그레이드 어빌리티 샘플",
 		"Type": "3",
-		"SubType": "0",
-		"KindsType": "0",
-		"SubKindsType": "0",
-		"DetailSubKindsType": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
 		"Replace": "0",
 		"Repeat": "0",
 		"Name": null,
@@ -77,10 +83,12 @@
 		"AbilityKinds": "300000000",
 		"PrevAbilityKinds": "299999999",
 		"NextAbilityKinds": "300000001",
-		"ExtraAbilityKinds_01": "-1",
-		"Val": "0",
-		"ExtraVal": "0",
-		"ValType": "0"
+		"ValInfo": [
+		  "0",
+		  "0",
+		  "0"
+		],
+		"ExtraAbilityKinds_01": "-1"
 	  }
 	]
   }
