@@ -15,8 +15,11 @@
 		"PrevAbilityKinds": "-1",
 		"NextAbilityKinds": "1",
 		"ValInfo": [
-		  "0",
-		  "0",
+		  "-1",
+		  "0"
+		],
+		"ExtraValInfo": [
+		  "-1",
 		  "0"
 		],
 		"ExtraAbilityKinds_01": "-1"
@@ -38,8 +41,11 @@
 		"PrevAbilityKinds": "99999999",
 		"NextAbilityKinds": "100000001",
 		"ValInfo": [
-		  "0",
-		  "0",
+		  "-1",
+		  "0"
+		],
+		"ExtraValInfo": [
+		  "-1",
 		  "0"
 		],
 		"ExtraAbilityKinds_01": "-1"
@@ -61,8 +67,11 @@
 		"PrevAbilityKinds": "199999999",
 		"NextAbilityKinds": "200000001",
 		"ValInfo": [
-		  "0",
-		  "0",
+		  "-1",
+		  "0"
+		],
+		"ExtraValInfo": [
+		  "-1",
 		  "0"
 		],
 		"ExtraAbilityKinds_01": "-1"
@@ -84,8 +93,11 @@
 		"PrevAbilityKinds": "299999999",
 		"NextAbilityKinds": "300000001",
 		"ValInfo": [
-		  "0",
-		  "0",
+		  "-1",
+		  "0"
+		],
+		"ExtraValInfo": [
+		  "-1",
 		  "0"
 		],
 		"ExtraAbilityKinds_01": "-1"
