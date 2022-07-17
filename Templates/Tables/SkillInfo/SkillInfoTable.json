@@ -27,6 +27,68 @@
 		]
 	  }
 	],
+	"ActiveSale": [
+	  {
+		"Description": "액티브 스킬 판매 샘플",
+		"Type": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillKinds": "0",
+		"PrevSkillKinds": "-1",
+		"NextSkillKinds": "1",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"ActiveUpgrade": [
+	  {
+		"Description": "액티브 스킬 업그레이드 샘플",
+		"Type": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillKinds": "0",
+		"PrevSkillKinds": "-1",
+		"NextSkillKinds": "1",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
 	"Passive": [
 	  {
 		"Description": "패시브 스킬 샘플",
@@ -51,6 +113,68 @@
 		"ResKinds_01": "-1",
 		"AbilityValInfo_01": [
 		  "-1",
+		  "0"
+		]
+	  }
+	],
+	"PassiveSale": [
+	  {
+		"Description": "패시브 스킬 판매 샘플",
+		"Type": "1",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillKinds": "100000000",
+		"PrevSkillKinds": "99999999",
+		"NextSkillKinds": "100000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"PassiveUpgrade": [
+	  {
+		"Description": "패시브 스킬 업그레이드 샘플",
+		"Type": "1",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"SkillKinds": "100000000",
+		"PrevSkillKinds": "99999999",
+		"NextSkillKinds": "100000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
 		  "0"
 		]
 	  }

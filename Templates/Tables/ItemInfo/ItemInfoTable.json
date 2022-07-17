@@ -34,6 +34,68 @@
 		]
 	  }
 	],
+	"GoodsSale": [
+	  {
+		"Description": "재화 아이템 판매 샘플",
+		"Type": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "0",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "1",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"GoodsUpgrade": [
+	  {
+		"Description": "재화 아이템 업그레이드 샘플",
+		"Type": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "0",
+		"PrevItemKinds": "-1",
+		"NextItemKinds": "1",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
 	"Consumable": [
 	  {
 		"Description": "힌트",
@@ -135,6 +197,126 @@
 		]
 	  }
 	],
+	"ConsumableSale": [
+	  {
+		"Description": "힌트",
+		"Type": "1",
+		"SType": "0",
+		"KType": "1",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "100100000",
+		"PrevItemKinds": "100099999",
+		"NextItemKinds": "100100001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  },
+	  {
+		"Description": "이어하기",
+		"Type": "1",
+		"SType": "0",
+		"KType": "1",
+		"SKType": "1",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "100100100",
+		"PrevItemKinds": "100100099",
+		"NextItemKinds": "100100101",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  },
+	  {
+		"Description": "재배치",
+		"Type": "1",
+		"SType": "0",
+		"KType": "1",
+		"SKType": "2",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "100100200",
+		"PrevItemKinds": "100100199",
+		"NextItemKinds": "100100201",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"ConsumableUpgrade": [
+	  {
+		"Description": "소모 아이템 업그레이드 샘플",
+		"Type": "1",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "100000000",
+		"PrevItemKinds": "99999999",
+		"NextItemKinds": "100000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
 	"NonConsumable": [
 	  {
 		"Description": "광고 제거",
@@ -166,6 +348,68 @@
 		],
 		"AbilityValInfo_01": [
 		  "-1",
+		  "0"
+		]
+	  }
+	],
+	"NonConsumableSale": [
+	  {
+		"Description": "비소모 아이템 판매 샘플",
+		"Type": "2",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "200000000",
+		"PrevItemKinds": "199999999",
+		"NextItemKinds": "200000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"NonConsumableUpgrade": [
+	  {
+		"Description": "비소모 아이템 업그레이드 샘플",
+		"Type": "2",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "200000000",
+		"PrevItemKinds": "199999999",
+		"NextItemKinds": "200000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
 		  "0"
 		]
 	  }
@@ -205,6 +449,68 @@
 		]
 	  }
 	],
+	"WeaponSale": [
+	  {
+		"Description": "무기 아이템 판매 샘플",
+		"Type": "3",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "300000000",
+		"PrevItemKinds": "299999999",
+		"NextItemKinds": "300000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"WeaponUpgrade": [
+	  {
+		"Description": "무기 아이템 업그레이드 샘플",
+		"Type": "3",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "300000000",
+		"PrevItemKinds": "299999999",
+		"NextItemKinds": "300000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
 	"Armor": [
 	  {
 		"Description": "방어구 아이템 샘플",
@@ -236,6 +542,68 @@
 		],
 		"AbilityValInfo_01": [
 		  "-1",
+		  "0"
+		]
+	  }
+	],
+	"ArmorSale": [
+	  {
+		"Description": "방어구 아이템 판매 샘플",
+		"Type": "4",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "400000000",
+		"PrevItemKinds": "399999999",
+		"NextItemKinds": "400000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"ArmorUpgrade": [
+	  {
+		"Description": "방어구 아이템 업그레이드 샘플",
+		"Type": "4",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "400000000",
+		"PrevItemKinds": "399999999",
+		"NextItemKinds": "400000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
 		  "0"
 		]
 	  }
@@ -275,7 +643,69 @@
 		]
 	  }
 	],
-	"Attachments": [
+	"AccessorySale": [
+	  {
+		"Description": "악세서리 아이템 판매 샘플",
+		"Type": "5",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": "0",
+		"Desc": null,
+		"ItemKinds": "500000000",
+		"PrevItemKinds": "499999999",
+		"NextItemKinds": "500000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"AccessoryUpgrade": [
+	  {
+		"Description": "악세서리 아이템 업그레이드 샘플",
+		"Type": "5",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": "0",
+		"Desc": null,
+		"ItemKinds": "500000000",
+		"PrevItemKinds": "499999999",
+		"NextItemKinds": "500000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"Attach": [
 	  {
 		"Description": "장식 아이템 샘플",
 		"Type": "6",
@@ -306,6 +736,68 @@
 		],
 		"AbilityValInfo_01": [
 		  "-1",
+		  "0"
+		]
+	  }
+	],
+	"AttachSale": [
+	  {
+		"Description": "장식 아이템 판매 샘플",
+		"Type": "6",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "600000000",
+		"PrevItemKinds": "599999999",
+		"NextItemKinds": "600000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  }
+	],
+	"AttachUpgrade": [
+	  {
+		"Description": "장식 아이템 업그레이드 샘플",
+		"Type": "6",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "0",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"ItemKinds": "600000000",
+		"PrevItemKinds": "599999999",
+		"NextItemKinds": "600000001",
+		"PayTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		],
+		"AcquireTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
 		  "0"
 		]
 	  }
