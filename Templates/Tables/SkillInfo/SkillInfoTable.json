@@ -58,9 +58,9 @@
 		]
 	  }
 	],
-	"ActiveUpgrade": [
+	"ActiveEnhance": [
 	  {
-		"Description": "액티브 스킬 업그레이드 샘플",
+		"Description": "액티브 스킬 강화 샘플",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -148,9 +148,9 @@
 		]
 	  }
 	],
-	"PassiveUpgrade": [
+	"PassiveEnhance": [
 	  {
-		"Description": "패시브 스킬 업그레이드 샘플",
+		"Description": "패시브 스킬 강화 샘플",
 		"Type": "1",
 		"SType": "0",
 		"KType": "0",

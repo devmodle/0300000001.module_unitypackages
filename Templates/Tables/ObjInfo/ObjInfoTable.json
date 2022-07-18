@@ -78,9 +78,9 @@
 		]
 	  }
 	],
-	"BGUpgrade": [
+	"BGEnhance": [
 	  {
-		"Description": "배경 객체 업그레이드 샘플",
+		"Description": "배경 객체 강화 샘플",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -188,9 +188,9 @@
 		]
 	  }
 	],
-	"NormUpgrade": [
+	"NormEnhance": [
 	  {
-		"Description": "일반 객체 업그레이드 샘플",
+		"Description": "일반 객체 강화 샘플",
 		"Type": "1",
 		"SType": "0",
 		"KType": "0",
@@ -298,9 +298,9 @@
 		]
 	  }
 	],
-	"OverlayUpgrade": [
+	"OverlayEnhance": [
 	  {
-		"Description": "중첩 객체 업그레이드 샘플",
+		"Description": "중첩 객체 강화 샘플",
 		"Type": "2",
 		"SType": "0",
 		"KType": "0",
@@ -408,9 +408,9 @@
 		]
 	  }
 	],
-	"PlayableUpgrade": [
+	"PlayableEnhance": [
 	  {
-		"Description": "플레이 가능 객체 업그레이드 샘플",
+		"Description": "플레이 가능 객체 강화 샘플",
 		"Type": "3",
 		"SType": "0",
 		"KType": "0",
@@ -518,9 +518,9 @@
 		]
 	  }
 	],
-	"NonPlayableUpgrade": [
+	"NonPlayableEnhance": [
 	  {
-		"Description": "플레이 불가능 객체 업그레이드 샘플",
+		"Description": "플레이 불가능 객체 강화 샘플",
 		"Type": "4",
 		"SType": "0",
 		"KType": "0",
@@ -628,9 +628,9 @@
 		]
 	  }
 	],
-	"EnemyUpgrade": [
+	"EnemyEnhance": [
 	  {
-		"Description": "적 객체 업그레이드 샘플",
+		"Description": "적 객체 강화 샘플",
 		"Type": "5",
 		"SType": "0",
 		"KType": "0",

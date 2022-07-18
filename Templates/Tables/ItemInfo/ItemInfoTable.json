@@ -65,9 +65,9 @@
 		]
 	  }
 	],
-	"GoodsUpgrade": [
+	"GoodsEnhance": [
 	  {
-		"Description": "재화 아이템 업그레이드 샘플",
+		"Description": "재화 아이템 강화 샘플",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -286,9 +286,9 @@
 		]
 	  }
 	],
-	"ConsumableUpgrade": [
+	"ConsumableEnhance": [
 	  {
-		"Description": "소모 아이템 업그레이드 샘플",
+		"Description": "소모 아이템 강화 샘플",
 		"Type": "1",
 		"SType": "0",
 		"KType": "0",
@@ -383,9 +383,9 @@
 		]
 	  }
 	],
-	"NonConsumableUpgrade": [
+	"NonConsumableEnhance": [
 	  {
-		"Description": "비소모 아이템 업그레이드 샘플",
+		"Description": "비소모 아이템 강화 샘플",
 		"Type": "2",
 		"SType": "0",
 		"KType": "0",
@@ -480,9 +480,9 @@
 		]
 	  }
 	],
-	"WeaponUpgrade": [
+	"WeaponEnhance": [
 	  {
-		"Description": "무기 아이템 업그레이드 샘플",
+		"Description": "무기 아이템 강화 샘플",
 		"Type": "3",
 		"SType": "0",
 		"KType": "0",
@@ -577,9 +577,9 @@
 		]
 	  }
 	],
-	"ArmorUpgrade": [
+	"ArmorEnhance": [
 	  {
-		"Description": "방어구 아이템 업그레이드 샘플",
+		"Description": "방어구 아이템 강화 샘플",
 		"Type": "4",
 		"SType": "0",
 		"KType": "0",
@@ -674,9 +674,9 @@
 		]
 	  }
 	],
-	"AccessoryUpgrade": [
+	"AccessoryEnhance": [
 	  {
-		"Description": "악세서리 아이템 업그레이드 샘플",
+		"Description": "악세서리 아이템 강화 샘플",
 		"Type": "5",
 		"SType": "0",
 		"KType": "0",
@@ -771,9 +771,9 @@
 		]
 	  }
 	],
-	"AttachUpgrade": [
+	"AttachEnhance": [
 	  {
-		"Description": "장식 아이템 업그레이드 샘플",
+		"Description": "장식 아이템 강화 샘플",
 		"Type": "6",
 		"SType": "0",
 		"KType": "0",
