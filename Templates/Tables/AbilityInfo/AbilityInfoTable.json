@@ -18,7 +18,13 @@
 		  "0",
 		  "1"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
 		"Description": "경험치 - 1",
@@ -38,7 +44,13 @@
 		  "0",
 		  "1"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
 		"Description": "개수 - 1",
@@ -58,10 +70,16 @@
 		  "0",
 		  "1"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "체력 - 1",
+		"Description": "강화 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -78,10 +96,16 @@
 		  "0",
 		  "1"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "마력 - 1",
+		"Description": "체력 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -95,13 +119,19 @@
 		"PrevAbilityKinds": "399",
 		"NextAbilityKinds": "401",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "기력 - 1",
+		"Description": "마력 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -115,13 +145,19 @@
 		"PrevAbilityKinds": "499",
 		"NextAbilityKinds": "501",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "체력 회복 - 1",
+		"Description": "기력 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -135,13 +171,19 @@
 		"PrevAbilityKinds": "599",
 		"NextAbilityKinds": "601",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "마력 회복 - 1",
+		"Description": "체력 회복 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -155,13 +197,19 @@
 		"PrevAbilityKinds": "699",
 		"NextAbilityKinds": "701",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "기력 회복 - 1",
+		"Description": "마력 회복 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -175,13 +223,19 @@
 		"PrevAbilityKinds": "799",
 		"NextAbilityKinds": "801",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "물리 공격력 - 1",
+		"Description": "기력 회복 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -195,13 +249,19 @@
 		"PrevAbilityKinds": "899",
 		"NextAbilityKinds": "901",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "마법 공격력 - 1",
+		"Description": "물리 공격력 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -215,13 +275,19 @@
 		"PrevAbilityKinds": "999",
 		"NextAbilityKinds": "1001",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "물리 방어력 - 1",
+		"Description": "마법 공격력 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -235,13 +301,19 @@
 		"PrevAbilityKinds": "1099",
 		"NextAbilityKinds": "1101",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "마법 방어력 - 1",
+		"Description": "물리 방어력 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -255,13 +327,19 @@
 		"PrevAbilityKinds": "1199",
 		"NextAbilityKinds": "1201",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "인식 범위 - 1",
+		"Description": "마법 방어력 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -275,13 +353,19 @@
 		"PrevAbilityKinds": "1299",
 		"NextAbilityKinds": "1301",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "공격 범위 - 1",
+		"Description": "인식 범위 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -295,13 +379,19 @@
 		"PrevAbilityKinds": "1399",
 		"NextAbilityKinds": "1401",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "공격 속도 - 1",
+		"Description": "공격 범위 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -315,13 +405,19 @@
 		"PrevAbilityKinds": "1499",
 		"NextAbilityKinds": "1501",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "이동 속도 - 1",
+		"Description": "공격 속도 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -335,13 +431,19 @@
 		"PrevAbilityKinds": "1599",
 		"NextAbilityKinds": "1601",
 		"ValInfo": [
-		  "0",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "명중 확률 - 1",
+		"Description": "이동 속도 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -355,13 +457,19 @@
 		"PrevAbilityKinds": "1699",
 		"NextAbilityKinds": "1701",
 		"ValInfo": [
-		  "1",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "회피 확룰 - 1",
+		"Description": "명중 확률 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -375,13 +483,19 @@
 		"PrevAbilityKinds": "1799",
 		"NextAbilityKinds": "1801",
 		"ValInfo": [
-		  "1",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  },
 	  {
-		"Description": "크리티컬 확률 - 1",
+		"Description": "회피 확룰 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -395,10 +509,42 @@
 		"PrevAbilityKinds": "1899",
 		"NextAbilityKinds": "1901",
 		"ValInfo": [
-		  "1",
-		  "1"
+		  "-1",
+		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
+	  },
+	  {
+		"Description": "크리티컬 확률 - 1",
+		"Type": "0",
+		"SType": "0",
+		"KType": "0",
+		"SKType": "20",
+		"DSKType": "0",
+		"Replace": "0",
+		"Repeat": "0",
+		"Name": null,
+		"Desc": null,
+		"AbilityKinds": "2000",
+		"PrevAbilityKinds": "1999",
+		"NextAbilityKinds": "2001",
+		"ValInfo": [
+		  "-1",
+		  "0"
+		],
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  }
 	],
 	"Buff": [
@@ -420,7 +566,13 @@
 		  "-1",
 		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  }
 	],
 	"Debuff": [
@@ -442,7 +594,13 @@
 		  "-1",
 		  "0"
 		],
-		"ExtraAbilityKinds_01": "-1"
+		"ExtraAbilityTargetInfo_01": [
+		  "-1",
+		  "-1",
+		  "0",
+		  "0",
+		  "0"
+		]
 	  }
 	]
   }
