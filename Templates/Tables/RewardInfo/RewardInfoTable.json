@@ -18,6 +18,7 @@
 		"AcquireTargetInfo_01": [
 		  "-1",
 		  "-1",
+		  "-1",
 		  "0",
 		  "0",
 		  "0"
@@ -41,6 +42,7 @@
 		"NextRewardKinds": "100000001",
 		"RewardQuality": "-1",
 		"AcquireTargetInfo_01": [
+		  "-1",
 		  "-1",
 		  "-1",
 		  "0",
@@ -68,6 +70,7 @@
 		"AcquireTargetInfo_01": [
 		  "-1",
 		  "-1",
+		  "-1",
 		  "0",
 		  "0",
 		  "0"
@@ -91,6 +94,7 @@
 		"NextRewardKinds": "300000001",
 		"RewardQuality": "-1",
 		"AcquireTargetInfo_01": [
+		  "-1",
 		  "-1",
 		  "-1",
 		  "0",
@@ -118,6 +122,7 @@
 		"AcquireTargetInfo_01": [
 		  "-1",
 		  "-1",
+		  "-1",
 		  "0",
 		  "0",
 		  "0"
@@ -141,6 +146,7 @@
 		"NextRewardKinds": "500000001",
 		"RewardQuality": "-1",
 		"AcquireTargetInfo_01": [
+		  "-1",
 		  "-1",
 		  "-1",
 		  "0",
