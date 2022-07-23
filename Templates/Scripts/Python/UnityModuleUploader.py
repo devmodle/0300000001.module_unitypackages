@@ -10,6 +10,6 @@ os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git commit -m \'
 
 # 브랜치 이름이 유효 할 경우
 if len(oBranchName) >= 1:
-	os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin -u {oBranchName}\"")
+	os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin -u \'{oBranchName}\'\"")
 else:
 	os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git push\"")

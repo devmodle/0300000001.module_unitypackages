@@ -122,6 +122,6 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.system(f"git submodule add -f {oURL} {oFullPath}")
 
 	oSubmodulePath = f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
-	os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
+	os.system(f"git submodule set-branch --branch \"{oBranchName}\" \"{oSubmodulePath}\"")
 
-os.system(f"python3 UnityModuleRemoteURLUpdater.py {oProjName}")
+os.system(f"python3 UnityModuleRemoteURLUpdater.py \"{oProjName}\"")

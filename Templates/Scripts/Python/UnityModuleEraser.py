@@ -141,8 +141,8 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
-		os.system(f"git submodule deinit -f {oPath}")
-		os.system(f"git rm -f {oPath}")
+		os.system(f"git submodule deinit -f \"{oPath}\"")
+		os.system(f"git rm -f \"{oPath}\"")
 
-	os.system(f"rm -rf {oPath}")
-	os.system(f"rm -rf {oModulePath}")
+	os.system(f"rm -rf \"{oPath}\"")
+	os.system(f"rm -rf \"{oModulePath}\"")

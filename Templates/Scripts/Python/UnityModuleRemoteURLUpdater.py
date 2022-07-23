@@ -167,6 +167,6 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	if os.path.exists(oPath):
 		try:
 			os.chdir(oPath)
-			os.system(f"git remote set-url origin {oSubmoduleInfo['URL']}")
+			os.system(f"git remote set-url origin \"{oSubmoduleInfo['URL']}\"")
 		finally:
 			os.chdir(oCurPath)

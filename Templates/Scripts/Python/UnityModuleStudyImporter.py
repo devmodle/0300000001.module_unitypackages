@@ -35,10 +35,10 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		if not os.path.exists(oPath):
 			os.makedirs(oPath)
 
-		os.system(f"git submodule add -f {oURL} {oFullPath}")
+		os.system(f"git submodule add -f \"{oURL}\" \"{oFullPath}\"")
 
 	oSubmodulePath = f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
-	os.system(f"git submodule set-branch --branch {oBranchName} {oSubmodulePath}")
+	os.system(f"git submodule set-branch --branch \"{oBranchName}\" \"{oSubmodulePath}\"")
 
-os.system(f"python3 UnityModuleCommonImporter.py {oProjName} {oBranchName}")
-os.system(f"python3 UnityModuleRemoteURLUpdater.py {oProjName}")
+os.system(f"python3 UnityModuleCommonImporter.py \"{oProjName}\" \"{oBranchName}\"")
+os.system(f"python3 UnityModuleRemoteURLUpdater.py \"{oProjName}\"")
