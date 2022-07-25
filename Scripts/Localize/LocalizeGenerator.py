@@ -9,8 +9,8 @@ oExcelFileName = sys.argv[2]
 oExcelPath = f"../../../../Tables/{oExcelFileName}"
 oOutputPath = f"../../../../{oProjName}/Assets/02.SubUnityProject/Resources/Tables/Global/StringInfo"
 
-oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+StrTable.cs"
-oStrTableDestPath = f"../../../../{oProjName}/Assets/02.SubUnityProject/Scripts/Runtime/Global/Define/KDefine+StrTable.cs"
+oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+SubStrTable.cs"
+oStrTableDestPath = f"../../../../{oProjName}/Assets/02.SubUnityProject/Scripts/Runtime/Global/Define/KDefine+SubStrTable.cs"
 
 nIDIdx = 2
 nHeaderIdx = 0
@@ -102,7 +102,7 @@ for i, oValList in enumerate(oValListContainer):
 	oCommonLocalizeInfo = []
 
 oWStream = open(oStrTableDestPath, "w")
-oWStream.write(oOutputStr.replace("//*** Setup KDefine+StrTable.cs By LocalizeGenerator ***//", oReplaceStr))
+oWStream.write(oOutputStr.replace("//*** Setup KDefine+SubStrTable.cs By LocalizeGenerator ***//", oReplaceStr))
 
 oRStream.close()
 oWStream.close()
