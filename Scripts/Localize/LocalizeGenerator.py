@@ -15,12 +15,12 @@ oStrTableDestPath = f"../../../../{oProjName}/Assets/02.SubUnityProject/Scripts/
 nIDIdx = 2
 nHeaderIdx = 0
 nLocalizeStartIdx = 3
-oOutputFileName = "G_StrTable_Common"
 
 oWorkspace = load_workbook(oExcelPath, data_only = True)
-oLocalizeSheet = oWorkspace["Common"]
+oLocalizeSheet = oWorkspace["Str"]
+oOutputFileName = "G_StrTable_Common"
 
-oCommonValueList = [
+oCommonValList = [
 	"Description", "Replace", "ID"
 ]
 
@@ -34,7 +34,7 @@ for oCell in oLocalizeSheet[int(nHeaderIdx) + 1]:
 		oHeaderList.append(oCell.value)
 
 		# 공용 값 일 경우
-		if not oCell.value in oCommonValueList:
+		if not oCell.value in oCommonValList:
 			oLanguageList.append(oCell.value)
 # 헤더 정보를 설정한다 }
 
