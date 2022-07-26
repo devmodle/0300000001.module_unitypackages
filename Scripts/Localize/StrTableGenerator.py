@@ -4,9 +4,7 @@ import sys
 from openpyxl import load_workbook
 
 oProjName = sys.argv[1]
-oExcelFileName = sys.argv[2]
-
-oExcelPath = f"../../../../Tables/{oExcelFileName}"
+oExcelPath = f"../../../../Tables/G_EtcInfoTable.xlsx"
 oOutputPath = f"../../../../{oProjName}/Assets/02.SubUnityProject/Resources/Tables/Global/StringInfo"
 
 oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+SubStrTable.cs"
