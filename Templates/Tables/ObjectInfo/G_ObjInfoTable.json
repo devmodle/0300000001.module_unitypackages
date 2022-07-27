@@ -1,7 +1,7 @@
 {
 	"BG": [
 	  {
-		"Description": "빈 객체",
+		"Description": "빈 배경 - 1",
 		"Type": "0",
 		"SType": "0",
 		"KType": "0",
@@ -340,7 +340,7 @@
 	],
 	"Playable": [
 	  {
-		"Description": "플레이 가능 객체 샘플",
+		"Description": "캐릭터 - 1",
 		"Type": "3",
 		"SType": "0",
 		"KType": "0",
