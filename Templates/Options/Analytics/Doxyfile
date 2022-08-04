@@ -2332,8 +2332,7 @@ INCLUDE_FILE_PATTERNS  =
 PREDEFINED             = SCENE_TEMPLATES_MODULE_ENABLE \
                          EDITOR_SCENE_TEMPLATES_MODULE_ENABLE \
                          PREFAB_TEMPLATES_MODULE_ENABLE \
-                         ENGINE_TEMPLATES_MODULE_ENABLE \
-                         RUNTIME_TEMPLATES_MODULE_ENABLE
+                         UTILITY_SCRIPT_TEMPLATES_MODULE_ENABLE
 
 # If the MACRO_EXPANSION and EXPAND_ONLY_PREDEF tags are set to YES then this
 # tag can be used to specify a list of macro names that should be expanded. The
