@@ -10,3 +10,9 @@ os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag -d \'{oT
 os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin --delete \'{oTagName}\'\"")
 os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag \'{oReplaceTagName}\'\"")
 os.system(f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin --tags\"")
+
+os.chdir(f"{os.getcwd()}/../..")
+os.system(f"git tag -d \"{oTagName}\"")
+os.system(f"git push origin --delete \"{oTagName}\"")
+os.system(f"git tag \"{oReplaceTagName}\"")
+os.system(f"git push origin --tags")
