@@ -8,7 +8,7 @@ oReplaceTagName = sys.argv[3]
 oCurPath = os.getcwd()
 os.system(f"python3 UnityModuleUpdater.py \"{oProjName}\"")
 
-oCmdInfos = {
+oCmdInfos = [
 	{
 		"Cmd": f"git tag -d \"{oTagName}\"",
 		"SubmoduleCmd": f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag -d \'{oTagName}\'\""
@@ -28,7 +28,7 @@ oCmdInfos = {
 		"Cmd": f"git push origin --tags",
 		"SubmoduleCmd": f"python3 UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin --tags\""
 	},
-}
+]
 
 for oCmdInfo in oCmdInfos:
 	os.chdir(f"{oCurPath}/../..")
