@@ -24,6 +24,8 @@ Description,Replace,ID,Str
 공용 결제 실패 메세지,0,C_ON_PURCHASE_FAIL_MSG,You have failed to purchase this product
 공용 복원 성공 메세지,0,C_ON_RESTORE_MSG,The product has been restored
 공용 복원 실패 메세지,0,C_ON_RESTORE_FAIL_MSG,Failed to restore the product
+공용 테이블 로드 성공 메세지,0,C_ON_TABLE_LOAD_MSG,You have successfully load table
+공용 테이블 로드 실패 메세지,0,C_ON_TABLE_LOAD_FAIL_MSG,You have failed to load table
 공용 확인 텍스트,0,C_OK_TEXT,OK
 공용 취소 텍스트,0,C_CANCEL_TEXT,Cancel
 공용 동의 텍스트,0,C_AGREE_TEXT,Agree
@@ -80,5 +82,3 @@ Description,Replace,ID,Str
 에디터 레벨 제거 팝업 메세지,0,EDITOR_REMOVE_LP_MSG,Do you want to remove the level?
 에디터 스테이지 제거 팝업 메세지,0,EDITOR_REMOVE_SP_MSG,Do you want to remove the stage?
 에디터 챕터 제거 팝업 메세지,0,EDITOR_REMOVE_CP_MSG,Do you want to remove the chapter?
-에디터 구글 시트 로드 성공 메세지,0,ON_EDITOR_GOOGLE_SHEET_LOAD_MSG,You have successfully load google sheet
-에디터 구글 시트 로드 실패 메세지,0,ON_EDITOR_GOOGLE_SHEET_LOAD_FAIL_MSG,You have failed to load google sheet
