@@ -3,6 +3,7 @@ import sys
 
 oProjName = sys.argv[1]
 oBranchName = sys.argv[2]
+oProjRootPath = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
@@ -24,6 +25,16 @@ oSubmoduleInfos = [
 	}
 ]
 
+# 경로를 탐색한다
+def FindPath(a_oBasePath):
+	i = 0
+
+	while i < 10 and not os.path.exists(a_oBasePath):
+		i += 1
+		a_oBasePath = f"../{a_oBasePath}"
+
+	return a_oBasePath
+
 for oSubmoduleInfo in oSubmoduleInfos:
 	oURL = oSubmoduleInfo["URL"]
 	oPath = f"../../{oSubmoduleInfo['Path']}"
@@ -37,7 +48,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 
 		os.system(f"git submodule add -f \"{oURL}\" \"{oFullPath}\"")
 
-	oSubmodulePath = f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
+	oSubmodulePath = f"{oProjRootPath}/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}" if oProjRootPath else f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
 	os.system(f"git submodule set-branch --branch \"{oBranchName}\" \"{oSubmodulePath}\"")
 
 os.system(f"python3 UnityModuleCommonImporter.py \"{oProjName}\" \"{oBranchName}\"")
