@@ -51,5 +51,5 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	oSubmodulePath = f"{oProjRootPath}/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}" if oProjRootPath else f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
 	os.system(f"git submodule set-branch --branch \"{oBranchName}\" \"{oSubmodulePath}\"")
 
-os.system(f"python3 UnityModuleCommonImporter.py \"{oProjName}\" \"{oBranchName}\"")
+os.system(f"python3 UnityModuleCommonImporter.py \"{oProjName}\" \"{oBranchName}\" \"{oProjRootPath}\"")
 os.system(f"python3 UnityModuleRemoteURLUpdater.py \"{oProjName}\"")
