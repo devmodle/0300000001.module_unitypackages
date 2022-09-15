@@ -11,17 +11,17 @@ os.system(f"python UnityModuleUpdater.py \"{oProjName}\"")
 oCmdInfos = [
 	{
 		"Cmd": f"git tag -d \"{oTagName}\"",
-		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag -d \'{oTagName}\'\""
+		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag -d {oTagName}\""
 	},
 
 	{
 		"Cmd": f"git push origin --delete \"{oTagName}\"",
-		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin --delete \'{oTagName}\'\""
+		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin --delete {oTagName}\""
 	},
 
 	{
 		"Cmd": f"git tag \"{oReplaceTagName}\"",
-		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag \'{oReplaceTagName}\'\""
+		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag {oReplaceTagName}\""
 	},
 
 	{
