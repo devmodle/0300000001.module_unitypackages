@@ -27,12 +27,13 @@ oSubmoduleInfos = [
 
 # 경로를 탐색한다
 def FindPath(a_oBasePath):
-	i = 0
+	for i in range(0, 10):
+		# 디렉토리가 존재 할 경우
+		if os.path.exists(a_oBasePath):
+			return a_oBasePath
 
-	while i < 10 and not os.path.exists(a_oBasePath):
-		i += 1
 		a_oBasePath = f"../{a_oBasePath}"
-
+		
 	return a_oBasePath
 
 for oSubmoduleInfo in oSubmoduleInfos:

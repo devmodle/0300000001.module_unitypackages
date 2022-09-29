@@ -1,5 +1,6 @@
 import os
 import sys
+import platform
 
 oProjName = sys.argv[1]
 
@@ -127,22 +128,28 @@ oSubmoduleInfos = [
 
 # 경로를 탐색한다
 def FindPath(a_oBasePath):
-	i = 0
+	for i in range(0, 10):
+		# 디렉토리가 존재 할 경우
+		if os.path.exists(a_oBasePath):
+			return a_oBasePath
 
-	while i < 10 and not os.path.exists(a_oBasePath):
-		i += 1
 		a_oBasePath = f"../{a_oBasePath}"
-
+		
 	return a_oBasePath
 
 for oSubmoduleInfo in oSubmoduleInfos:
 	oPath = FindPath(f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
-	oModulePath = FindPath(f".git/modules/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
-	
+	oModulePath = FindPath(f".git/modules/Client/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
+
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
 		os.system(f"git submodule deinit -f \"{oPath}\"")
 		os.system(f"git rm -f \"{oPath}\"")
 
-	os.system(f"rm -rf \"{oPath}\"")
-	os.system(f"rm -rf \"{oModulePath}\"")
+	# 윈도우즈 일 경우
+	if "WINDOWS" in platform.system().upper():
+		os.system(f"rmdir /s /q \"{oPath}\"")
+		os.system(f"rmdir /s /q \"{oModulePath}\"")
+	else:
+		os.system(f"rm -rf \"{oPath}\"")
+		os.system(f"rm -rf \"{oModulePath}\"")
