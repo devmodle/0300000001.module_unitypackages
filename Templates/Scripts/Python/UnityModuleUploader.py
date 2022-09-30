@@ -5,6 +5,8 @@ oProjName = sys.argv[1]
 oCommitMsg = sys.argv[2]
 oBranchName = sys.argv[3]
 
+oCommitMsg = f"\"{oCommitMsg}\""
+
 os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git add .\"")
 os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git commit -m \"{oCommitMsg}\"\"")
 
@@ -13,3 +15,4 @@ if oBranchName:
 	os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin -u {oBranchName}\"")
 else:
 	os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git push\"")
+	
