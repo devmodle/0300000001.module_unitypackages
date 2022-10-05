@@ -146,7 +146,7 @@ for oSubmoduleInfo in oSubmoduleInfos:
 		os.system(f"git submodule deinit -f \"{oPath}\"")
 		os.system(f"git rm -f \"{oPath}\"")
 
-	# 윈도우즈 일 경우
+	# 윈도우즈 플랫폼 일 경우
 	if "WINDOWS" in platform.system().upper():
 		os.system(f"rmdir /s /q \"{oPath}\"")
 		os.system(f"rmdir /s /q \"{oModulePath}\"")

@@ -1,14 +1,19 @@
 import os
 import sys
+import platform
 
 oProjName = sys.argv[1]
 oCommitMsg = sys.argv[2]
 oBranchName = sys.argv[3]
 
-oCommitMsg = f"\"{oCommitMsg}\""
-
 os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git add .\"")
-os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git commit -m \"{oCommitMsg}\"\"")
+
+# 윈도우즈 플랫폼 일 경우
+if "WINDOWS" in platform.system().upper():
+	oCommitMsg = f"\"{oCommitMsg}\""
+	os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git commit -m \"{oCommitMsg}\"\"")
+else:
+	os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git commit -m \'{oCommitMsg}\'\"")
 
 # 브랜치 이름이 유효 할 경우
 if oBranchName:
