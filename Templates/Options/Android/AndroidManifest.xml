@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.unity3d.player"
     xmlns:tools="http://schemas.android.com/tools">
-    <application android:usesCleartextTraffic="true">
+    <application android:usesCleartextTraffic="true" android:allowBackup="false" android:fullBackupContent="false" tools:replace="android:allowBackup">
         <activity android:name="com.unity3d.player.UnityPlayerActivity" android:theme="@style/UnityThemeSelector" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
