@@ -4,11 +4,11 @@ import sys
 from openpyxl import load_workbook
 
 oProjName = sys.argv[1]
-oExcelPath = f"../../../../Tables/G_EtcInfoTable.xlsx"
-oOutputPath = f"../../../../{oProjName}/Assets/02.SubUnityProject/Resources/Tables/Global/StringInfo"
+oExcelPath = f"../../../../../Tables/G_EtcInfoTable.xlsx"
+oOutputPath = f"../../../../../{oProjName}/Assets/02.SubUnityProject/Resources/Tables/Global/StringInfo"
 
-oStrTableSrcPath = f"../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+SubStrTable.cs"
-oStrTableDestPath = f"../../../../{oProjName}/Assets/02.SubUnityProject/Scripts/Runtime/Global/Define/KDefine+SubStrTable.cs"
+oStrTableSrcPath = f"../../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+SubStrTable.cs"
+oStrTableDestPath = f"../../../../../{oProjName}/Assets/02.SubUnityProject/Scripts/Runtime/Global/Define/KDefine+SubStrTable.cs"
 
 nIDIdx = 2
 nHeaderIdx = 0
