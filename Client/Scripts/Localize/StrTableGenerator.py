@@ -26,7 +26,7 @@ oCommonValList = [
 oHeaderList = []
 oLanguageList = []
 
-for oCell in oLocalizeSheet[int(nHeaderIdx) + 1]:
+for oCell in oLocalizeSheet[nHeaderIdx + 1]:
 	# 값이 유효 할 경우
 	if oCell.value:
 		oHeaderList.append(oCell.value)
@@ -91,7 +91,7 @@ for i, oValList in enumerate(oValListContainer):
 			else:
 				# , 문자가 존재 할 경우
 				if "," in oVal:
-					oLocalizeInfo.append("\"" + oVal + "\"")
+					oLocalizeInfo.append(f"\"{oVal}\"")
 				else:
 					oLocalizeInfo.append(oVal)
 
@@ -99,29 +99,25 @@ for i, oValList in enumerate(oValListContainer):
 
 	oCommonLocalizeInfo = []
 
-oWStream = open(oStrTableDestPath, "w", encoding = "utf-8")
-oWStream.write(oOutputStr.replace("//*** Setup KDefine+SubStrTable.cs By LocalizeGenerator ***//", oReplaceStr))
-
-oRStream.close()
-oWStream.close()
+with open(oStrTableDestPath, "w", encoding = "utf-8") as oWStream:
+	oWStream.write(oOutputStr.replace("//*** Setup KDefine+SubStrTable.cs By LocalizeGenerator ***//", oReplaceStr))
+	oRStream.close()
 # 지역화를 설정한다 }
 
 # 지역화 파일을 생성한다 {
 for oKey, oLocalizeInfoList in oLocalizeInfoListContainer.items():
 	# 디렉토리가 없을 경우
-	if not os.path.isdir(oOutputPath):
+	if not os.path.exists(oOutputPath):
 		os.makedirs(oOutputPath)
 
-	oWStream = open(f"{oOutputPath}/{oOutputFileName}_{oKey}.csv", "w")
+	with open(f"{oOutputPath}/{oOutputFileName}_{oKey}.csv", "w", encoding = "utf-8") as oWStream:
+		for i, oLocalizeInfo in enumerate(oLocalizeInfoList):
+			for j, oVal in enumerate(oLocalizeInfo):
+				oWStream.write(str(oVal))
 
-	for i, oLocalizeInfo in enumerate(oLocalizeInfoList):
-		for j, oVal in enumerate(oLocalizeInfo):
-			oWStream.write(str(oVal))
-
-			if j < len(oLocalizeInfo) - 1:
-				oWStream.write(",")
-			elif i < len(oLocalizeInfoList) - 1:
-				oWStream.write("\n")
-
-	oWStream.close()
+				# 마지막 정보가 아닐 경우
+				if j < len(oLocalizeInfo) - 1:
+					oWStream.write(",")
+				elif i < len(oLocalizeInfoList) - 1:
+					oWStream.write("\n")
 # 지역화 파일을 생성한다 }
