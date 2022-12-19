@@ -7,10 +7,10 @@ oCommitMsg = sys.argv[2]
 oBranchName = sys.argv[3]
 
 os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git add .\"")
+oCommitMsg = f"\"{oCommitMsg}\"" if "WINDOWS" in platform.system().upper() else oCommitMsg
 
 # 윈도우즈 플랫폼 일 경우
 if "WINDOWS" in platform.system().upper():
-	oCommitMsg = f"\"{oCommitMsg}\""
 	os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git commit -m \"{oCommitMsg}\"\"")
 else:
 	os.system(f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git commit -m \'{oCommitMsg}\'\"")

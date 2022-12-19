@@ -5,10 +5,10 @@ from openpyxl import load_workbook
 
 oProjName = sys.argv[1]
 oExcelPath = f"../../../../../Tables/G_EtcInfoTable.xlsx"
-oOutputPath = f"../../../../../{oProjName}/Assets/02.SubUnityProject/Resources/Tables/Global/StringInfo"
+oOutputPath = f"../../../../../{oProjName}/Assets/02-SubUnityProject/Resources/Tables/Global/StringInfo"
 
-oStrTableSrcPath = f"../../../../../{oProjName}/UnityPackages/Templates/Scripts/C#/KDefine+SubStrTable.cs"
-oStrTableDestPath = f"../../../../../{oProjName}/Assets/02.SubUnityProject/Scripts/Runtime/Global/Define/KDefine+SubStrTable.cs"
+oStrTableSrcPath = f"../../../../../{oProjName}/UnityPackages/Client/Templates/Scripts/C#/KDefine+SubStrTable.cs"
+oStrTableDestPath = f"../../../../../{oProjName}/Assets/02-SubUnityProject/Scripts/Runtime/Global/Define/KDefine+SubStrTable.cs"
 
 nIDIdx = 2
 nHeaderIdx = 0
@@ -60,7 +60,7 @@ for oRow in oLocalizeSheet.rows:
 oCommonLocalizeInfo = []
 oLocalizeInfoListContainer = {}
 
-oRStream = open(oStrTableSrcPath, "r")
+oRStream = open(oStrTableSrcPath, "r", encoding = "utf-8")
 oOutputStr = oRStream.read()
 oReplaceStr = ""
 
@@ -99,7 +99,7 @@ for i, oValList in enumerate(oValListContainer):
 
 	oCommonLocalizeInfo = []
 
-oWStream = open(oStrTableDestPath, "w")
+oWStream = open(oStrTableDestPath, "w", encoding = "utf-8")
 oWStream.write(oOutputStr.replace("//*** Setup KDefine+SubStrTable.cs By LocalizeGenerator ***//", oReplaceStr))
 
 oRStream.close()
