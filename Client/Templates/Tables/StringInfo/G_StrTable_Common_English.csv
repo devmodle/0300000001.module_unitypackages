@@ -1,7 +1,5 @@
 Description,Replace,ID,Str
 시작 씬 로딩 텍스트,0,START_SM_LOADING_TEXT,Loading...
-메인 씬 A 세트 텍스트,0,MAIN_SM_A_SET_TEXT,A Set
-메인 씬 B 세트 텍스트,0,MAIN_SM_B_SET_TEXT,B Set
 종료 팝업 메세지,0,QUIT_P_MSG,Do you want to quit the game?
 그만두기 팝업 메세지,0,LEAVE_P_MSG,Do you want to leave the game?
 업데이트 팝업 메세지,0,UPDATE_P_MSG,A new version has been released.\nWould you like to update it?
@@ -26,6 +24,8 @@ Description,Replace,ID,Str
 공용 복원 실패 메세지,0,C_ON_RESTORE_FAIL_MSG,Failed to restore the product
 공용 테이블 로드 성공 메세지,0,C_ON_TABLE_LOAD_MSG,You have successfully load table
 공용 테이블 로드 실패 메세지,0,C_ON_TABLE_LOAD_FAIL_MSG,You have failed to load table
+공용 A 세트 텍스트,0,C_A_SET_TEXT,A Set
+공용 B 세트 텍스트,0,C_B_SET_TEXT,B Set
 공용 확인 텍스트,0,C_OK_TEXT,OK
 공용 취소 텍스트,0,C_CANCEL_TEXT,Cancel
 공용 동의 텍스트,0,C_AGREE_TEXT,Agree
@@ -78,7 +78,8 @@ Description,Replace,ID,Str
 에디터 리셋 팝업 메세지,0,EDITOR_RESET_P_MSG,Do you want to reset the editor?
 에디터 세트 A 팝업 메세지,0,EDITOR_A_SET_P_MSG,Do you want to set up the A set?
 에디터 세트 B 팝업 메세지,0,EDITOR_B_SET_P_MSG,Do you want to set up the B set?
-에디터 테이블 로드 메세지,0,EDITOR_TABLE_LP_MSG,Do you want to load the table?
+에디터 로컬 테이블 로드 메세지,0,EDITOR_LOCAL_TLP_MSG,Do you want to load the local table?
+에디터 원격 테이블 로드 메세지,0,EDITOR_REMOTE_TLP_MSG,Do you want to load the remote table?
 에디터 레벨 제거 팝업 메세지,0,EDITOR_REMOVE_LP_MSG,Do you want to remove the level?
 에디터 스테이지 제거 팝업 메세지,0,EDITOR_REMOVE_SP_MSG,Do you want to remove the stage?
 에디터 챕터 제거 팝업 메세지,0,EDITOR_REMOVE_CP_MSG,Do you want to remove the chapter?
