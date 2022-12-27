@@ -10,20 +10,6 @@ Description,Replace,ID,Str
 추적 설명 팝업 설명 메세지 1,0,TRACKING_DP_DESC_MSG_01,- Special offers and promotions\njust for you
 추적 설명 팝업 설명 메세지 2,0,TRACKING_DP_DESC_MSG_02,- Advertisements that match\nyour interests
 추적 설명 팝업 설명 메세지 3,0,TRACKING_DP_DESC_MSG_03,- An improved personalized\nexperience over time
-공용 로그인 성공 메세지,0,C_ON_LOGIN_MSG,You have successfully login
-공용 로그인 실패 메세지,0,C_ON_LOGIN_FAIL_MSG,You have failed to login
-공용 로그아웃 성공 메세지,0,C_ON_LOGOUT_MSG,You have successfully logout
-공용 로그아웃 실패 메세지,0,C_ON_LOGOUT_FAIL_MSG,You have failed to logout
-공용 로드 성공 메세지,0,C_ON_LOAD_MSG,You have successfully loaded progress
-공용 로드 실패 메세지,0,C_ON_LOAD_FAIL_MSG,You have failed to load progress
-공용 저장 성공 메세지,0,C_ON_SAVE_MSG,You have successfully saved progress
-공용 저장 실패 메세지,0,C_ON_SAVE_FAIL_MSG,You have failed to save progress
-공용 결제 성공 메세지,0,C_ON_PURCHASE_MSG,You have successfully purchased this product
-공용 결제 실패 메세지,0,C_ON_PURCHASE_FAIL_MSG,You have failed to purchase this product
-공용 복원 성공 메세지,0,C_ON_RESTORE_MSG,The product has been restored
-공용 복원 실패 메세지,0,C_ON_RESTORE_FAIL_MSG,Failed to restore the product
-공용 테이블 로드 성공 메세지,0,C_ON_TABLE_LOAD_MSG,You have successfully load table
-공용 테이블 로드 실패 메세지,0,C_ON_TABLE_LOAD_FAIL_MSG,You have failed to load table
 공용 A 세트 텍스트,0,C_A_SET_TEXT,A Set
 공용 B 세트 텍스트,0,C_B_SET_TEXT,B Set
 공용 확인 텍스트,0,C_OK_TEXT,OK
@@ -74,12 +60,19 @@ Description,Replace,ID,Str
 공용 레벨 페이지 텍스트 형식,0,C_LEVEL_PAGE_TEXT_FMT,Level {0}/{1}
 공용 스테이지 페이지 텍스트 형식,0,C_STAGE_PAGE_TEXT_FMT,Stage {0}/{1}
 공용 챕터 페이지 텍스트 형식,0,C_CHAPTER_PAGE_TEXT_FMT,Chapter {0}/{1}
-에디터 종료 팝업 메세지,0,EDITOR_QUIT_P_MSG,Do you want to quit the editor?
-에디터 리셋 팝업 메세지,0,EDITOR_RESET_P_MSG,Do you want to reset the editor?
-에디터 세트 A 팝업 메세지,0,EDITOR_A_SET_P_MSG,Do you want to set up the A set?
-에디터 세트 B 팝업 메세지,0,EDITOR_B_SET_P_MSG,Do you want to set up the B set?
-에디터 로컬 테이블 로드 메세지,0,EDITOR_LOCAL_TLP_MSG,Do you want to load the local table?
-에디터 원격 테이블 로드 메세지,0,EDITOR_REMOTE_TLP_MSG,Do you want to load the remote table?
-에디터 레벨 제거 팝업 메세지,0,EDITOR_REMOVE_LP_MSG,Do you want to remove the level?
-에디터 스테이지 제거 팝업 메세지,0,EDITOR_REMOVE_SP_MSG,Do you want to remove the stage?
-에디터 챕터 제거 팝업 메세지,0,EDITOR_REMOVE_CP_MSG,Do you want to remove the chapter?
+공용 A 세트 설정 메세지,0,C_SETUP_A_SET_MSG,Do you want to setup A set?
+공용 B 세트 설정 메세지,0,C_SETUP_B_SET_MSG,Do you want to setup B set?
+공용 로그인 성공 메세지,0,C_ON_LOGIN_MSG,You have successfully login
+공용 로그인 실패 메세지,0,C_ON_LOGIN_FAIL_MSG,You have failed to login
+공용 로그아웃 성공 메세지,0,C_ON_LOGOUT_MSG,You have successfully logout
+공용 로그아웃 실패 메세지,0,C_ON_LOGOUT_FAIL_MSG,You have failed to logout
+공용 로드 성공 메세지,0,C_ON_LOAD_MSG,You have successfully loaded progress
+공용 로드 실패 메세지,0,C_ON_LOAD_FAIL_MSG,You have failed to load progress
+공용 저장 성공 메세지,0,C_ON_SAVE_MSG,You have successfully saved progress
+공용 저장 실패 메세지,0,C_ON_SAVE_FAIL_MSG,You have failed to save progress
+공용 결제 성공 메세지,0,C_ON_PURCHASE_MSG,You have successfully purchased this product
+공용 결제 실패 메세지,0,C_ON_PURCHASE_FAIL_MSG,You have failed to purchase this product
+공용 복원 성공 메세지,0,C_ON_RESTORE_MSG,The product has been restored
+공용 복원 실패 메세지,0,C_ON_RESTORE_FAIL_MSG,Failed to restore the product
+공용 테이블 로드 성공 메세지,0,C_ON_TABLE_LOAD_MSG,You have successfully load table
+공용 테이블 로드 실패 메세지,0,C_ON_TABLE_LOAD_FAIL_MSG,You have failed to load table
