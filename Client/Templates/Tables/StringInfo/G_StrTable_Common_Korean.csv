@@ -76,3 +76,5 @@ Description,Replace,ID,Str
 공용 복원 실패 메세지,0,C_ON_RESTORE_FAIL_MSG,상품 복원에 실패했습니다
 공용 테이블 로드 성공 메세지,0,C_ON_TABLE_LOAD_MSG,테이블을 로드했습니다
 공용 테이블 로드 실패 메세지,0,C_ON_TABLE_LOAD_FAIL_MSG,테이블 로드에 실패했습니다
+공용 테이블 저장 성공 메세지,0,C_ON_TABLE_SAVE_MSG,테이블을 저장했습니다
+공용 테이블 저장 실패 메세지,0,C_ON_TABLE_SAVE_FAIL_MSG,테이블 저장에 실패했습니다
