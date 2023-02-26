@@ -9,7 +9,7 @@ oSubmoduleInfos = [
 	{
 		"Name": ".Module.UnityStudyImporter",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/dante.distribution.individual/0300000001.module_unitystudyimporter.git"
+		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unitystudyimporter.git"
 	},
 
 	{
