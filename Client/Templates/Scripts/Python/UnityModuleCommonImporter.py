@@ -37,9 +37,9 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".Module.UnityCommonFunc",
+		"Name": ".Module.UnityCommonFunction",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonfunc.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonfunction.git"
 	},
 
 	{
@@ -97,9 +97,9 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".Module.UnityCommonNoti",
+		"Name": ".Module.UnityCommonNotification",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonnoti.git"
+		"URL": "https://gitlab.com/9tapmodule.repository/0300000001.module_unitycommonnotification.git"
 	},
 
 	{

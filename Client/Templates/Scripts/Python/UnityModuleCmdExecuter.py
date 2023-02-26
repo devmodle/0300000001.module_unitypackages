@@ -51,7 +51,7 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".Module.UnityCommonFunc",
+		"Name": ".Module.UnityCommonFunction",
 		"Path": f"{oProjName}/Packages"
 	},
 
@@ -101,7 +101,7 @@ oSubmoduleInfos = [
 	},
 
 	{
-		"Name": ".Module.UnityCommonNoti",
+		"Name": ".Module.UnityCommonNotification",
 		"Path": f"{oProjName}/Packages"
 	},
 
