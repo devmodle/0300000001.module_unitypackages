@@ -1,5 +1,5 @@
 Description,Replace,ID,Str
-시작 씬 로딩 텍스트,0,START_SM_LOADING_TEXT,Loading...
+설정 씬 관리자 로딩 텍스트,0,SETUP_SM_LOADING_TEXT,Loading...
 종료 팝업 메세지,0,QUIT_P_MSG,Do you want to quit the game?
 그만두기 팝업 메세지,0,LEAVE_P_MSG,Do you want to leave the game?
 업데이트 팝업 메세지,0,UPDATE_P_MSG,A new version has been released.\nWould you like to update it?
