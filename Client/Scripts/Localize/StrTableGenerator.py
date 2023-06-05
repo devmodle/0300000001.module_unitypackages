@@ -5,10 +5,10 @@ from openpyxl import load_workbook
 
 oProjName = sys.argv[1]
 oExcelPath = f"../../../../../Tables/G_EtcInfoTable.xlsx"
-oOutputPath = f"../../../../../{oProjName}/Assets/42-SubUnityProject/Resources/Tables/Global/StringInfo"
+oOutputPath = f"../../../../../{oProjName}/Assets/00-Project/42-SubUnityProject/Resources/Tables/Global/StringInfo"
 
 oStrTableSrcPath = f"../../../../../{oProjName}/UnityPackages/Client/Templates/Scripts/C#/KDefine+SubStrTable.cs"
-oStrTableDestPath = f"../../../../../{oProjName}/Assets/42-SubUnityProject/Scripts/Runtime/Global/Define/KDefine+SubStrTable.cs"
+oStrTableDestPath = f"../../../../../{oProjName}/Assets/00-Project/42-SubUnityProject/Scripts/Runtime/Global/Define/KDefine+SubStrTable.cs"
 
 nIDIdx = 2
 nHeaderIdx = 0
