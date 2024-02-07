@@ -40,7 +40,7 @@ Description,Replace,ID,Str
 공용 효과음 텍스트,0,C_FX_SNDS_TEXT,SFX
 공용 광고 시청 텍스트,0,C_WATCH_ADS_TEXT,Watch Ads
 공용 광고 제거 텍스트,0,C_REMOVE_ADS_TEXT,Remove Ads
-공용 결제 복원 텍스트,0,C_RESTORE_PAYMENT_TEXT,Restore Payment
+공용 상품 복원 텍스트,0,C_RESTORE_PRODUCTS_TEXT,Restore Payment
 공용 레벨 텍스트,0,C_LEVEL_TEXT,Level
 공용 스테이지 텍스트,0,C_STAGE_TEXT,Stage
 공용 챕터 텍스트,0,C_CHAPTER_TEXT,Chapter
