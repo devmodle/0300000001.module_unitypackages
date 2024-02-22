@@ -6,27 +6,27 @@ oTagName = sys.argv[2]
 oReplaceTagName = sys.argv[3]
 
 oCurPath = os.getcwd()
-os.system(f"python UnityModuleUpdater.py \"{oProjName}\"")
+os.system(f"python ModuleUpdater.py \"{oProjName}\"")
 
 oCmdInfos = [
 	{
 		"Cmd": f"git tag -d \"{oTagName}\"",
-		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag -d {oTagName}\""
+		"SubmoduleCmd": f"python ModuleCmdExecuter.py \"{oProjName}\" \"git tag -d {oTagName}\""
 	},
 
 	{
 		"Cmd": f"git push origin --delete \"{oTagName}\"",
-		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin --delete {oTagName}\""
+		"SubmoduleCmd": f"python ModuleCmdExecuter.py \"{oProjName}\" \"git push origin --delete {oTagName}\""
 	},
 
 	{
 		"Cmd": f"git tag \"{oReplaceTagName}\"",
-		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git tag {oReplaceTagName}\""
+		"SubmoduleCmd": f"python ModuleCmdExecuter.py \"{oProjName}\" \"git tag {oReplaceTagName}\""
 	},
 
 	{
 		"Cmd": f"git push origin --tags",
-		"SubmoduleCmd": f"python UnityModuleCmdExecuter.py \"{oProjName}\" \"git push origin --tags\""
+		"SubmoduleCmd": f"python ModuleCmdExecuter.py \"{oProjName}\" \"git push origin --tags\""
 	},
 ]
 
