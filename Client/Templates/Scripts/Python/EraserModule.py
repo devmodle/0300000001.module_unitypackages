@@ -1,27 +1,27 @@
 import os
 import sys
+import platform
 
 oProjName = sys.argv[1]
-oExecuteCmd = sys.argv[2]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".Module.UnityStudy",
+		"Name": ".Module.UnityResearch",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".Module.UnityStudyDefine",
+		"Name": ".Module.UnityResearchDefine",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".Module.UnityStudyUtility",
+		"Name": ".Module.UnityResearchUtility",
 		"Path": f"{oProjName}/Packages"
 	},
 
 	{
-		"Name": ".Module.UnityStudyImporter",
+		"Name": ".Module.UnityResearchImporter",
 		"Path": f"{oProjName}/Packages"
 	},
 
@@ -59,7 +59,7 @@ oSubmoduleInfos = [
 		"Name": ".Module.UnityCommonUtility",
 		"Path": f"{oProjName}/Packages"
 	},
-
+	
 	{
 		"Name": ".Module.UnityCommonExternals",
 		"Path": f"{oProjName}/Packages"
@@ -107,7 +107,7 @@ oSubmoduleInfos = [
 
 	{
 		"Name": ".Module.UnityCommonPlayfab",
-		"Path": f"{oProjName}/Packages",
+		"Path": f"{oProjName}/Packages"
 	},
 
 	{
@@ -139,12 +139,17 @@ def FindPath(a_oBasePath):
 
 for oSubmoduleInfo in oSubmoduleInfos:
 	oPath = FindPath(f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
-	oCurPath = os.getcwd()
+	oModulePath = FindPath(f".git/modules/Client/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}")
 
 	# 서브 모듈이 존재 할 경우
 	if os.path.exists(oPath):
-		try:
-			os.chdir(oPath)
-			os.system(oExecuteCmd)
-		finally:
-			os.chdir(oCurPath)
+		os.system(f"git submodule deinit -f \"{oPath}\"")
+		os.system(f"git rm -f \"{oPath}\"")
+
+	# 윈도우즈 플랫폼 일 경우
+	if "WINDOWS" in platform.system().upper():
+		os.system(f"rmdir /s /q \"{oPath}\"")
+		os.system(f"rmdir /s /q \"{oModulePath}\"")
+	else:
+		os.system(f"rm -rf \"{oPath}\"")
+		os.system(f"rm -rf \"{oModulePath}\"")

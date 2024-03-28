@@ -7,21 +7,21 @@ oProjRootPath = sys.argv[3]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".Module.UnityStudy",
+		"Name": ".Module.UnityResearch",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unitystudy.git"
+		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unityresearch.git"
 	},
 
 	{
-		"Name": ".Module.UnityStudyDefine",
+		"Name": ".Module.UnityResearchDefine",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unitystudydefine.git"
+		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unityresearchdefine.git"
 	},
 
 	{
-		"Name": ".Module.UnityStudyUtility",
+		"Name": ".Module.UnityResearchUtility",
 		"Path": f"{oProjName}/Packages",
-		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unitystudyutility.git"
+		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unityresearchutility.git"
 	}
 ]
 
@@ -52,5 +52,5 @@ for oSubmoduleInfo in oSubmoduleInfos:
 	oSubmodulePath = f"{oProjRootPath}/{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}" if oProjRootPath else f"{oSubmoduleInfo['Path']}/{oSubmoduleInfo['Name']}"
 	os.system(f"git submodule set-branch --branch \"{oBranchName}\" \"{oSubmodulePath}\"")
 
-os.system(f"python ModuleCommonImporter.py \"{oProjName}\" \"{oBranchName}\" \"{oProjRootPath}\"")
-os.system(f"python ModuleRemoteURLUpdater.py \"{oProjName}\"")
+os.system(f"python ImporterModuleCommon.py \"{oProjName}\" \"{oBranchName}\" \"{oProjRootPath}\"")
+os.system(f"python UpdaterURLRemoteModule.py \"{oProjName}\"")

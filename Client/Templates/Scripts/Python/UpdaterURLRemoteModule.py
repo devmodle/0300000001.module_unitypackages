@@ -5,25 +5,25 @@ oProjName = sys.argv[1]
 
 oSubmoduleInfos = [
 	{
-		"Name": ".Module.UnityStudy",
+		"Name": ".Module.UnityResearch",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unityresearch.git"
 	},
 
 	{
-		"Name": ".Module.UnityStudyDefine",
+		"Name": ".Module.UnityResearchDefine",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unityresearchdefine.git"
 	},
 
 	{
-		"Name": ".Module.UnityStudyUtility",
+		"Name": ".Module.UnityResearchUtility",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unityresearchutility.git"
 	},
 
 	{
-		"Name": ".Module.UnityStudyImporter",
+		"Name": ".Module.UnityResearchImporter",
 		"Path": f"{oProjName}/Packages",
 		"URL": "https://gitlab.com/lkstudio.dante.common/0300000001.module_unityresearchimporter.git"
 	},
